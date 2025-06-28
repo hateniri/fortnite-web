@@ -45,10 +45,10 @@ export default async function NewsPage() {
   return (
     <div className="min-h-screen bg-slate-900">
       {/* ヘッダー */}
-      <section className="bg-gradient-to-b from-purple-900 to-slate-900 text-white py-12 border-b border-purple-500">
+      <section className="bg-gradient-to-b from-blue-900 to-slate-900 text-white py-12 border-b border-blue-500">
         <div className="container mx-auto px-4 text-center">
           <div className="flex justify-center mb-4">
-            <div className="w-16 h-16 bg-purple-600 rounded-lg flex items-center justify-center">
+            <div className="w-16 h-16 bg-blue-600 rounded-lg flex items-center justify-center">
               <div className="w-8 h-8 bg-white rounded-md"></div>
             </div>
           </div>
@@ -94,7 +94,7 @@ export default async function NewsPage() {
                   )}
 
                   <div className="flex items-center text-sm text-gray-400 mb-6">
-                    <div className="w-4 h-4 bg-purple-600 rounded mr-2"></div>
+                    <div className="w-4 h-4 bg-blue-600 rounded mr-2"></div>
                     <span>優先度: {news.sortingPriority}</span>
                   </div>
                 </div>
@@ -109,13 +109,13 @@ export default async function NewsPage() {
               {(index + 1) % 3 === 0 && index < newsData.br.length - 1 && (
                 <div className="bg-slate-800 rounded-lg p-4 border border-slate-600 text-center">
                   <div className="flex items-center justify-center mb-2">
-                    <div className="w-4 h-4 bg-purple-500 rounded mr-2"></div>
+                    <div className="w-4 h-4 bg-blue-500 rounded mr-2"></div>
                     <span className="text-xs text-gray-400">PR</span>
                   </div>
                   <p className="text-sm text-gray-300 mb-2">
                     フォートナイト関連グッズをチェック
                   </p>
-                  <button className="bg-purple-600 text-white px-3 py-1 rounded text-xs hover:bg-purple-700 transition-colors">
+                  <button className="bg-blue-600 text-white px-3 py-1 rounded text-xs hover:bg-blue-700 transition-colors">
                     ショップを見る
                   </button>
                 </div>

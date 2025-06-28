@@ -54,16 +54,16 @@ export default function ShopPageClient({ shopData, currentDate }: ShopPageClient
               <p className="text-2xl font-bold text-blue-400">{shopData.stats.totalItems}</p>
               <p className="text-sm text-gray-300">全アイテム</p>
             </div>
-            <div className="bg-gradient-to-br from-slate-700 to-purple-800 rounded-lg p-4 text-center border border-purple-500">
-              <p className="text-2xl font-bold text-purple-400">{shopData.stats.featured || shopData.featured.length}</p>
+            <div className="bg-gradient-to-br from-slate-700 to-sky-800 rounded-lg p-4 text-center border border-sky-500">
+              <p className="text-2xl font-bold text-sky-400">{shopData.stats.featured || shopData.featured.length}</p>
               <p className="text-sm text-gray-300">注目アイテム</p>
             </div>
-            <div className="bg-gradient-to-br from-slate-700 to-green-800 rounded-lg p-4 text-center border border-green-500">
-              <p className="text-2xl font-bold text-green-400">{shopData.stats.daily || shopData.daily.length}</p>
+            <div className="bg-gradient-to-br from-slate-700 to-slate-800 rounded-lg p-4 text-center border border-slate-500">
+              <p className="text-2xl font-bold text-slate-300">{shopData.stats.daily || shopData.daily.length}</p>
               <p className="text-sm text-gray-300">デイリーアイテム</p>
             </div>
-            <div className="bg-gradient-to-br from-slate-700 to-orange-800 rounded-lg p-4 text-center border border-orange-500">
-              <p className="text-2xl font-bold text-orange-400">
+            <div className="bg-gradient-to-br from-slate-700 to-indigo-800 rounded-lg p-4 text-center border border-indigo-500">
+              <p className="text-2xl font-bold text-indigo-400">
                 {Math.round(allItems.reduce((sum, item) => sum + item.price, 0) / Math.max(shopData.stats.totalItems, 1))}
               </p>
               <p className="text-sm text-gray-300">平均価格</p>

@@ -107,7 +107,7 @@ export default function CommentSection({ newsId }: CommentSectionProps) {
   return (
     <div className="bg-slate-800 rounded-lg p-6 border border-slate-700">
       <h3 className="text-2xl font-bold mb-6 text-white flex items-center">
-        <div className="w-8 h-8 bg-purple-600 rounded-lg flex items-center justify-center mr-3">
+        <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center mr-3">
           <div className="w-4 h-4 bg-white rounded-sm"></div>
         </div>
         匿名掲示板
@@ -119,7 +119,7 @@ export default function CommentSection({ newsId }: CommentSectionProps) {
           value={newComment}
           onChange={(e) => setNewComment(e.target.value)}
           placeholder="好きなこと書いてええで（匿名やから誰か分からへんで）"
-          className="w-full p-4 bg-slate-700 border border-slate-600 rounded-lg text-white placeholder-gray-400 resize-none focus:outline-none focus:border-purple-500"
+          className="w-full p-4 bg-slate-700 border border-slate-600 rounded-lg text-white placeholder-gray-400 resize-none focus:outline-none focus:border-blue-500"
           rows={3}
           maxLength={500}
         />
@@ -133,7 +133,7 @@ export default function CommentSection({ newsId }: CommentSectionProps) {
             className={`px-6 py-2 rounded-lg font-bold transition-all ${
               !newComment.trim() || isPosting
                 ? 'bg-gray-600 text-gray-400 cursor-not-allowed'
-                : 'bg-purple-600 text-white hover:bg-purple-700'
+                : 'bg-blue-600 text-white hover:bg-blue-700'
             }`}
           >
             投稿
@@ -165,7 +165,7 @@ export default function CommentSection({ newsId }: CommentSectionProps) {
                   onClick={() => handleReaction(comment.id, 'like')}
                   className={`flex items-center gap-2 px-3 py-1 rounded-lg transition-all ${
                     comment.userReactions?.like
-                      ? 'bg-green-600 text-white'
+                      ? 'bg-blue-600 text-white'
                       : 'bg-slate-600 text-gray-300 hover:bg-slate-500'
                   }`}
                 >

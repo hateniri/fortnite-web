@@ -14,7 +14,7 @@ export default function Header() {
             <div className="w-8 h-8 mr-3 bg-blue-500 rounded-lg flex items-center justify-center">
               <div className="w-4 h-4 bg-white rounded-sm"></div>
             </div>
-            フォートナイト ショップ図鑑
+            フォートナイトティック
           </Link>
           
           {/* モバイルメニューボタン */}

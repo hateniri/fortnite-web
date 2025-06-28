@@ -7,11 +7,11 @@ import Footer from '@/components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Fortnite Shop Tracker - 今日のアイテムショップ',
-  description: 'Fortniteの今日のアイテムショップを日本語で分かりやすく解説。AIが各スキンの特徴や買うべきかを判定！',
-  keywords: 'Fortnite, フォートナイト, アイテムショップ, スキン, 日本語, 攻略',
+  title: 'フォートナイトティック',
+  description: 'Fortniteの今日のアイテムショップを日本語で分かりやすく解説。最新ニュース、マップ情報、V-Bucks抽選も！',
+  keywords: 'Fortnite, フォートナイト, アイテムショップ, スキン, 日本語, 攻略, ニュース, マップ',
   openGraph: {
-    title: 'Fortnite Shop Tracker',
+    title: 'フォートナイトティック',
     description: '今日のFortniteショップを日本語で解説',
     type: 'website',
   },

@@ -102,10 +102,10 @@ export default async function MapPage() {
   return (
     <div className="min-h-screen bg-slate-900">
       {/* ヘッダー */}
-      <section className="bg-gradient-to-b from-green-900 to-slate-900 text-white py-12 border-b border-green-500">
+      <section className="bg-gradient-to-b from-blue-900 to-slate-900 text-white py-12 border-b border-blue-500">
         <div className="container mx-auto px-4 text-center">
           <div className="flex justify-center mb-4">
-            <div className="w-16 h-16 bg-green-600 rounded-lg flex items-center justify-center">
+            <div className="w-16 h-16 bg-blue-600 rounded-lg flex items-center justify-center">
               <div className="w-8 h-8 bg-white rounded-md"></div>
             </div>
           </div>
@@ -122,7 +122,7 @@ export default async function MapPage() {
       <section className="py-12">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 text-white flex items-center">
-            <div className="w-10 h-10 bg-green-600 rounded-lg flex items-center justify-center mr-3">
+            <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center mr-3">
               <div className="w-5 h-5 bg-white rounded-sm"></div>
             </div>
             現在のマップ
@@ -188,7 +188,7 @@ export default async function MapPage() {
           <h3 className="text-2xl font-bold mb-6 text-white">主要エリア一覧</h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {poiData.locations.map((location) => (
-              <div key={location.id} className="bg-slate-800 rounded-lg p-6 border border-slate-700 hover:border-green-500 transition-colors">
+              <div key={location.id} className="bg-slate-800 rounded-lg p-6 border border-slate-700 hover:border-blue-500 transition-colors">
                 <div className="flex items-center mb-3">
                   <div className={`w-6 h-6 rounded-full ${
                     location.type === 'namedLocation' ? 'bg-red-500' : 'bg-yellow-500'
@@ -212,7 +212,7 @@ export default async function MapPage() {
           <h3 className="text-2xl font-bold mb-6 text-white text-center">マップ統計</h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-2xl mx-auto">
             <div className="bg-slate-700 rounded-lg p-4 text-center border border-slate-600">
-              <p className="text-2xl font-bold text-green-400">{mapData.stats.totalPOIs}</p>
+              <p className="text-2xl font-bold text-blue-400">{mapData.stats.totalPOIs}</p>
               <p className="text-sm text-gray-300">総POI数</p>
             </div>
             <div className="bg-slate-700 rounded-lg p-4 text-center border border-slate-600">
@@ -238,7 +238,7 @@ export default async function MapPage() {
             <h3 className="text-2xl font-bold mb-8 text-white text-center">マップの歴史</h3>
             <div className="grid md:grid-cols-3 gap-6">
               {historyData.maps.map((mapItem) => (
-                <div key={mapItem.id} className={`bg-slate-700 rounded-lg overflow-hidden border ${mapItem.isCurrent ? 'border-green-500' : 'border-slate-600'}`}>
+                <div key={mapItem.id} className={`bg-slate-700 rounded-lg overflow-hidden border ${mapItem.isCurrent ? 'border-blue-500' : 'border-slate-600'}`}>
                   <div className="aspect-video bg-slate-800 flex items-center justify-center">
                     <div className="text-gray-400 text-center">
                       <div className="w-16 h-16 bg-gray-600 rounded-lg mx-auto mb-2"></div>
@@ -247,7 +247,7 @@ export default async function MapPage() {
                   </div>
                   <div className="p-4">
                     {mapItem.isCurrent && (
-                      <span className="inline-block bg-green-600 text-white text-xs px-2 py-1 rounded-full mb-2">
+                      <span className="inline-block bg-blue-600 text-white text-xs px-2 py-1 rounded-full mb-2">
                         現在
                       </span>
                     )}
@@ -276,7 +276,7 @@ export default async function MapPage() {
           <div className="flex items-center justify-center">
             <div className="bg-slate-800 rounded-lg p-3 border border-slate-600">
               <div className="flex items-center gap-2">
-                <div className="w-4 h-4 bg-green-500 rounded"></div>
+                <div className="w-4 h-4 bg-blue-500 rounded"></div>
                 <span className="text-xs text-gray-400">スポンサー</span>
                 <span className="text-sm text-white">ゲーミングモニター特価セール中</span>
               </div>
