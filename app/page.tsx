@@ -56,13 +56,13 @@ export default async function HomePage() {
   return (
     <div className="min-h-screen">
       {/* ヒーローセクション */}
-      <section className="bg-gradient-to-b from-blue-900 to-purple-900 text-white py-12">
+      <section className="bg-gradient-to-b from-blue-400 to-purple-400 text-white py-12">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            {currentDate}のアイテムショップ
+            🌟 {currentDate}のアイテムショップ 🌟
           </h1>
           <p className="text-xl opacity-90">
-            総数: {shopData.stats.totalItems} アイテム
+            今日は {shopData.stats.totalItems} 個のアイテムが登場！
           </p>
         </div>
       </section>
@@ -82,17 +82,17 @@ export default async function HomePage() {
 
       {/* 復刻スキン */}
       {shopData.returned.length > 0 && (
-        <section className="py-12 bg-gray-50">
+        <section className="py-12 bg-yellow-50">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold mb-8 flex items-center">
-              <span className="text-red-500 mr-3 text-4xl">🔥</span>
-              久しぶりの復刻！
+              <span className="text-orange-500 mr-3 text-4xl">🎆</span>
+              おかえりなさい！久しぶりのスキン
             </h2>
-            <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg">
-              <p className="text-red-800">
-                <span className="font-bold">注目！</span>
-                これらのスキンは長期間ショップに登場していませんでした。
-                今がゲットのチャンス！
+            <div className="mb-6 p-4 bg-orange-100 border border-orange-300 rounded-lg">
+              <p className="text-orange-800">
+                <span className="font-bold">ラッキー！</span>
+                これらのスキンはしばらくお休みしていました。
+                今日がゲットのチャンスだよ！
               </p>
             </div>
             <ShopGrid items={mergeWithSummary(shopData.returned)} />
@@ -111,14 +111,14 @@ export default async function HomePage() {
       )}
 
       {/* CTA セクション */}
-      <section className="py-12 bg-gradient-to-r from-purple-600 to-blue-600 text-white">
+      <section className="py-12 bg-gradient-to-r from-purple-400 to-pink-400 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">
-            毎日更新中！
+            🌈 毎日新しいスキンが登場！ 🌈
           </h2>
           <p className="text-xl mb-6">
             お気に入りのスキンを見逃さないように、
-            毎日チェックしよう！
+            毎日遊びに来てね！
           </p>
           <Link
             href="/subscribe"

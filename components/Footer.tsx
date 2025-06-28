@@ -1,43 +1,31 @@
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-gray-300 py-8 mt-12">
+    <footer className="bg-gradient-to-r from-purple-300 to-pink-300 text-purple-900 py-8 mt-12">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div>
-            <h3 className="text-xl font-bold mb-4">Fortnite Shop Tracker</h3>
-            <p className="text-sm">
-              毎日更新されるFortniteのアイテムショップを
-              日本語で分かりやすく解説します。
-            </p>
+        <div className="text-center">
+          <h3 className="text-2xl font-bold mb-4">🌟 フォートナイト ショップ図鑑 🌟</h3>
+          <p className="text-lg mb-4">
+            毎日午前5時に更新！お気に入りのスキンを見逃さないでね！
+          </p>
+          
+          <div className="flex justify-center gap-4 mb-6">
+            <span className="bg-white/50 px-4 py-2 rounded-full">
+              🎮 毎日チェック
+            </span>
+            <span className="bg-white/50 px-4 py-2 rounded-full">
+              💰 V-Bucks節約
+            </span>
+            <span className="bg-white/50 px-4 py-2 rounded-full">
+              🌈 楽しく選ぼう
+            </span>
           </div>
           
-          <div>
-            <h3 className="text-xl font-bold mb-4">リンク</h3>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <a href="https://www.epicgames.com/fortnite" target="_blank" rel="noopener noreferrer" className="hover:text-white">
-                  Fortnite公式サイト
-                </a>
-              </li>
-              <li>
-                <a href="https://fortnite-api.com" target="_blank" rel="noopener noreferrer" className="hover:text-white">
-                  Fortnite-API.com
-                </a>
-              </li>
-            </ul>
-          </div>
-          
-          <div>
-            <h3 className="text-xl font-bold mb-4">免責事項</h3>
-            <p className="text-sm">
-              このサイトは非公式のファンサイトです。
-              Epic Games, Inc.とは一切関係ありません。
-            </p>
-          </div>
-        </div>
-        
-        <div className="mt-8 pt-8 border-t border-gray-800 text-center text-sm">
-          <p>&copy; 2024 Fortnite Shop Tracker. All rights reserved.</p>
+          <p className="text-sm opacity-80">
+            ※これはファンが作った非公式サイトです。Epic Gamesとは関係ありません。
+          </p>
+          <p className="text-xs mt-2 opacity-60">
+            Fortniteは Epic Games, Inc. の商標です。
+          </p>
         </div>
       </div>
     </footer>

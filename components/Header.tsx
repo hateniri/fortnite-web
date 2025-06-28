@@ -7,12 +7,12 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
-    <header className="bg-gradient-to-b from-blue-900 to-purple-900 text-white">
+    <header className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 text-white shadow-lg">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between py-4">
           <Link href="/" className="text-2xl font-bold flex items-center">
-            <span className="text-3xl mr-2">🎮</span>
-            Fortnite Shop Tracker
+            <span className="text-3xl mr-2">🌟</span>
+            フォートナイト ショップ図鑑
           </Link>
           
           {/* モバイルメニューボタン */}
