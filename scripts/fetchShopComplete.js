@@ -55,9 +55,31 @@ function processItem(entry) {
   }
   
   for (const item of entry.brItems) {
-    // スキン（Outfit）のみを対象とする
-    if (item.type?.backendValue !== 'AthenaCharacter') continue;
+    // 除外するアイテムタイプ（バンドルやカレンシーなど）
+    const excludeTypes = ['AthenaBundle', 'Currency'];
+    if (excludeTypes.includes(item.type?.backendValue)) continue;
     
+    // アイテムタイプの日本語名
+    const getItemTypeName = (backendValue) => {
+      const typeMapping = {
+        'AthenaCharacter': 'スキン',
+        'AthenaPickaxe': 'つるはし',
+        'AthenaGlider': 'グライダー',
+        'AthenaBackpack': 'バックアクセサリー',
+        'AthenaDance': 'エモート',
+        'AthenaLoadingScreen': 'ロード画面',
+        'AthenaSkyDiveContrail': 'スカイダイビングトレイル',
+        'AthenaSpray': 'スプレー',
+        'AthenaToy': 'おもちゃ',
+        'AthenaWrap': 'ラップ',
+        'AthenaMusicPack': 'ミュージック',
+        'AthenaPet': 'ペット',
+        'AthenaConsumableEmote': 'エモート',
+        'AthenaBattleBus': 'バトルバス'
+      };
+      return typeMapping[backendValue] || 'アイテム';
+    };
+
     const processedItem = {
       id: item.id,
       name: item.name || 'Unknown',
@@ -68,7 +90,9 @@ function processItem(entry) {
       introduction: item.introduction || null,
       set: item.set?.text || null,
       added: item.added || null,
-      shopHistory: item.shopHistory || []
+      shopHistory: item.shopHistory || [],
+      type: getItemTypeName(item.type?.backendValue),
+      backendType: item.type?.backendValue
     };
     
     processedItems.push(processedItem);

@@ -1,10 +1,10 @@
 {
   "date": "2025-06-28T00:00:00Z",
-  "lastUpdate": "2025-06-28T08:53:34.757Z",
+  "lastUpdate": "2025-06-28T09:07:49.159Z",
   "stats": {
-    "totalItems": 42,
-    "featured": 37,
-    "daily": 5,
+    "totalItems": 163,
+    "featured": 85,
+    "daily": 77,
     "returned": 0
   },
   "featured": [
@@ -23,7 +23,9 @@
       },
       "set": "Part of the The Games set.",
       "added": "2025-06-24T20:23:59Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
     },
     {
       "id": "Character_TimberStakePurse",
@@ -40,7 +42,9 @@
       },
       "set": "Part of the The Games set.",
       "added": "2025-06-24T20:23:59Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
     },
     {
       "id": "Character_TimberStakeDrift",
@@ -57,7 +61,9 @@
       },
       "set": "Part of the The Games set.",
       "added": "2025-06-24T20:23:59Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
     },
     {
       "id": "Character_TimberStakeDrift_B",
@@ -74,7 +80,9 @@
       },
       "set": "Part of the The Games set.",
       "added": "2025-06-24T20:23:59Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
     },
     {
       "id": "Character_TimberStakeDrift_C",
@@ -91,7 +99,9 @@
       },
       "set": "Part of the The Games set.",
       "added": "2025-06-24T20:23:59Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
     },
     {
       "id": "Character_TimberStakeDrift_D",
@@ -108,7 +118,9 @@
       },
       "set": "Part of the The Games set.",
       "added": "2025-06-24T20:23:59Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
     },
     {
       "id": "Character_TimberStakeDrift_E",
@@ -125,7 +137,9 @@
       },
       "set": "Part of the The Games set.",
       "added": "2025-06-24T20:23:59Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
     },
     {
       "id": "Character_TimberStakeSoul",
@@ -142,7 +156,9 @@
       },
       "set": "Part of the The Games set.",
       "added": "2025-06-24T20:23:59Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
     },
     {
       "id": "Character_TimberStakeSoul_B",
@@ -159,7 +175,9 @@
       },
       "set": "Part of the The Games set.",
       "added": "2025-06-24T20:23:59Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
     },
     {
       "id": "Character_TimberStakeSoul_C",
@@ -176,7 +194,9 @@
       },
       "set": "Part of the The Games set.",
       "added": "2025-06-24T20:23:59Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
     },
     {
       "id": "Character_TimberStakeSoul_D",
@@ -193,7 +213,9 @@
       },
       "set": "Part of the The Games set.",
       "added": "2025-06-24T20:23:59Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
     },
     {
       "id": "Character_TimberStakeSoul_E",
@@ -210,7 +232,9 @@
       },
       "set": "Part of the The Games set.",
       "added": "2025-06-24T20:23:59Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
     },
     {
       "id": "CID_A_024_Athena_Commando_F_Skirmish_QW2BQ",
@@ -227,7 +251,28 @@
       },
       "set": "Part of the Street Fighter set.",
       "added": "2021-02-21T00:00:00Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
+    },
+    {
+      "id": "BID_702_SkirmishFemale_P9FE3",
+      "name": "Super Cab-Masher",
+      "description": "I've got next.",
+      "rarity": "gaminglegends",
+      "price": 1600,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_702_skirmishfemale_p9fe3/icon.png",
+      "introduction": {
+        "chapter": "2",
+        "season": "5",
+        "text": "Introduced in Chapter 2, Season 5.",
+        "backendValue": 15
+      },
+      "set": "Part of the Street Fighter set.",
+      "added": "2021-02-21T00:00:00Z",
+      "shopHistory": [],
+      "type": "バックアクセサリー",
+      "backendType": "AthenaBackpack"
     },
     {
       "id": "Character_DryEraseToro",
@@ -244,7 +289,9 @@
       },
       "set": "Part of the Bruno Mars set.",
       "added": "2025-06-18T08:00:00Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
     },
     {
       "id": "CID_A_267_Athena_Commando_M_Nucleus_XVIVU",
@@ -261,7 +308,85 @@
       },
       "set": "Part of the S.H.I.E.L.D. set.",
       "added": "2021-11-26T00:00:00Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
+    },
+    {
+      "id": "BID_907_Nucleus_J147F",
+      "name": "F.I.E.L.D. Pack",
+      "description": "Just the thing for Front-line Infiltration, Espionage, and Long-term Deployment.",
+      "rarity": "marvel",
+      "price": 2000,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_907_nucleus_j147f/icon.png",
+      "introduction": {
+        "chapter": "2",
+        "season": "8",
+        "text": "Introduced in Chapter 2, Season 8.",
+        "backendValue": 18
+      },
+      "set": "Part of the S.H.I.E.L.D. set.",
+      "added": "2021-11-26T00:00:00Z",
+      "shopHistory": [],
+      "type": "バックアクセサリー",
+      "backendType": "AthenaBackpack"
+    },
+    {
+      "id": "Pickaxe_ID_708_NucleusMale_72W2J",
+      "name": "Director's Scythe",
+      "description": "Slices through armored hulls like they're red tape.",
+      "rarity": "marvel",
+      "price": 2000,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_708_nucleusmale_72w2j/featured.png",
+      "introduction": {
+        "chapter": "2",
+        "season": "8",
+        "text": "Introduced in Chapter 2, Season 8.",
+        "backendValue": 18
+      },
+      "set": "Part of the S.H.I.E.L.D. set.",
+      "added": "2021-11-26T00:00:00Z",
+      "shopHistory": [],
+      "type": "つるはし",
+      "backendType": "AthenaPickaxe"
+    },
+    {
+      "id": "Glider_ID_327_NucleusMale_55HFK",
+      "name": "First-Strike Infiltration Glider",
+      "description": "First on the scene. First to strike.",
+      "rarity": "marvel",
+      "price": 2000,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/glider_id_327_nucleusmale_55hfk/featured.png",
+      "introduction": {
+        "chapter": "2",
+        "season": "8",
+        "text": "Introduced in Chapter 2, Season 8.",
+        "backendValue": 18
+      },
+      "set": "Part of the S.H.I.E.L.D. set.",
+      "added": "2021-11-26T00:00:00Z",
+      "shopHistory": [],
+      "type": "グライダー",
+      "backendType": "AthenaGlider"
+    },
+    {
+      "id": "LSID_373_Nucleus_TZ5C1",
+      "name": "Quinjets in Flight",
+      "description": "Don't yield. Back S.H.I.E.L.D.",
+      "rarity": "marvel",
+      "price": 2000,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/lsid_373_nucleus_tz5c1/icon.png",
+      "introduction": {
+        "chapter": "2",
+        "season": "8",
+        "text": "Introduced in Chapter 2, Season 8.",
+        "backendValue": 18
+      },
+      "set": "Part of the S.H.I.E.L.D. set.",
+      "added": "2021-11-26T00:00:00Z",
+      "shopHistory": [],
+      "type": "ロード画面",
+      "backendType": "AthenaLoadingScreen"
     },
     {
       "id": "Character_RemoteControl",
@@ -278,7 +403,47 @@
       },
       "set": "Part of the Avatar set.",
       "added": "2024-04-09T08:00:00Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
+    },
+    {
+      "id": "Backpack_RemoteControl",
+      "name": "Earth Rumble Belt",
+      "description": "Earthbending arena has a new champion!",
+      "rarity": "rare",
+      "price": 2000,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_remotecontrol/icon.png",
+      "introduction": {
+        "chapter": "5",
+        "season": "2",
+        "text": "Introduced in Chapter 5, Season 2.",
+        "backendValue": 29
+      },
+      "set": "Part of the Avatar set.",
+      "added": "2024-04-09T08:00:00Z",
+      "shopHistory": [],
+      "type": "バックアクセサリー",
+      "backendType": "AthenaBackpack"
+    },
+    {
+      "id": "Pickaxe_RemoteControl",
+      "name": "War Hammers",
+      "description": "A weapon of the Earth Kingdom army.",
+      "rarity": "rare",
+      "price": 2000,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_remotecontrol/icon.png",
+      "introduction": {
+        "chapter": "5",
+        "season": "2",
+        "text": "Introduced in Chapter 5, Season 2.",
+        "backendValue": 29
+      },
+      "set": "Part of the Avatar set.",
+      "added": "2024-04-09T08:00:00Z",
+      "shopHistory": [],
+      "type": "つるはし",
+      "backendType": "AthenaPickaxe"
     },
     {
       "id": "CID_A_023_Athena_Commando_M_Skirmish_W1N7H",
@@ -295,7 +460,47 @@
       },
       "set": "Part of the Street Fighter set.",
       "added": "2021-02-21T00:00:00Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
+    },
+    {
+      "id": "BID_701_SkirmishMale_5LH4I",
+      "name": "Training Bag",
+      "description": "Always be training.",
+      "rarity": "gaminglegends",
+      "price": 2200,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_701_skirmishmale_5lh4i/icon.png",
+      "introduction": {
+        "chapter": "2",
+        "season": "5",
+        "text": "Introduced in Chapter 2, Season 5.",
+        "backendValue": 15
+      },
+      "set": "Part of the Street Fighter set.",
+      "added": "2021-02-21T00:00:00Z",
+      "shopHistory": [],
+      "type": "バックアクセサリー",
+      "backendType": "AthenaBackpack"
+    },
+    {
+      "id": "LSID_274_Skirmish_PJ9TZ",
+      "name": "Player Select!",
+      "description": "Art by Shinkiro.",
+      "rarity": "gaminglegends",
+      "price": 2200,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/lsid_274_skirmish_pj9tz/icon.png",
+      "introduction": {
+        "chapter": "2",
+        "season": "5",
+        "text": "Introduced in Chapter 2, Season 5.",
+        "backendValue": 15
+      },
+      "set": "Part of the Street Fighter set.",
+      "added": "2021-02-21T00:00:00Z",
+      "shopHistory": [],
+      "type": "ロード画面",
+      "backendType": "AthenaLoadingScreen"
     },
     {
       "id": "CID_A_334_Athena_Commando_M_Sleek_U06KF",
@@ -312,7 +517,47 @@
       },
       "set": "Part of the Silk Sonic set.",
       "added": "2022-02-03T20:18:59Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
+    },
+    {
+      "id": "BID_944_Sleek_7PFGZ",
+      "name": "Sound Scepter",
+      "description": "Mic and Stand.",
+      "rarity": "legendary",
+      "price": 1800,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_944_sleek_7pfgz/icon.png",
+      "introduction": {
+        "chapter": "3",
+        "season": "1",
+        "text": "Introduced in Chapter 3, Season 1.",
+        "backendValue": 19
+      },
+      "set": "Part of the Silk Sonic set.",
+      "added": "2022-02-03T20:18:59Z",
+      "shopHistory": [],
+      "type": "バックアクセサリー",
+      "backendType": "AthenaBackpack"
+    },
+    {
+      "id": "Pickaxe_ID_745_SleekMale_ECRL0",
+      "name": "Sound Scepter",
+      "description": "Mic and Stand.",
+      "rarity": "legendary",
+      "price": 1800,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_745_sleekmale_ecrl0/icon.png",
+      "introduction": {
+        "chapter": "3",
+        "season": "1",
+        "text": "Introduced in Chapter 3, Season 1.",
+        "backendValue": 19
+      },
+      "set": "Part of the Silk Sonic set.",
+      "added": "2022-02-03T20:18:59Z",
+      "shopHistory": [],
+      "type": "つるはし",
+      "backendType": "AthenaPickaxe"
     },
     {
       "id": "CID_460_Athena_Commando_F_BriteBomberSummer",
@@ -329,7 +574,66 @@
       },
       "set": "Part of the Sunshine And Rainbows set.",
       "added": "2019-11-20T12:49:55Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
+    },
+    {
+      "id": "BID_299_BriteBomberSummer",
+      "name": "Brite Board",
+      "description": "Shred the sunshine.",
+      "rarity": "rare",
+      "price": 1500,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_299_britebombersummer/icon.png",
+      "introduction": {
+        "chapter": "1",
+        "season": "9",
+        "text": "Introduced in Chapter 1, Season 9.",
+        "backendValue": 9
+      },
+      "set": "Part of the Sunshine And Rainbows set.",
+      "added": "2019-11-20T12:50:33Z",
+      "shopHistory": [],
+      "type": "バックアクセサリー",
+      "backendType": "AthenaBackpack"
+    },
+    {
+      "id": "Wrap_087_BriteBomberSummer",
+      "name": "Brite Stars",
+      "description": "Show your style.",
+      "rarity": "uncommon",
+      "price": 1500,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/wrap_087_britebombersummer/featured.png",
+      "introduction": {
+        "chapter": "1",
+        "season": "9",
+        "text": "Introduced in Chapter 1, Season 9.",
+        "backendValue": 9
+      },
+      "set": "Part of the Sunshine And Rainbows set.",
+      "added": "2019-11-20T12:48:27Z",
+      "shopHistory": [],
+      "type": "アイテム",
+      "backendType": "AthenaItemWrap"
+    },
+    {
+      "id": "Glider_ID_156_SummerBomber",
+      "name": "Payload",
+      "description": "A megaton of smiles.",
+      "rarity": "uncommon",
+      "price": 1500,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/glider_id_156_summerbomber/featured.png",
+      "introduction": {
+        "chapter": "1",
+        "season": "9",
+        "text": "Introduced in Chapter 1, Season 9.",
+        "backendValue": 9
+      },
+      "set": "Part of the Sunshine And Rainbows set.",
+      "added": "2019-11-20T12:48:02Z",
+      "shopHistory": [],
+      "type": "グライダー",
+      "backendType": "AthenaGlider"
     },
     {
       "id": "CID_A_162_Athena_Commando_F_Quarrel_E5D63",
@@ -346,7 +650,28 @@
       },
       "set": "Part of the Street Fighter set.",
       "added": "2021-08-04T12:05:53Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
+    },
+    {
+      "id": "BID_820_QuarrelFemale_7CW31",
+      "name": "Borealis Backer",
+      "description": "Carry the aurora of victory.",
+      "rarity": "gaminglegends",
+      "price": 2200,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_820_quarrelfemale_7cw31/icon.png",
+      "introduction": {
+        "chapter": "2",
+        "season": "7",
+        "text": "Introduced in Chapter 2, Season 7.",
+        "backendValue": 17
+      },
+      "set": "Part of the Street Fighter set.",
+      "added": "2021-08-04T12:05:53Z",
+      "shopHistory": [],
+      "type": "バックアクセサリー",
+      "backendType": "AthenaBackpack"
     },
     {
       "id": "CID_A_161_Athena_Commando_M_Quarrel_SLXQG",
@@ -363,7 +688,47 @@
       },
       "set": "Part of the Street Fighter set.",
       "added": "2021-08-04T12:05:53Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
+    },
+    {
+      "id": "BID_821_QuarrelMale_IKIS8",
+      "name": "K.O.",
+      "description": "High Score!",
+      "rarity": "gaminglegends",
+      "price": 2200,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_821_quarrelmale_ikis8/icon.png",
+      "introduction": {
+        "chapter": "2",
+        "season": "7",
+        "text": "Introduced in Chapter 2, Season 7.",
+        "backendValue": 17
+      },
+      "set": "Part of the Street Fighter set.",
+      "added": "2021-08-04T12:05:53Z",
+      "shopHistory": [],
+      "type": "バックアクセサリー",
+      "backendType": "AthenaBackpack"
+    },
+    {
+      "id": "LSID_328_Quarrel_K4C12",
+      "name": "Round Two",
+      "description": "Fight!",
+      "rarity": "gaminglegends",
+      "price": 2200,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/lsid_328_quarrel_k4c12/icon.png",
+      "introduction": {
+        "chapter": "2",
+        "season": "7",
+        "text": "Introduced in Chapter 2, Season 7.",
+        "backendValue": 17
+      },
+      "set": "Part of the Street Fighter set.",
+      "added": "2021-08-04T12:05:53Z",
+      "shopHistory": [],
+      "type": "ロード画面",
+      "backendType": "AthenaLoadingScreen"
     },
     {
       "id": "CID_A_358_Athena_Commando_F_Lurk",
@@ -380,7 +745,47 @@
       },
       "set": "Part of the Mary Jane Watson set.",
       "added": "2022-03-24T00:00:00Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
+    },
+    {
+      "id": "BID_959_LurkFemale",
+      "name": "Web Shredder",
+      "description": "You should really catch the Mary Janes live sometime.",
+      "rarity": "marvel",
+      "price": 1500,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_959_lurkfemale/icon.png",
+      "introduction": {
+        "chapter": "3",
+        "season": "2",
+        "text": "Introduced in Chapter 3, Season 2.",
+        "backendValue": 20
+      },
+      "set": "Part of the Mary Jane Watson set.",
+      "added": "2022-03-24T00:00:00Z",
+      "shopHistory": [],
+      "type": "バックアクセサリー",
+      "backendType": "AthenaBackpack"
+    },
+    {
+      "id": "Pickaxe_ID_762_LurkFemale",
+      "name": "Web Shredder",
+      "description": "You should really catch the Mary Janes live sometime.",
+      "rarity": "marvel",
+      "price": 1500,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_762_lurkfemale/icon.png",
+      "introduction": {
+        "chapter": "3",
+        "season": "2",
+        "text": "Introduced in Chapter 3, Season 2.",
+        "backendValue": 20
+      },
+      "set": "Part of the Mary Jane Watson set.",
+      "added": "2022-03-24T00:00:00Z",
+      "shopHistory": [],
+      "type": "つるはし",
+      "backendType": "AthenaPickaxe"
     },
     {
       "id": "CID_337_Athena_Commando_F_Celestial",
@@ -397,7 +802,28 @@
       },
       "set": "Part of the Galaxy Pack set.",
       "added": "2020-07-21T08:17:24Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
+    },
+    {
+      "id": "BID_562_CelestialFemale",
+      "name": "Nucleus",
+      "description": "A whole galaxy to-go.",
+      "rarity": "legendary",
+      "price": 2000,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_562_celestialfemale/icon.png",
+      "introduction": {
+        "chapter": "2",
+        "season": "3",
+        "text": "Introduced in Chapter 2, Season 3.",
+        "backendValue": 13
+      },
+      "set": "Part of the Galaxy Pack set.",
+      "added": "2020-07-21T08:17:24Z",
+      "shopHistory": [],
+      "type": "バックアクセサリー",
+      "backendType": "AthenaBackpack"
     },
     {
       "id": "Character_CraneAnchor",
@@ -414,7 +840,85 @@
       },
       "set": "Part of the Perilous Puppet set.",
       "added": "2024-10-07T18:06:54Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
+    },
+    {
+      "id": "Backpack_CraneAnchor",
+      "name": "Trap Television",
+      "description": "You don't know me, but I know you.",
+      "rarity": "rare",
+      "price": 2500,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_craneanchor/icon.png",
+      "introduction": {
+        "chapter": "5",
+        "season": "4",
+        "text": "Introduced in Chapter 5, Season 4.",
+        "backendValue": 31
+      },
+      "set": "Part of the Perilous Puppet set.",
+      "added": "2024-10-07T18:06:54Z",
+      "shopHistory": [],
+      "type": "バックアクセサリー",
+      "backendType": "AthenaBackpack"
+    },
+    {
+      "id": "Pickaxe_CraneAnchor",
+      "name": "Spiralized Slicer",
+      "description": "Actually, this one's just for cutting pizza.",
+      "rarity": "rare",
+      "price": 2500,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_craneanchor/featured.png",
+      "introduction": {
+        "chapter": "5",
+        "season": "4",
+        "text": "Introduced in Chapter 5, Season 4.",
+        "backendValue": 31
+      },
+      "set": "Part of the Perilous Puppet set.",
+      "added": "2024-10-07T18:06:54Z",
+      "shopHistory": [],
+      "type": "つるはし",
+      "backendType": "AthenaPickaxe"
+    },
+    {
+      "id": "EID_CraneAnchor",
+      "name": "Billy's Tricycle",
+      "description": "The scariest thing on three wheels.",
+      "rarity": "uncommon",
+      "price": 2500,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_craneanchor/featured.png",
+      "introduction": {
+        "chapter": "5",
+        "season": "4",
+        "text": "Introduced in Chapter 5, Season 4.",
+        "backendValue": 31
+      },
+      "set": "Part of the Perilous Puppet set.",
+      "added": "2024-10-07T18:06:54Z",
+      "shopHistory": [],
+      "type": "エモート",
+      "backendType": "AthenaDance"
+    },
+    {
+      "id": "Wrap_CraneAnchor",
+      "name": "Spiraling Out",
+      "description": "Show your style.",
+      "rarity": "rare",
+      "price": 2500,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/wrap_craneanchor/featured.png",
+      "introduction": {
+        "chapter": "5",
+        "season": "4",
+        "text": "Introduced in Chapter 5, Season 4.",
+        "backendValue": 31
+      },
+      "set": "Part of the Perilous Puppet set.",
+      "added": "2024-10-07T18:06:54Z",
+      "shopHistory": [],
+      "type": "アイテム",
+      "backendType": "AthenaItemWrap"
     },
     {
       "id": "Character_TruckScale",
@@ -431,7 +935,28 @@
       },
       "set": "Part of the Striped Striker set.",
       "added": "2025-03-26T15:10:25Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
+    },
+    {
+      "id": "Backpack_TruckScale",
+      "name": "Triple Striker",
+      "description": "Three times the threat.",
+      "rarity": "rare",
+      "price": 2000,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_truckscale/featured.png",
+      "introduction": {
+        "chapter": "6",
+        "season": "2",
+        "text": "Introduced in Chapter 6, Season 2.",
+        "backendValue": 34
+      },
+      "set": "Part of the Striped Striker set.",
+      "added": "2025-03-26T15:10:25Z",
+      "shopHistory": [],
+      "type": "バックアクセサリー",
+      "backendType": "AthenaBackpack"
     },
     {
       "id": "CID_453_Athena_Commando_F_GlowBro",
@@ -448,7 +973,28 @@
       },
       "set": "Part of the Stormlight set.",
       "added": "2019-11-20T12:49:57Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
+    },
+    {
+      "id": "BID_293_GlowBroFemale",
+      "name": "Lumi Core Red",
+      "description": "Do not disturb.",
+      "rarity": "epic",
+      "price": 1500,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_293_glowbrofemale/icon.png",
+      "introduction": {
+        "chapter": "1",
+        "season": "9",
+        "text": "Introduced in Chapter 1, Season 9.",
+        "backendValue": 9
+      },
+      "set": "Part of the Stormlight set.",
+      "added": "2019-11-20T12:50:33Z",
+      "shopHistory": [],
+      "type": "バックアクセサリー",
+      "backendType": "AthenaBackpack"
     },
     {
       "id": "CID_A_385_Athena_Commando_F_Rumble",
@@ -465,7 +1011,28 @@
       },
       "set": "Part of the Street Fighter set.",
       "added": "2022-04-26T13:59:49Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
+    },
+    {
+      "id": "BID_987_Rumble_Female",
+      "name": "Hanakaze Claw",
+      "description": "The arcade's most popular machine.",
+      "rarity": "gaminglegends",
+      "price": 2200,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_987_rumble_female/icon.png",
+      "introduction": {
+        "chapter": "3",
+        "season": "2",
+        "text": "Introduced in Chapter 3, Season 2.",
+        "backendValue": 20
+      },
+      "set": "Part of the Street Fighter set.",
+      "added": "2022-04-26T13:59:49Z",
+      "shopHistory": [],
+      "type": "バックアクセサリー",
+      "backendType": "AthenaBackpack"
     },
     {
       "id": "CID_A_384_Athena_Commando_M_Rumble",
@@ -482,7 +1049,113 @@
       },
       "set": "Part of the Street Fighter set.",
       "added": "2022-04-26T13:59:49Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
+    },
+    {
+      "id": "BID_988_Rumble",
+      "name": "Blanka-Chan",
+      "description": "Don't step on him.",
+      "rarity": "gaminglegends",
+      "price": 2200,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_988_rumble/icon.png",
+      "introduction": {
+        "chapter": "3",
+        "season": "2",
+        "text": "Introduced in Chapter 3, Season 2.",
+        "backendValue": 20
+      },
+      "set": "Part of the Street Fighter set.",
+      "added": "2022-04-26T13:59:49Z",
+      "shopHistory": [],
+      "type": "バックアクセサリー",
+      "backendType": "AthenaBackpack"
+    },
+    {
+      "id": "LSID_429_Rumble",
+      "name": "Bonus Stage",
+      "description": "Destroy Car.",
+      "rarity": "gaminglegends",
+      "price": 2200,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/lsid_429_rumble/icon.png",
+      "introduction": {
+        "chapter": "3",
+        "season": "2",
+        "text": "Introduced in Chapter 3, Season 2.",
+        "backendValue": 20
+      },
+      "set": "Part of the Street Fighter set.",
+      "added": "2022-04-26T13:59:49Z",
+      "shopHistory": [],
+      "type": "ロード画面",
+      "backendType": "AthenaLoadingScreen"
+    },
+    {
+      "id": "EID_DryEraseToro",
+      "name": "Bonde do Brunão",
+      "description": "Bruninho brings the party.",
+      "rarity": "legendary",
+      "price": 2400,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_dryerasetoro/icon.png",
+      "introduction": {
+        "chapter": "6",
+        "season": "4",
+        "text": "Introduced in Chapter 6, Season 4.",
+        "backendValue": 36
+      },
+      "set": "Part of the Bruno Mars set.",
+      "added": "2025-06-18T08:00:00Z",
+      "shopHistory": [],
+      "type": "エモート",
+      "backendType": "AthenaDance"
+    },
+    {
+      "id": "Backpack_DryErase_Bass",
+      "name": "Worldwide Bass",
+      "description": "Make 'em hear you everywhere.",
+      "rarity": "legendary",
+      "price": 2400,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_dryerase_bass/icon.png",
+      "introduction": null,
+      "set": "Part of the Bruno Mars set.",
+      "added": "2025-06-18T08:00:00Z",
+      "shopHistory": [],
+      "type": "バックアクセサリー",
+      "backendType": "AthenaBackpack"
+    },
+    {
+      "id": "Pickaxe_DryErase_Bass",
+      "name": "Worldwide Bass",
+      "description": "Make 'em hear you everywhere.",
+      "rarity": "legendary",
+      "price": 2400,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_dryerase_bass/icon.png",
+      "introduction": null,
+      "set": "Part of the Bruno Mars set.",
+      "added": "2025-06-18T08:00:00Z",
+      "shopHistory": [],
+      "type": "つるはし",
+      "backendType": "AthenaPickaxe"
+    },
+    {
+      "id": "Pickaxe_ID_429_CelestialFemale1H",
+      "name": "Stardust Strikers",
+      "description": "Hit 'em with star stuff.",
+      "rarity": "epic",
+      "price": 2700,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_429_celestialfemale1h/featured.png",
+      "introduction": {
+        "chapter": "2",
+        "season": "3",
+        "text": "Introduced in Chapter 2, Season 3.",
+        "backendValue": 13
+      },
+      "set": "Part of the Galaxy Pack set.",
+      "added": "2020-07-21T08:17:24Z",
+      "shopHistory": [],
+      "type": "つるはし",
+      "backendType": "AthenaPickaxe"
     },
     {
       "id": "CID_A_430_Athena_Commando_M_SpectacleWeb",
@@ -499,7 +1172,28 @@
       },
       "set": "Part of the Zero War set.",
       "added": "2022-06-07T14:05:44Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
+    },
+    {
+      "id": "BID_A_027_SpectacleWebMale",
+      "name": "Spider Drone",
+      "description": "He's got Spidey's back!",
+      "rarity": "marvel",
+      "price": 1500,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_a_027_spectaclewebmale/icon.png",
+      "introduction": {
+        "chapter": "3",
+        "season": "3",
+        "text": "Introduced in Chapter 3, Season 3.",
+        "backendValue": 21
+      },
+      "set": "Part of the Zero War set.",
+      "added": "2022-06-07T14:05:44Z",
+      "shopHistory": [],
+      "type": "バックアクセサリー",
+      "backendType": "AthenaBackpack"
     },
     {
       "id": "Character_TikiTorch",
@@ -516,7 +1210,47 @@
       },
       "set": "Part of the Avatar set.",
       "added": "2024-04-09T08:00:00Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
+    },
+    {
+      "id": "Backpack_TikiTorch",
+      "name": "Zuko's Scabbard",
+      "description": "Worthy of a prince.",
+      "rarity": "rare",
+      "price": 2000,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_tikitorch/icon.png",
+      "introduction": {
+        "chapter": "5",
+        "season": "2",
+        "text": "Introduced in Chapter 5, Season 2.",
+        "backendValue": 29
+      },
+      "set": "Part of the Avatar set.",
+      "added": "2024-04-09T08:00:00Z",
+      "shopHistory": [],
+      "type": "バックアクセサリー",
+      "backendType": "AthenaBackpack"
+    },
+    {
+      "id": "Pickaxe_TikiTorch",
+      "name": "Zuko's Broadswords",
+      "description": "Worthy of a prince.",
+      "rarity": "rare",
+      "price": 2000,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_tikitorch/icon.png",
+      "introduction": {
+        "chapter": "5",
+        "season": "2",
+        "text": "Introduced in Chapter 5, Season 2.",
+        "backendValue": 29
+      },
+      "set": "Part of the Avatar set.",
+      "added": "2024-04-09T08:00:00Z",
+      "shopHistory": [],
+      "type": "つるはし",
+      "backendType": "AthenaPickaxe"
     },
     {
       "id": "Character_DirectContact",
@@ -533,7 +1267,47 @@
       },
       "set": "Part of the Avatar set.",
       "added": "2024-04-09T08:00:00Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
+    },
+    {
+      "id": "Backpack_DirectContact",
+      "name": "Katara's Waterskin",
+      "description": "Crucial for waterbending... and for hydration.",
+      "rarity": "rare",
+      "price": 3200,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_directcontact/icon.png",
+      "introduction": {
+        "chapter": "5",
+        "season": "2",
+        "text": "Introduced in Chapter 5, Season 2.",
+        "backendValue": 29
+      },
+      "set": "Part of the Avatar set.",
+      "added": "2024-04-09T08:00:00Z",
+      "shopHistory": [],
+      "type": "バックアクセサリー",
+      "backendType": "AthenaBackpack"
+    },
+    {
+      "id": "Pickaxe_DirectContact",
+      "name": "Southern Water Tribe Club",
+      "description": "Defend the Water Tribe.",
+      "rarity": "rare",
+      "price": 3200,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_directcontact/icon.png",
+      "introduction": {
+        "chapter": "5",
+        "season": "2",
+        "text": "Introduced in Chapter 5, Season 2.",
+        "backendValue": 29
+      },
+      "set": "Part of the Avatar set.",
+      "added": "2024-04-09T08:00:00Z",
+      "shopHistory": [],
+      "type": "つるはし",
+      "backendType": "AthenaPickaxe"
     },
     {
       "id": "CID_A_308_Athena_Commando_F_Sunshine",
@@ -550,7 +1324,66 @@
       },
       "set": "Part of the Celestial Phase set.",
       "added": "2021-12-14T09:10:43Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
+    },
+    {
+      "id": "BID_930_Sunshine",
+      "name": "Beam Bag",
+      "description": "A dazzling dream of skyward brillance.",
+      "rarity": "epic",
+      "price": 1500,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_930_sunshine/icon.png",
+      "introduction": {
+        "chapter": "3",
+        "season": "1",
+        "text": "Introduced in Chapter 3, Season 1.",
+        "backendValue": 19
+      },
+      "set": "Part of the Celestial Phase set.",
+      "added": "2021-12-14T09:10:43Z",
+      "shopHistory": [],
+      "type": "バックアクセサリー",
+      "backendType": "AthenaBackpack"
+    },
+    {
+      "id": "Pickaxe_ID_645_QuarrelFemale_W3B7A",
+      "name": "Delta Red Bowie Blade",
+      "description": "Issued for field use by Delta Red.",
+      "rarity": "gaminglegends",
+      "price": 1600,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_645_quarrelfemale_w3b7a/featured.png",
+      "introduction": {
+        "chapter": "2",
+        "season": "7",
+        "text": "Introduced in Chapter 2, Season 7.",
+        "backendValue": 17
+      },
+      "set": "Part of the Street Fighter set.",
+      "added": "2021-08-04T12:05:53Z",
+      "shopHistory": [],
+      "type": "つるはし",
+      "backendType": "AthenaPickaxe"
+    },
+    {
+      "id": "Pickaxe_ID_016_Disco",
+      "name": "Disco Brawl",
+      "description": "Ready for a ballroom blitz.",
+      "rarity": "epic",
+      "price": 1500,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_016_disco/featured.png",
+      "introduction": {
+        "chapter": "1",
+        "season": "1",
+        "text": "Introduced in Chapter 1, Season 1.",
+        "backendValue": 1
+      },
+      "set": "Part of the Fortnite Fever set.",
+      "added": "2019-11-20T12:50:59Z",
+      "shopHistory": [],
+      "type": "つるはし",
+      "backendType": "AthenaPickaxe"
     },
     {
       "id": "CID_750_Athena_Commando_M_Hurricane",
@@ -567,7 +1400,28 @@
       },
       "set": null,
       "added": "2020-05-26T06:22:50Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
+    },
+    {
+      "id": "BID_512_Hurricane",
+      "name": "Windshear Cloak",
+      "description": "Wherever the wind blows.",
+      "rarity": "legendary",
+      "price": 2000,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_512_hurricane/icon.png",
+      "introduction": {
+        "chapter": "2",
+        "season": "2",
+        "text": "Introduced in Chapter 2, Season 2.",
+        "backendValue": 12
+      },
+      "set": null,
+      "added": "2020-05-26T06:22:50Z",
+      "shopHistory": [],
+      "type": "バックアクセサリー",
+      "backendType": "AthenaBackpack"
     },
     {
       "id": "CID_108_Athena_Commando_M_Fishhead",
@@ -584,7 +1438,66 @@
       },
       "set": "Part of the Space Explorers set.",
       "added": "2019-11-20T12:48:06Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
+    },
+    {
+      "id": "BID_042_Fishhead",
+      "name": "Fish Tank",
+      "description": "Do not tap on glass!",
+      "rarity": "legendary",
+      "price": 2300,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_042_fishhead/icon.png",
+      "introduction": {
+        "chapter": "1",
+        "season": "3",
+        "text": "Introduced in Chapter 1, Season 3.",
+        "backendValue": 3
+      },
+      "set": "Part of the Space Explorers set.",
+      "added": "2019-11-20T12:50:41Z",
+      "shopHistory": [],
+      "type": "バックアクセサリー",
+      "backendType": "AthenaBackpack"
+    },
+    {
+      "id": "Shoes_KittenEmbarkPencil",
+      "name": "PUMA x LAFRANCÉ Butterfly 'Pure Magenta/Ultra Violet'",
+      "description": "Show 'em off.",
+      "rarity": "uncommon",
+      "price": 1500,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/shoes_kittenembarkpencil/featured.png",
+      "introduction": {
+        "chapter": "6",
+        "season": "4",
+        "text": "Introduced in Chapter 6, Season 4.",
+        "backendValue": 36
+      },
+      "set": "Part of the PUMA Shoes set.",
+      "added": "2025-06-20T05:49:58Z",
+      "shopHistory": [],
+      "type": "アイテム",
+      "backendType": "CosmeticShoes"
+    },
+    {
+      "id": "Shoes_KittenEmbarkEraser",
+      "name": "PUMA x LAMELO BALL x TMNT MB.04 'Raphael and Donatello'",
+      "description": "Show 'em off.",
+      "rarity": "uncommon",
+      "price": 1500,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/shoes_kittenembarkeraser/icon.png",
+      "introduction": {
+        "chapter": "6",
+        "season": "4",
+        "text": "Introduced in Chapter 6, Season 4.",
+        "backendValue": 36
+      },
+      "set": "Part of the PUMA Shoes set.",
+      "added": "2025-06-20T05:49:58Z",
+      "shopHistory": [],
+      "type": "アイテム",
+      "backendType": "CosmeticShoes"
     },
     {
       "id": "Character_DoubleDuty",
@@ -601,7 +1514,9 @@
       },
       "set": "Part of the Avatar set.",
       "added": "2024-04-09T08:38:56Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
     },
     {
       "id": "Character_DoubleDutyDart",
@@ -618,7 +1533,47 @@
       },
       "set": "Part of the Avatar set.",
       "added": "2024-04-09T08:38:56Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
+    },
+    {
+      "id": "Pickaxe_DoubleDuty",
+      "name": "Air Nomad Staff",
+      "description": "Perfected by the long-gone Air Nomads.",
+      "rarity": "rare",
+      "price": 2000,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_doubleduty/icon.png",
+      "introduction": {
+        "chapter": "5",
+        "season": "2",
+        "text": "Introduced in Chapter 5, Season 2.",
+        "backendValue": 29
+      },
+      "set": "Part of the Avatar set.",
+      "added": "2024-04-09T08:38:56Z",
+      "shopHistory": [],
+      "type": "つるはし",
+      "backendType": "AthenaPickaxe"
+    },
+    {
+      "id": "Backpack_DoubleDuty",
+      "name": "Momo Messenger",
+      "description": "Lemur-approved travel bag.",
+      "rarity": "rare",
+      "price": 2000,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_doubleduty/icon.png",
+      "introduction": {
+        "chapter": "5",
+        "season": "2",
+        "text": "Introduced in Chapter 5, Season 2.",
+        "backendValue": 29
+      },
+      "set": "Part of the Avatar set.",
+      "added": "2024-04-09T08:38:56Z",
+      "shopHistory": [],
+      "type": "バックアクセサリー",
+      "backendType": "AthenaBackpack"
     },
     {
       "id": "Character_SeaFlake",
@@ -635,10 +1590,666 @@
       },
       "set": "Part of the Ocean Exploration set.",
       "added": "2025-06-18T09:06:01Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
+    },
+    {
+      "id": "EID_BitterSweet",
+      "name": "Hot Tubbin'",
+      "description": "Steam up a storm.",
+      "rarity": "uncommon",
+      "price": 1600,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_bittersweet/icon.png",
+      "introduction": {
+        "chapter": "6",
+        "season": "4",
+        "text": "Introduced in Chapter 6, Season 4.",
+        "backendValue": 36
+      },
+      "set": "Part of the Sashimi Surfer set.",
+      "added": "2025-06-18T09:06:01Z",
+      "shopHistory": [],
+      "type": "エモート",
+      "backendType": "AthenaDance"
     }
   ],
   "daily": [
+    {
+      "id": "EID_FancyFeet",
+      "name": "Fancy Feet",
+      "description": "Show off that footwork.",
+      "rarity": "rare",
+      "price": 500,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_fancyfeet/featured.png",
+      "introduction": {
+        "chapter": "1",
+        "season": "5",
+        "text": "Introduced in Chapter 1, Season 5.",
+        "backendValue": 5
+      },
+      "set": null,
+      "added": "2019-11-20T12:48:10Z",
+      "shopHistory": [],
+      "type": "エモート",
+      "backendType": "AthenaDance"
+    },
+    {
+      "id": "EID_DiscoFever",
+      "name": "Disco Fever",
+      "description": "Heat up the dance floor.",
+      "rarity": "epic",
+      "price": 800,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_discofever/featured.png",
+      "introduction": {
+        "chapter": "1",
+        "season": "3",
+        "text": "Introduced in Chapter 1, Season 3.",
+        "backendValue": 3
+      },
+      "set": "Part of the Fortnite Fever set.",
+      "added": "2019-11-20T12:49:45Z",
+      "shopHistory": [],
+      "type": "エモート",
+      "backendType": "AthenaDance"
+    },
+    {
+      "id": "EID_TikiTorch",
+      "name": "Air Flurry",
+      "description": "Now, check this out!",
+      "rarity": "rare",
+      "price": 500,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_tikitorch/featured.png",
+      "introduction": {
+        "chapter": "5",
+        "season": "2",
+        "text": "Introduced in Chapter 5, Season 2.",
+        "backendValue": 29
+      },
+      "set": null,
+      "added": "2024-04-09T08:00:00Z",
+      "shopHistory": [],
+      "type": "エモート",
+      "backendType": "AthenaDance"
+    },
+    {
+      "id": "EID_Keytar_FeetJuggling",
+      "name": "Kick it!",
+      "description": "Put your best foot upward.",
+      "rarity": "common",
+      "price": 200,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_keytar_feetjuggling/featured.png",
+      "introduction": {
+        "chapter": "5",
+        "season": "4",
+        "text": "Introduced in Chapter 5, Season 4.",
+        "backendValue": 31
+      },
+      "set": null,
+      "added": "2024-09-21T09:49:17Z",
+      "shopHistory": [],
+      "type": "エモート",
+      "backendType": "AthenaDance"
+    },
+    {
+      "id": "Backpack_Underground_Drum",
+      "name": "Disruptor Kit",
+      "description": "Bring that Underground sound.",
+      "rarity": "rare",
+      "price": 500,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_underground_drum/icon.png",
+      "introduction": null,
+      "set": null,
+      "added": "2025-04-22T00:00:00Z",
+      "shopHistory": [],
+      "type": "バックアクセサリー",
+      "backendType": "AthenaBackpack"
+    },
+    {
+      "id": "Pickaxe_Underground_Drum",
+      "name": "Disruptor Kit",
+      "description": "Bring that Underground sound.",
+      "rarity": "rare",
+      "price": 500,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_underground_drum/icon.png",
+      "introduction": null,
+      "set": null,
+      "added": "2025-04-22T00:00:00Z",
+      "shopHistory": [],
+      "type": "つるはし",
+      "backendType": "AthenaPickaxe"
+    },
+    {
+      "id": "Glider_ID_024_Reaper",
+      "name": "Feathered Flyer",
+      "description": "Winged victory.",
+      "rarity": "rare",
+      "price": 800,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/glider_id_024_reaper/featured.png",
+      "introduction": {
+        "chapter": "1",
+        "season": "3",
+        "text": "Introduced in Chapter 1, Season 3.",
+        "backendValue": 3
+      },
+      "set": "Part of the Nevermore set.",
+      "added": "2019-11-20T12:51:10Z",
+      "shopHistory": [],
+      "type": "グライダー",
+      "backendType": "AthenaGlider"
+    },
+    {
+      "id": "Shoes_TunaCabinCanola",
+      "name": "Air Jordan 12 'Black/Varsity Red'",
+      "description": "Show 'em off.",
+      "rarity": "uncommon",
+      "price": 1000,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/shoes_tunacabincanola/featured.png",
+      "introduction": {
+        "chapter": "6",
+        "season": "1",
+        "text": "Introduced in Chapter 6, Season 1.",
+        "backendValue": 33
+      },
+      "set": "Part of the Jordan Shoes set.",
+      "added": "2025-02-02T00:00:00Z",
+      "shopHistory": [],
+      "type": "アイテム",
+      "backendType": "CosmeticShoes"
+    },
+    {
+      "id": "Pickaxe_TruckScale",
+      "name": "Striped Striker",
+      "description": "Stay sharp. Hit hard.",
+      "rarity": "rare",
+      "price": 800,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_truckscale/featured.png",
+      "introduction": {
+        "chapter": "6",
+        "season": "2",
+        "text": "Introduced in Chapter 6, Season 2.",
+        "backendValue": 34
+      },
+      "set": "Part of the Striped Striker set.",
+      "added": "2025-03-26T15:10:25Z",
+      "shopHistory": [],
+      "type": "つるはし",
+      "backendType": "AthenaPickaxe"
+    },
+    {
+      "id": "Backpack_TimberStakeDrift",
+      "name": "Delicious Dalgona",
+      "description": "Choose your shape carefully.",
+      "rarity": "rare",
+      "price": 300,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_timberstakedrift/icon.png",
+      "introduction": {
+        "chapter": "6",
+        "season": "4",
+        "text": "Introduced in Chapter 6, Season 4.",
+        "backendValue": 36
+      },
+      "set": "Part of the The Games set.",
+      "added": "2025-06-24T20:23:59Z",
+      "shopHistory": [],
+      "type": "バックアクセサリー",
+      "backendType": "AthenaBackpack"
+    },
+    {
+      "id": "Pickaxe_ID_296_DevilRockMale1H",
+      "name": "Burning Blades",
+      "description": "Feel the sear of hot metal.",
+      "rarity": "rare",
+      "price": 800,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_296_devilrockmale1h/featured.png",
+      "introduction": {
+        "chapter": "2",
+        "season": "1",
+        "text": "Introduced in Chapter 2, Season 1.",
+        "backendValue": 11
+      },
+      "set": "Part of the Diabolical set.",
+      "added": "2019-11-20T12:51:24Z",
+      "shopHistory": [],
+      "type": "つるはし",
+      "backendType": "AthenaPickaxe"
+    },
+    {
+      "id": "EID_TruckScale",
+      "name": "Trefoil Power Charge",
+      "description": "Charge up the game and take off.",
+      "rarity": "uncommon",
+      "price": 300,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_truckscale/featured.png",
+      "introduction": {
+        "chapter": "6",
+        "season": "2",
+        "text": "Introduced in Chapter 6, Season 2.",
+        "backendValue": 34
+      },
+      "set": "Part of the Striped Striker set.",
+      "added": "2025-03-26T15:10:25Z",
+      "shopHistory": [],
+      "type": "エモート",
+      "backendType": "AthenaDance"
+    },
+    {
+      "id": "Backpack_DryEraseToro",
+      "name": "Bruno's Collection",
+      "description": "A perfect mix.",
+      "rarity": "legendary",
+      "price": 400,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_dryerasetoro/icon.png",
+      "introduction": {
+        "chapter": "6",
+        "season": "4",
+        "text": "Introduced in Chapter 6, Season 4.",
+        "backendValue": 36
+      },
+      "set": "Part of the Bruno Mars set.",
+      "added": "2025-06-18T08:00:00Z",
+      "shopHistory": [],
+      "type": "バックアクセサリー",
+      "backendType": "AthenaBackpack"
+    },
+    {
+      "id": "Pickaxe_ID_820_SpectacleWebMale",
+      "name": "Web Slicer",
+      "description": "Web cartridges are empty, but I think it came out great.",
+      "rarity": "marvel",
+      "price": 800,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_820_spectaclewebmale/featured.png",
+      "introduction": {
+        "chapter": "3",
+        "season": "3",
+        "text": "Introduced in Chapter 3, Season 3.",
+        "backendValue": 21
+      },
+      "set": "Part of the Zero War set.",
+      "added": "2022-06-15T14:23:59Z",
+      "shopHistory": [],
+      "type": "つるはし",
+      "backendType": "AthenaPickaxe"
+    },
+    {
+      "id": "Shoes_GarageRainPlaster",
+      "name": "Air Jordan 3 Retro 'Seoul'",
+      "description": "Show 'em off.",
+      "rarity": "uncommon",
+      "price": 1000,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/shoes_garagerainplaster/icon.png",
+      "introduction": {
+        "chapter": "6",
+        "season": "4",
+        "text": "Introduced in Chapter 6, Season 4.",
+        "backendValue": 36
+      },
+      "set": "Part of the Jordan Shoes set.",
+      "added": "2025-06-20T05:49:58Z",
+      "shopHistory": [],
+      "type": "アイテム",
+      "backendType": "CosmeticShoes"
+    },
+    {
+      "id": "Shoes_TunaCabinAlgae",
+      "name": "Nike Air Force 1 'Valentine's Day'",
+      "description": "Show 'em off.",
+      "rarity": "uncommon",
+      "price": 800,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/shoes_tunacabinalgae/featured.png",
+      "introduction": {
+        "chapter": "6",
+        "season": "1",
+        "text": "Introduced in Chapter 6, Season 1.",
+        "backendValue": 33
+      },
+      "set": "Part of the NIKE Shoes set.",
+      "added": "2025-02-02T00:00:00Z",
+      "shopHistory": [],
+      "type": "アイテム",
+      "backendType": "CosmeticShoes"
+    },
+    {
+      "id": "EID_RemoteControl",
+      "name": "My Cabbages!",
+      "description": "Protect them with your life.",
+      "rarity": "rare",
+      "price": 300,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_remotecontrol/featured.png",
+      "introduction": {
+        "chapter": "5",
+        "season": "2",
+        "text": "Introduced in Chapter 5, Season 2.",
+        "backendValue": 29
+      },
+      "set": "Part of the Avatar set.",
+      "added": "2024-04-09T08:38:56Z",
+      "shopHistory": [],
+      "type": "エモート",
+      "backendType": "AthenaDance"
+    },
+    {
+      "id": "EID_Cherish",
+      "name": "Bounce Wit' It",
+      "description": "Do it to it!",
+      "rarity": "legendary",
+      "price": 500,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_cherish/featured.png",
+      "introduction": {
+        "chapter": "4",
+        "season": "1",
+        "text": "Introduced in Chapter 4, Season 1.",
+        "backendValue": 23
+      },
+      "set": null,
+      "added": "2022-12-08T00:00:00Z",
+      "shopHistory": [],
+      "type": "エモート",
+      "backendType": "AthenaDance"
+    },
+    {
+      "id": "EID_TimberStake",
+      "name": "Lil' Prized Piggy Bank",
+      "description": "Get a lil' richer.",
+      "rarity": "uncommon",
+      "price": 500,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_timberstake/icon.png",
+      "introduction": {
+        "chapter": "6",
+        "season": "4",
+        "text": "Introduced in Chapter 6, Season 4.",
+        "backendValue": 36
+      },
+      "set": "Part of the The Games set.",
+      "added": "2025-06-24T20:23:59Z",
+      "shopHistory": [],
+      "type": "エモート",
+      "backendType": "AthenaDance"
+    },
+    {
+      "id": "Contrail_DryEraseToro",
+      "name": "Floating Notes",
+      "description": "Drift like Mars.",
+      "rarity": "legendary",
+      "price": 600,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/contrail_dryerasetoro/icon.png",
+      "introduction": null,
+      "set": "Part of the Bruno Mars set.",
+      "added": "2025-06-18T08:00:00Z",
+      "shopHistory": [],
+      "type": "スカイダイビングトレイル",
+      "backendType": "AthenaSkyDiveContrail"
+    },
+    {
+      "id": "Glider_ID_305_QuarrelMale_ZTHTQ",
+      "name": "V-Trigger Vector",
+      "description": "Sonic Boom! Ear protection advised.",
+      "rarity": "gaminglegends",
+      "price": 800,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/glider_id_305_quarrelmale_zthtq/featured.png",
+      "introduction": {
+        "chapter": "2",
+        "season": "7",
+        "text": "Introduced in Chapter 2, Season 7.",
+        "backendValue": 17
+      },
+      "set": "Part of the Street Fighter set.",
+      "added": "2021-08-04T12:05:53Z",
+      "shopHistory": [],
+      "type": "グライダー",
+      "backendType": "AthenaGlider"
+    },
+    {
+      "id": "Glider_ID_365_RumbleFemale",
+      "name": "Kayari Buta",
+      "description": "Keep the pests away.",
+      "rarity": "gaminglegends",
+      "price": 800,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/glider_id_365_rumblefemale/featured.png",
+      "introduction": {
+        "chapter": "3",
+        "season": "2",
+        "text": "Introduced in Chapter 3, Season 2.",
+        "backendValue": 20
+      },
+      "set": "Part of the Street Fighter set.",
+      "added": "2022-04-26T13:59:49Z",
+      "shopHistory": [],
+      "type": "グライダー",
+      "backendType": "AthenaGlider"
+    },
+    {
+      "id": "EID_Drum_RensDrums",
+      "name": "Sticky Situation",
+      "description": "Take that sticktoitiveness for a spin.",
+      "rarity": "common",
+      "price": 200,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_drum_rensdrums/featured.png",
+      "introduction": null,
+      "set": null,
+      "added": "2024-04-23T08:26:50Z",
+      "shopHistory": [],
+      "type": "エモート",
+      "backendType": "AthenaDance"
+    },
+    {
+      "id": "Shoes_DaintyFoilDrip",
+      "name": "adidas Ultraboost 1.0 x Fortnite 'Peely'",
+      "description": "Show 'em off.",
+      "rarity": "uncommon",
+      "price": 1000,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/shoes_daintyfoildrip/featured.png",
+      "introduction": {
+        "chapter": "6",
+        "season": "2",
+        "text": "Introduced in Chapter 6, Season 2.",
+        "backendValue": 34
+      },
+      "set": "Part of the adidas Shoes set.",
+      "added": "2025-03-02T00:00:00Z",
+      "shopHistory": [],
+      "type": "アイテム",
+      "backendType": "CosmeticShoes"
+    },
+    {
+      "id": "Pickaxe_ID_791_RumbleFemale",
+      "name": "Fighting Tournament Trophy",
+      "description": "Celebrate victory.",
+      "rarity": "gaminglegends",
+      "price": 800,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_791_rumblefemale/featured.png",
+      "introduction": {
+        "chapter": "3",
+        "season": "2",
+        "text": "Introduced in Chapter 3, Season 2.",
+        "backendValue": 20
+      },
+      "set": "Part of the Street Fighter set.",
+      "added": "2022-04-26T13:59:49Z",
+      "shopHistory": [],
+      "type": "つるはし",
+      "backendType": "AthenaPickaxe"
+    },
+    {
+      "id": "Backpack_DryErase_Keytar",
+      "name": "Key Charm",
+      "description": "A real collector's item.",
+      "rarity": "legendary",
+      "price": 800,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_dryerase_keytar/icon.png",
+      "introduction": null,
+      "set": "Part of the Bruno Mars set.",
+      "added": "2025-06-18T08:00:00Z",
+      "shopHistory": [],
+      "type": "バックアクセサリー",
+      "backendType": "AthenaBackpack"
+    },
+    {
+      "id": "Pickaxe_DryErase_Keytar",
+      "name": "Key Charm",
+      "description": "A real collector's item.",
+      "rarity": "legendary",
+      "price": 800,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_dryerase_keytar/icon.png",
+      "introduction": null,
+      "set": "Part of the Bruno Mars set.",
+      "added": "2025-06-18T08:00:00Z",
+      "shopHistory": [],
+      "type": "つるはし",
+      "backendType": "AthenaPickaxe"
+    },
+    {
+      "id": "Pickaxe_ID_646_QuarrelMale_PTOBI",
+      "name": "Guile's Knuckle Buster",
+      "description": "Slice Shadaloo to ribbons.",
+      "rarity": "gaminglegends",
+      "price": 800,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_646_quarrelmale_ptobi/featured.png",
+      "introduction": {
+        "chapter": "2",
+        "season": "7",
+        "text": "Introduced in Chapter 2, Season 7.",
+        "backendValue": 17
+      },
+      "set": "Part of the Street Fighter set.",
+      "added": "2021-08-04T12:05:53Z",
+      "shopHistory": [],
+      "type": "つるはし",
+      "backendType": "AthenaPickaxe"
+    },
+    {
+      "id": "EID_Bass_DoubleSpin",
+      "name": "Revolver",
+      "description": "Take a spin and strike a chord.",
+      "rarity": "common",
+      "price": 200,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_bass_doublespin/featured.png",
+      "introduction": {
+        "chapter": "2",
+        "season": "Remix",
+        "text": "Introduced in Chapter 2, Season Remix.",
+        "backendValue": 32
+      },
+      "set": null,
+      "added": "2024-11-02T17:09:31Z",
+      "shopHistory": [],
+      "type": "エモート",
+      "backendType": "AthenaDance"
+    },
+    {
+      "id": "Wrap_TimberStake",
+      "name": "Squid Shapes",
+      "description": "Show your style.",
+      "rarity": "uncommon",
+      "price": 500,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/wrap_timberstake/icon.png",
+      "introduction": {
+        "chapter": "6",
+        "season": "4",
+        "text": "Introduced in Chapter 6, Season 4.",
+        "backendValue": 36
+      },
+      "set": "Part of the The Games set.",
+      "added": "2025-06-24T20:23:59Z",
+      "shopHistory": [],
+      "type": "アイテム",
+      "backendType": "AthenaItemWrap"
+    },
+    {
+      "id": "EID_Studs",
+      "name": "APT.",
+      "description": "See you there.",
+      "rarity": "legendary",
+      "price": 800,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_studs/featured.png",
+      "introduction": {
+        "chapter": "6",
+        "season": "2",
+        "text": "Introduced in Chapter 6, Season 2.",
+        "backendValue": 34
+      },
+      "set": null,
+      "added": "2025-03-28T00:00:00Z",
+      "shopHistory": [],
+      "type": "エモート",
+      "backendType": "AthenaDance"
+    },
+    {
+      "id": "Pickaxe_ID_792_RumbleMale",
+      "name": "Tropical Hazard Kebab",
+      "description": "The preferred snack of electrified warriors everywhere.",
+      "rarity": "gaminglegends",
+      "price": 800,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_792_rumblemale/featured.png",
+      "introduction": {
+        "chapter": "3",
+        "season": "2",
+        "text": "Introduced in Chapter 3, Season 2.",
+        "backendValue": 20
+      },
+      "set": "Part of the Street Fighter set.",
+      "added": "2022-04-26T13:59:49Z",
+      "shopHistory": [],
+      "type": "つるはし",
+      "backendType": "AthenaPickaxe"
+    },
+    {
+      "id": "Pickaxe_SeaFlake",
+      "name": "Chopping Sticks",
+      "description": "Not exactly what they're made for...",
+      "rarity": "rare",
+      "price": 500,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_seaflake/icon.png",
+      "introduction": {
+        "chapter": "6",
+        "season": "4",
+        "text": "Introduced in Chapter 6, Season 4.",
+        "backendValue": 36
+      },
+      "set": "Part of the Sashimi Surfer set.",
+      "added": "2025-06-18T09:06:01Z",
+      "shopHistory": [],
+      "type": "つるはし",
+      "backendType": "AthenaPickaxe"
+    },
+    {
+      "id": "Shoes_KittenEmbarkDice",
+      "name": "PUMA Suede XL 'Black/White'",
+      "description": "Show 'em off.",
+      "rarity": "uncommon",
+      "price": 800,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/shoes_kittenembarkdice/icon.png",
+      "introduction": {
+        "chapter": "6",
+        "season": "4",
+        "text": "Introduced in Chapter 6, Season 4.",
+        "backendValue": 36
+      },
+      "set": "Part of the PUMA Shoes set.",
+      "added": "2025-06-20T05:49:58Z",
+      "shopHistory": [],
+      "type": "アイテム",
+      "backendType": "CosmeticShoes"
+    },
+    {
+      "id": "Pickaxe_ID_554_SkirmishMale_ML78Q",
+      "name": "Signpost Pummeler",
+      "description": "Ripped from the battlefield and ready for action.",
+      "rarity": "gaminglegends",
+      "price": 800,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_554_skirmishmale_ml78q/featured.png",
+      "introduction": {
+        "chapter": "2",
+        "season": "5",
+        "text": "Introduced in Chapter 2, Season 5.",
+        "backendValue": 15
+      },
+      "set": "Part of the Street Fighter set.",
+      "added": "2021-02-21T00:00:00Z",
+      "shopHistory": [],
+      "type": "つるはし",
+      "backendType": "AthenaPickaxe"
+    },
     {
       "id": "CID_A_398_Athena_Commando_F_NeonCatSpeed",
       "name": "Panther",
@@ -654,7 +2265,161 @@
       },
       "set": "Part of the Operation Black Tabby set.",
       "added": "2022-05-03T08:42:26Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
+    },
+    {
+      "id": "BID_A_004_NeonCatSpeed",
+      "name": "Panther's Cross-Fangs",
+      "description": "If you cross her, fangs will fly.",
+      "rarity": "rare",
+      "price": 1200,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_a_004_neoncatspeed/icon.png",
+      "introduction": {
+        "chapter": "3",
+        "season": "2",
+        "text": "Introduced in Chapter 3, Season 2.",
+        "backendValue": 20
+      },
+      "set": "Part of the Operation Black Tabby set.",
+      "added": "2022-05-03T08:42:26Z",
+      "shopHistory": [],
+      "type": "バックアクセサリー",
+      "backendType": "AthenaBackpack"
+    },
+    {
+      "id": "EID_DreamFeet",
+      "name": "Dream Feet",
+      "description": "Get some boogie in your boots.",
+      "rarity": "rare",
+      "price": 500,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_dreamfeet/featured.png",
+      "introduction": {
+        "chapter": "1",
+        "season": "8",
+        "text": "Introduced in Chapter 1, Season 8.",
+        "backendValue": 8
+      },
+      "set": null,
+      "added": "2019-11-20T12:49:45Z",
+      "shopHistory": [],
+      "type": "エモート",
+      "backendType": "AthenaDance"
+    },
+    {
+      "id": "EID_BlueApparel",
+      "name": "Fast Feet",
+      "description": "Keep it moving.",
+      "rarity": "legendary",
+      "price": 500,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_blueapparel/featured.png",
+      "introduction": {
+        "chapter": "4",
+        "season": "2",
+        "text": "Introduced in Chapter 4, Season 2.",
+        "backendValue": 24
+      },
+      "set": null,
+      "added": "2023-05-05T00:00:00Z",
+      "shopHistory": [],
+      "type": "エモート",
+      "backendType": "AthenaDance"
+    },
+    {
+      "id": "Backpack_SeaFlake",
+      "name": "Onigiri Buddy",
+      "description": "Full of great advice... and savory filling.",
+      "rarity": "rare",
+      "price": 400,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_seaflake/icon.png",
+      "introduction": {
+        "chapter": "6",
+        "season": "4",
+        "text": "Introduced in Chapter 6, Season 4.",
+        "backendValue": 36
+      },
+      "set": "Part of the Ocean Exploration set.",
+      "added": "2025-06-18T09:06:01Z",
+      "shopHistory": [],
+      "type": "バックアクセサリー",
+      "backendType": "AthenaBackpack"
+    },
+    {
+      "id": "Shoes_BreathTaleCalla",
+      "name": "Nike Air Foamposite One 'Galaxy'",
+      "description": "Show 'em off.",
+      "rarity": "uncommon",
+      "price": 1000,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/shoes_breathtalecalla/featured.png",
+      "introduction": {
+        "chapter": "2",
+        "season": "Remix",
+        "text": "Introduced in Chapter 2, Season Remix.",
+        "backendValue": 32
+      },
+      "set": "Part of the NIKE Shoes set.",
+      "added": "2024-11-21T21:02:17Z",
+      "shopHistory": [],
+      "type": "アイテム",
+      "backendType": "CosmeticShoes"
+    },
+    {
+      "id": "Wrap_SeaFlake",
+      "name": "Summer of Sushi",
+      "description": "Show your style.",
+      "rarity": "rare",
+      "price": 500,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/wrap_seaflake/icon.png",
+      "introduction": {
+        "chapter": "6",
+        "season": "4",
+        "text": "Introduced in Chapter 6, Season 4.",
+        "backendValue": 36
+      },
+      "set": "Part of the Sashimi Surfer set.",
+      "added": "2025-06-18T09:06:01Z",
+      "shopHistory": [],
+      "type": "アイテム",
+      "backendType": "AthenaItemWrap"
+    },
+    {
+      "id": "EID_Bygone",
+      "name": "Take On Me",
+      "description": "Challenge accepted.",
+      "rarity": "legendary",
+      "price": 500,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_bygone/featured.png",
+      "introduction": {
+        "chapter": "6",
+        "season": "4",
+        "text": "Introduced in Chapter 6, Season 4.",
+        "backendValue": 36
+      },
+      "set": null,
+      "added": "2025-06-18T09:06:01Z",
+      "shopHistory": [],
+      "type": "エモート",
+      "backendType": "AthenaDance"
+    },
+    {
+      "id": "Pickaxe_ID_553_SkirmishFemale_J2JXX",
+      "name": "Seven Star Flashing Flail",
+      "description": "Super Combo!",
+      "rarity": "gaminglegends",
+      "price": 800,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_id_553_skirmishfemale_j2jxx/featured.png",
+      "introduction": {
+        "chapter": "2",
+        "season": "5",
+        "text": "Introduced in Chapter 2, Season 5.",
+        "backendValue": 15
+      },
+      "set": "Part of the Street Fighter set.",
+      "added": "2021-02-21T00:00:00Z",
+      "shopHistory": [],
+      "type": "つるはし",
+      "backendType": "AthenaPickaxe"
     },
     {
       "id": "Character_ThickWatch",
@@ -671,7 +2436,427 @@
       },
       "set": "Part of the Air Superiority set.",
       "added": "2025-02-02T14:42:53Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
+    },
+    {
+      "id": "Shoes_QuoteSlipGuru",
+      "name": "Air Jordan 1 Retro High '85 OG 'Black/Varsity Red'",
+      "description": "Show 'em off.",
+      "rarity": "uncommon",
+      "price": 1200,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/shoes_quoteslipguru/featured.png",
+      "introduction": {
+        "chapter": "6",
+        "season": "4",
+        "text": "Introduced in Chapter 6, Season 4.",
+        "backendValue": 36
+      },
+      "set": "Part of the Jordan Shoes set.",
+      "added": "2025-06-20T05:49:58Z",
+      "shopHistory": [],
+      "type": "アイテム",
+      "backendType": "CosmeticShoes"
+    },
+    {
+      "id": "EID_SpectacleWeb",
+      "name": "Spidey Landing",
+      "description": "Flip out, Spidey style.",
+      "rarity": "marvel",
+      "price": 300,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_spectacleweb/featured.png",
+      "introduction": {
+        "chapter": "3",
+        "season": "3",
+        "text": "Introduced in Chapter 3, Season 3.",
+        "backendValue": 21
+      },
+      "set": "Part of the Zero War set.",
+      "added": "2022-06-15T14:23:59Z",
+      "shopHistory": [],
+      "type": "エモート",
+      "backendType": "AthenaDance"
+    },
+    {
+      "id": "Shoes_LungeStreamTreble",
+      "name": "Air Jordan 13 'Black Toe'",
+      "description": "Show 'em off.",
+      "rarity": "uncommon",
+      "price": 1000,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/shoes_lungestreamtreble/featured.png",
+      "introduction": {
+        "chapter": "6",
+        "season": "1",
+        "text": "Introduced in Chapter 6, Season 1.",
+        "backendValue": 33
+      },
+      "set": null,
+      "added": "2025-01-12T00:00:00Z",
+      "shopHistory": [],
+      "type": "アイテム",
+      "backendType": "CosmeticShoes"
+    },
+    {
+      "id": "Shoes_DinkySplit",
+      "name": "NaNa Slippies",
+      "description": "Show 'em off.",
+      "rarity": "uncommon",
+      "price": 600,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/shoes_dinkysplit/featured.png",
+      "introduction": {
+        "chapter": "6",
+        "season": "1",
+        "text": "Introduced in Chapter 6, Season 1.",
+        "backendValue": 33
+      },
+      "set": null,
+      "added": "2025-01-19T00:00:00Z",
+      "shopHistory": [],
+      "type": "アイテム",
+      "backendType": "CosmeticShoes"
+    },
+    {
+      "id": "Shoes_UmamiGlintOchre",
+      "name": "Nike Air Baltoro",
+      "description": "Show 'em off.",
+      "rarity": "uncommon",
+      "price": 800,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/shoes_umamiglintochre/featured.png",
+      "introduction": {
+        "chapter": "6",
+        "season": "2",
+        "text": "Introduced in Chapter 6, Season 2.",
+        "backendValue": 34
+      },
+      "set": "Part of the NIKE Shoes set.",
+      "added": "2025-02-23T00:00:00Z",
+      "shopHistory": [],
+      "type": "アイテム",
+      "backendType": "CosmeticShoes"
+    },
+    {
+      "id": "EID_SpringRider",
+      "name": "Sproing!",
+      "description": "Spring has sproinged.",
+      "rarity": "uncommon",
+      "price": 200,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_springrider/featured.png",
+      "introduction": {
+        "chapter": "2",
+        "season": "6",
+        "text": "Introduced in Chapter 2, Season 6.",
+        "backendValue": 16
+      },
+      "set": null,
+      "added": "2021-04-13T08:51:15Z",
+      "shopHistory": [],
+      "type": "エモート",
+      "backendType": "AthenaDance"
+    },
+    {
+      "id": "Shoes_KittenEmbarkFigure",
+      "name": "PUMA Speedcat OG 'Whisp of Pink'",
+      "description": "Show 'em off.",
+      "rarity": "uncommon",
+      "price": 800,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/shoes_kittenembarkfigure/icon.png",
+      "introduction": {
+        "chapter": "6",
+        "season": "4",
+        "text": "Introduced in Chapter 6, Season 4.",
+        "backendValue": 36
+      },
+      "set": "Part of the PUMA Shoes set.",
+      "added": "2025-06-20T05:49:58Z",
+      "shopHistory": [],
+      "type": "アイテム",
+      "backendType": "CosmeticShoes"
+    },
+    {
+      "id": "Shoes_TunaCabinOmega",
+      "name": "Nike SF Air Force 1 'Desert Camo'",
+      "description": "Show 'em off.",
+      "rarity": "uncommon",
+      "price": 800,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/shoes_tunacabinomega/featured.png",
+      "introduction": {
+        "chapter": "6",
+        "season": "1",
+        "text": "Introduced in Chapter 6, Season 1.",
+        "backendValue": 33
+      },
+      "set": "Part of the NIKE Shoes set.",
+      "added": "2025-02-02T00:00:00Z",
+      "shopHistory": [],
+      "type": "アイテム",
+      "backendType": "CosmeticShoes"
+    },
+    {
+      "id": "EID_Marionette",
+      "name": "Master of Puppets",
+      "description": "I'm pulling your strings.",
+      "rarity": "legendary",
+      "price": 500,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_marionette/featured.png",
+      "introduction": {
+        "chapter": "4",
+        "season": "1",
+        "text": "Introduced in Chapter 4, Season 1.",
+        "backendValue": 23
+      },
+      "set": null,
+      "added": "2022-12-14T00:00:00Z",
+      "shopHistory": [],
+      "type": "エモート",
+      "backendType": "AthenaDance"
+    },
+    {
+      "id": "Shoes_StemDotClog",
+      "name": "Air Jordan 5 'Black Metallic'",
+      "description": "Show 'em off.",
+      "rarity": "uncommon",
+      "price": 1000,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/shoes_stemdotclog/featured.png",
+      "introduction": {
+        "chapter": "6",
+        "season": "1",
+        "text": "Introduced in Chapter 6, Season 1.",
+        "backendValue": 33
+      },
+      "set": null,
+      "added": "2025-01-12T00:00:00Z",
+      "shopHistory": [],
+      "type": "アイテム",
+      "backendType": "CosmeticShoes"
+    },
+    {
+      "id": "EID_BluePhoto_JSG4D",
+      "name": "Build Up",
+      "description": "I'm not built for you. Dance moves by Bella Poarch.",
+      "rarity": "legendary",
+      "price": 500,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_bluephoto_jsg4d/featured.png",
+      "introduction": {
+        "chapter": "2",
+        "season": "6",
+        "text": "Introduced in Chapter 2, Season 6.",
+        "backendValue": 16
+      },
+      "set": null,
+      "added": "2021-06-05T00:00:00Z",
+      "shopHistory": [],
+      "type": "エモート",
+      "backendType": "AthenaDance"
+    },
+    {
+      "id": "Shoes_ChoreNoodleRubble",
+      "name": "Air Jordan 1 Retro High OG Defiant ‘Couture’",
+      "description": "Show 'em off.",
+      "rarity": "uncommon",
+      "price": 800,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/shoes_chorenoodlerubble/featured.png",
+      "introduction": {
+        "chapter": "6",
+        "season": "2",
+        "text": "Introduced in Chapter 6, Season 2.",
+        "backendValue": 34
+      },
+      "set": "Part of the Jordan Shoes set.",
+      "added": "2025-02-23T00:00:00Z",
+      "shopHistory": [],
+      "type": "アイテム",
+      "backendType": "CosmeticShoes"
+    },
+    {
+      "id": "Backpack_TimberStakeSoul",
+      "name": "Ddakji Box",
+      "description": "Who wants to go first?",
+      "rarity": "rare",
+      "price": 700,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/backpack_timberstakesoul/icon.png",
+      "introduction": {
+        "chapter": "6",
+        "season": "4",
+        "text": "Introduced in Chapter 6, Season 4.",
+        "backendValue": 36
+      },
+      "set": "Part of the The Games set.",
+      "added": "2025-06-24T20:23:59Z",
+      "shopHistory": [],
+      "type": "バックアクセサリー",
+      "backendType": "AthenaBackpack"
+    },
+    {
+      "id": "EID_CrazyFeet",
+      "name": "Crazy Feet",
+      "description": "Wild and crazy feet!",
+      "rarity": "rare",
+      "price": 500,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_crazyfeet/featured.png",
+      "introduction": {
+        "chapter": "1",
+        "season": "6",
+        "text": "Introduced in Chapter 1, Season 6.",
+        "backendValue": 6
+      },
+      "set": null,
+      "added": "2019-11-20T12:49:45Z",
+      "shopHistory": [],
+      "type": "エモート",
+      "backendType": "AthenaDance"
+    },
+    {
+      "id": "EID_Guitar_RunDancing",
+      "name": "Amazing Feets",
+      "description": "Work that footwork",
+      "rarity": "uncommon",
+      "price": 200,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_guitar_rundancing/featured.png",
+      "introduction": {
+        "chapter": "2",
+        "season": "Remix",
+        "text": "Introduced in Chapter 2, Season Remix.",
+        "backendValue": 32
+      },
+      "set": null,
+      "added": "2024-11-02T17:09:31Z",
+      "shopHistory": [],
+      "type": "エモート",
+      "backendType": "AthenaDance"
+    },
+    {
+      "id": "Shoes_FlashyFever",
+      "name": "Disco Dancers",
+      "description": "Show 'em off.",
+      "rarity": "uncommon",
+      "price": 800,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/shoes_flashyfever/featured.png",
+      "introduction": {
+        "chapter": "6",
+        "season": "4",
+        "text": "Introduced in Chapter 6, Season 4.",
+        "backendValue": 36
+      },
+      "set": null,
+      "added": "2025-06-20T05:49:58Z",
+      "shopHistory": [],
+      "type": "アイテム",
+      "backendType": "CosmeticShoes"
+    },
+    {
+      "id": "EID_Sleek_S20CU",
+      "name": "Freedom Wheels",
+      "description": "Do a lil' spin, do it again.",
+      "rarity": "legendary",
+      "price": 500,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_sleek_s20cu/featured.png",
+      "introduction": {
+        "chapter": "3",
+        "season": "1",
+        "text": "Introduced in Chapter 3, Season 1.",
+        "backendValue": 19
+      },
+      "set": "Part of the Silk Sonic set.",
+      "added": "2022-02-03T20:18:59Z",
+      "shopHistory": [],
+      "type": "エモート",
+      "backendType": "AthenaDance"
+    },
+    {
+      "id": "Shoes_TunaCabinSchmaltz",
+      "name": "Nike ACG Lunardome 1",
+      "description": "Show 'em off.",
+      "rarity": "uncommon",
+      "price": 800,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/shoes_tunacabinschmaltz/featured.png",
+      "introduction": {
+        "chapter": "6",
+        "season": "1",
+        "text": "Introduced in Chapter 6, Season 1.",
+        "backendValue": 33
+      },
+      "set": "Part of the NIKE Shoes set.",
+      "added": "2025-02-02T00:00:00Z",
+      "shopHistory": [],
+      "type": "アイテム",
+      "backendType": "CosmeticShoes"
+    },
+    {
+      "id": "Glider_ID_277_Skirmish_9KK2W",
+      "name": "Sumo Torpedo",
+      "description": "Dosukoi!",
+      "rarity": "gaminglegends",
+      "price": 1200,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/glider_id_277_skirmish_9kk2w/featured.png",
+      "introduction": {
+        "chapter": "2",
+        "season": "5",
+        "text": "Introduced in Chapter 2, Season 5.",
+        "backendValue": 15
+      },
+      "set": "Part of the Street Fighter set.",
+      "added": "2021-02-21T00:00:00Z",
+      "shopHistory": [],
+      "type": "グライダー",
+      "backendType": "AthenaGlider"
+    },
+    {
+      "id": "EID_JumpingJoy_WKPG4",
+      "name": "I Like To Move It",
+      "description": "Move it.",
+      "rarity": "legendary",
+      "price": 500,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_jumpingjoy_wkpg4/featured.png",
+      "introduction": {
+        "chapter": "3",
+        "season": "1",
+        "text": "Introduced in Chapter 3, Season 1.",
+        "backendValue": 19
+      },
+      "set": null,
+      "added": "2022-01-29T00:00:00Z",
+      "shopHistory": [],
+      "type": "エモート",
+      "backendType": "AthenaDance"
+    },
+    {
+      "id": "EID_IcedTea",
+      "name": "Sweethearts",
+      "description": "It's where you belong.",
+      "rarity": "legendary",
+      "price": 500,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_icedtea/featured.png",
+      "introduction": {
+        "chapter": "6",
+        "season": "1",
+        "text": "Introduced in Chapter 6, Season 1.",
+        "backendValue": 33
+      },
+      "set": null,
+      "added": "2025-02-06T00:00:00Z",
+      "shopHistory": [],
+      "type": "エモート",
+      "backendType": "AthenaDance"
+    },
+    {
+      "id": "Glider_DoubleDuty",
+      "name": "Appa",
+      "description": "Aang's faithful sky bison companion.",
+      "rarity": "epic",
+      "price": 1200,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/glider_doubleduty/featured.png",
+      "introduction": {
+        "chapter": "5",
+        "season": "2",
+        "text": "Introduced in Chapter 5, Season 2.",
+        "backendValue": 29
+      },
+      "set": "Part of the Avatar set.",
+      "added": "2024-04-09T08:38:56Z",
+      "shopHistory": [],
+      "type": "グライダー",
+      "backendType": "AthenaGlider"
     },
     {
       "id": "CID_578_Athena_Commando_F_Fisherman",
@@ -688,7 +2873,47 @@
       },
       "set": "Part of the Open Water set.",
       "added": "2019-11-20T12:49:47Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
+    },
+    {
+      "id": "BID_378_FishermanFemale",
+      "name": "Fresh Catch",
+      "description": "Catch and release.",
+      "rarity": "rare",
+      "price": 1200,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_378_fishermanfemale/icon.png",
+      "introduction": {
+        "chapter": "2",
+        "season": "1",
+        "text": "Introduced in Chapter 2, Season 1.",
+        "backendValue": 11
+      },
+      "set": "Part of the Open Water set.",
+      "added": "2019-11-20T12:50:31Z",
+      "shopHistory": [],
+      "type": "バックアクセサリー",
+      "backendType": "AthenaBackpack"
+    },
+    {
+      "id": "EID_DoubleDuty",
+      "name": "Aang's Air Sphere",
+      "description": "Like walking on a cloud! Or, well, standing.",
+      "rarity": "rare",
+      "price": 500,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_doubleduty/featured.png",
+      "introduction": {
+        "chapter": "5",
+        "season": "2",
+        "text": "Introduced in Chapter 5, Season 2.",
+        "backendValue": 29
+      },
+      "set": "Part of the Avatar set.",
+      "added": "2024-04-09T08:38:56Z",
+      "shopHistory": [],
+      "type": "エモート",
+      "backendType": "AthenaDance"
     },
     {
       "id": "CID_312_Athena_Commando_F_FunkOps",
@@ -705,7 +2930,66 @@
       },
       "set": "Part of the Fortnite Fever set.",
       "added": "2019-11-20T12:50:09Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
+    },
+    {
+      "id": "BID_195_FunkOpsFemale",
+      "name": "Disco Ball",
+      "description": "Lose yourself in the sparkling light.",
+      "rarity": "rare",
+      "price": 1200,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_195_funkopsfemale/icon.png",
+      "introduction": {
+        "chapter": "1",
+        "season": "7",
+        "text": "Introduced in Chapter 1, Season 7.",
+        "backendValue": 7
+      },
+      "set": "Part of the Fortnite Fever set.",
+      "added": "2019-11-20T12:50:37Z",
+      "shopHistory": [],
+      "type": "バックアクセサリー",
+      "backendType": "AthenaBackpack"
+    },
+    {
+      "id": "Pickaxe_ThickWatch",
+      "name": "Flightalis' Flightstick",
+      "description": "Swing it.",
+      "rarity": "rare",
+      "price": 800,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/pickaxe_thickwatch/featured.png",
+      "introduction": {
+        "chapter": "6",
+        "season": "1",
+        "text": "Introduced in Chapter 6, Season 1.",
+        "backendValue": 33
+      },
+      "set": "Part of the Air Superiority set.",
+      "added": "2025-02-02T14:42:53Z",
+      "shopHistory": [],
+      "type": "つるはし",
+      "backendType": "AthenaPickaxe"
+    },
+    {
+      "id": "EID_Hurtle",
+      "name": "Lil' Supercar",
+      "description": "Ride on through.",
+      "rarity": "legendary",
+      "price": 500,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_hurtle/featured.png",
+      "introduction": {
+        "chapter": "5",
+        "season": "2",
+        "text": "Introduced in Chapter 5, Season 2.",
+        "backendValue": 29
+      },
+      "set": null,
+      "added": "2024-04-26T00:00:00Z",
+      "shopHistory": [],
+      "type": "エモート",
+      "backendType": "AthenaDance"
     },
     {
       "id": "CID_755_Athena_Commando_M_Splinter",
@@ -722,7 +3006,47 @@
       },
       "set": "Part of the Hit Squad set.",
       "added": "2020-04-15T06:13:43Z",
-      "shopHistory": []
+      "shopHistory": [],
+      "type": "スキン",
+      "backendType": "AthenaCharacter"
+    },
+    {
+      "id": "BID_517_Splinter",
+      "name": "Pelt Pack",
+      "description": "Heavy-duty furry battle bag.",
+      "rarity": "rare",
+      "price": 1200,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/bid_517_splinter/icon.png",
+      "introduction": {
+        "chapter": "2",
+        "season": "2",
+        "text": "Introduced in Chapter 2, Season 2.",
+        "backendValue": 12
+      },
+      "set": "Part of the Hit Squad set.",
+      "added": "2020-04-15T06:13:43Z",
+      "shopHistory": [],
+      "type": "バックアクセサリー",
+      "backendType": "AthenaBackpack"
+    },
+    {
+      "id": "EID_Lowrider",
+      "name": "Nuthin But A G Thang",
+      "description": "Make an impression.",
+      "rarity": "legendary",
+      "price": 500,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/eid_lowrider/featured.png",
+      "introduction": {
+        "chapter": "2",
+        "season": "Remix",
+        "text": "Introduced in Chapter 2, Season Remix.",
+        "backendValue": 32
+      },
+      "set": null,
+      "added": "2024-11-21T00:00:00Z",
+      "shopHistory": [],
+      "type": "エモート",
+      "backendType": "AthenaDance"
     }
   ],
   "returned": []
