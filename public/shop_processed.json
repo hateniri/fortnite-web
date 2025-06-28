@@ -1,13 +1,430 @@
 {
   "date": "2025-06-28T00:00:00Z",
-  "lastUpdate": "2025-06-28T06:59:19.257Z",
-  "featured": [],
-  "daily": [],
-  "special": [],
+  "lastUpdate": "2025-06-28T07:51:19.813Z",
+  "featured": [
+    {
+      "id": "Character_TimberStakeClub",
+      "name": "Games Guard",
+      "description": "Guard the game.",
+      "rarity": "epic",
+      "price": 3000,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_timberstakeclub/icon.png",
+      "isReturned": null,
+      "daysGone": null,
+      "shopHistory": [
+        "2025-06-28"
+      ],
+      "type": "Outfit",
+      "set": "Part of the The Games set."
+    },
+    {
+      "id": "Character_TimberStakePurse",
+      "name": "Games Manager",
+      "description": "Oversee it all.",
+      "rarity": "epic",
+      "price": 3000,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_timberstakepurse/icon.png",
+      "isReturned": null,
+      "daysGone": null,
+      "shopHistory": [
+        "2025-06-28"
+      ],
+      "type": "Outfit",
+      "set": "Part of the The Games set."
+    },
+    {
+      "id": "Character_TimberStakeDrift",
+      "name": "Ddakji Defender",
+      "description": "Are you ready to play?",
+      "rarity": "epic",
+      "price": 3000,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_timberstakedrift/icon.png",
+      "isReturned": null,
+      "daysGone": null,
+      "shopHistory": [
+        "2025-06-28"
+      ],
+      "type": "Outfit",
+      "set": "Part of the The Games set."
+    },
+    {
+      "id": "Character_TimberStakeDrift_B",
+      "name": "Green Light Guardian",
+      "description": "Ready, set, go!",
+      "rarity": "epic",
+      "price": 3000,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_timberstakedrift_b/icon.png",
+      "isReturned": null,
+      "daysGone": null,
+      "shopHistory": [
+        "2025-06-28"
+      ],
+      "type": "Outfit",
+      "set": "Part of the The Games set."
+    },
+    {
+      "id": "Character_TimberStakeDrift_C",
+      "name": "Marble Maven",
+      "description": "Favor the odds.",
+      "rarity": "epic",
+      "price": 3000,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_timberstakedrift_c/icon.png",
+      "isReturned": null,
+      "daysGone": null,
+      "shopHistory": [
+        "2025-06-28"
+      ],
+      "type": "Outfit",
+      "set": "Part of the The Games set."
+    },
+    {
+      "id": "Character_TimberStakeDrift_D",
+      "name": "Dalgona Destroyer",
+      "description": "Snack with care.",
+      "rarity": "epic",
+      "price": 3000,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_timberstakedrift_d/icon.png",
+      "isReturned": null,
+      "daysGone": null,
+      "shopHistory": [
+        "2025-06-28"
+      ],
+      "type": "Outfit",
+      "set": "Part of the The Games set."
+    },
+    {
+      "id": "Character_TimberStakeDrift_E",
+      "name": "Tug of War Titan",
+      "description": "Pull!",
+      "rarity": "epic",
+      "price": 3000,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_timberstakedrift_e/icon.png",
+      "isReturned": null,
+      "daysGone": null,
+      "shopHistory": [
+        "2025-06-28"
+      ],
+      "type": "Outfit",
+      "set": "Part of the The Games set."
+    },
+    {
+      "id": "Character_TimberStakeSoul",
+      "name": "Glass Bridge Survivor",
+      "description": "Six games. One winner.",
+      "rarity": "epic",
+      "price": 3000,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_timberstakesoul/icon.png",
+      "isReturned": null,
+      "daysGone": null,
+      "shopHistory": [
+        "2025-06-28"
+      ],
+      "type": "Outfit",
+      "set": "Part of the The Games set."
+    }
+  ],
+  "daily": [
+    {
+      "id": "Character_TimberStakeDrift_E",
+      "name": "Tug of War Titan",
+      "description": "Pull!",
+      "rarity": "epic",
+      "price": 1200,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_timberstakedrift_e/icon.png",
+      "lastSeen": "2025-06-28T07:51:19.811Z",
+      "isReturned": 0,
+      "daysGone": 0,
+      "shopHistory": [
+        "2025-06-28",
+        "2025-06-28"
+      ],
+      "type": "Outfit",
+      "set": "Part of the The Games set."
+    },
+    {
+      "id": "Character_TimberStakeDrift",
+      "name": "Ddakji Defender",
+      "description": "Are you ready to play?",
+      "rarity": "epic",
+      "price": 1200,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_timberstakedrift/icon.png",
+      "lastSeen": "2025-06-28T07:51:19.811Z",
+      "isReturned": 0,
+      "daysGone": 0,
+      "shopHistory": [
+        "2025-06-28",
+        "2025-06-28"
+      ],
+      "type": "Outfit",
+      "set": "Part of the The Games set."
+    },
+    {
+      "id": "CID_A_398_Athena_Commando_F_NeonCatSpeed",
+      "name": "Panther",
+      "description": "An IO agent tasked with infiltrating the Seven.",
+      "rarity": "rare",
+      "price": 1200,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_a_398_athena_commando_f_neoncatspeed/featured.png",
+      "isReturned": null,
+      "daysGone": null,
+      "shopHistory": [
+        "2025-06-28"
+      ],
+      "type": "Outfit",
+      "set": "Part of the Operation Black Tabby set."
+    },
+    {
+      "id": "CID_460_Athena_Commando_F_BriteBomberSummer",
+      "name": "Beach Bomber",
+      "description": "Make the beach party brite!",
+      "rarity": "rare",
+      "price": 1200,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_460_athena_commando_f_britebombersummer/featured.png",
+      "lastSeen": "2025-06-28T07:51:19.812Z",
+      "isReturned": 0,
+      "daysGone": 0,
+      "shopHistory": [
+        "2025-06-28",
+        "2025-06-28"
+      ],
+      "type": "Outfit",
+      "set": "Part of the Sunshine And Rainbows set."
+    },
+    {
+      "id": "Character_ThickWatch",
+      "name": "Flightalis",
+      "description": "An apex predator from a distant future.",
+      "rarity": "epic",
+      "price": 1200,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_thickwatch/featured.png",
+      "isReturned": null,
+      "daysGone": null,
+      "shopHistory": [
+        "2025-06-28"
+      ],
+      "type": "Outfit",
+      "set": "Part of the Air Superiority set."
+    },
+    {
+      "id": "Character_TimberStakeSoul_C",
+      "name": "Jegi Juggler",
+      "description": "Keep it in the air.",
+      "rarity": "epic",
+      "price": 1200,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_timberstakesoul_c/icon.png",
+      "lastSeen": "2025-06-28T07:51:19.811Z",
+      "isReturned": 0,
+      "daysGone": 0,
+      "shopHistory": [
+        "2025-06-28",
+        "2025-06-28"
+      ],
+      "type": "Outfit",
+      "set": "Part of the The Games set."
+    },
+    {
+      "id": "Character_TimberStakeSoul",
+      "name": "Glass Bridge Survivor",
+      "description": "Six games. One winner.",
+      "rarity": "epic",
+      "price": 1200,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_timberstakesoul/icon.png",
+      "lastSeen": "2025-06-28T07:51:19.811Z",
+      "isReturned": 0,
+      "daysGone": 0,
+      "shopHistory": [
+        "2025-06-28",
+        "2025-06-28"
+      ],
+      "type": "Outfit",
+      "set": "Part of the The Games set."
+    },
+    {
+      "id": "Character_TimberStakeDrift_C",
+      "name": "Marble Maven",
+      "description": "Favor the odds.",
+      "rarity": "epic",
+      "price": 1200,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_timberstakedrift_c/icon.png",
+      "lastSeen": "2025-06-28T07:51:19.811Z",
+      "isReturned": 0,
+      "daysGone": 0,
+      "shopHistory": [
+        "2025-06-28",
+        "2025-06-28"
+      ],
+      "type": "Outfit",
+      "set": "Part of the The Games set."
+    },
+    {
+      "id": "Character_TimberStakeDrift_D",
+      "name": "Dalgona Destroyer",
+      "description": "Snack with care.",
+      "rarity": "epic",
+      "price": 1200,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_timberstakedrift_d/icon.png",
+      "lastSeen": "2025-06-28T07:51:19.811Z",
+      "isReturned": 0,
+      "daysGone": 0,
+      "shopHistory": [
+        "2025-06-28",
+        "2025-06-28"
+      ],
+      "type": "Outfit",
+      "set": "Part of the The Games set."
+    },
+    {
+      "id": "Character_TimberStakeDrift_B",
+      "name": "Green Light Guardian",
+      "description": "Ready, set, go!",
+      "rarity": "epic",
+      "price": 1200,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_timberstakedrift_b/icon.png",
+      "lastSeen": "2025-06-28T07:51:19.811Z",
+      "isReturned": 0,
+      "daysGone": 0,
+      "shopHistory": [
+        "2025-06-28",
+        "2025-06-28"
+      ],
+      "type": "Outfit",
+      "set": "Part of the The Games set."
+    },
+    {
+      "id": "CID_578_Athena_Commando_F_Fisherman",
+      "name": "Outcast",
+      "description": "Reel 'em in.",
+      "rarity": "rare",
+      "price": 1200,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_578_athena_commando_f_fisherman/featured.png",
+      "isReturned": null,
+      "daysGone": null,
+      "shopHistory": [
+        "2025-06-28"
+      ],
+      "type": "Outfit",
+      "set": "Part of the Open Water set."
+    },
+    {
+      "id": "CID_312_Athena_Commando_F_FunkOps",
+      "name": "Disco Diva",
+      "description": "Make way for the queen of the dance floor.",
+      "rarity": "rare",
+      "price": 1200,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_312_athena_commando_f_funkops/featured.png",
+      "isReturned": null,
+      "daysGone": null,
+      "shopHistory": [
+        "2025-06-28"
+      ],
+      "type": "Outfit",
+      "set": "Part of the Fortnite Fever set."
+    }
+  ],
+  "special": [
+    {
+      "id": "CID_A_024_Athena_Commando_F_Skirmish_QW2BQ",
+      "name": "Chun-Li",
+      "description": "Interpol officer with a strong sense of justice and even stronger roundhouse kick.",
+      "rarity": "gaminglegends",
+      "price": 1600,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_a_024_athena_commando_f_skirmish_qw2bq/featured.png",
+      "isReturned": null,
+      "daysGone": null,
+      "shopHistory": [
+        "2025-06-28"
+      ],
+      "type": "Outfit",
+      "set": "Part of the Street Fighter set.",
+      "series": "Gaming Legends Series"
+    },
+    {
+      "id": "Character_DryEraseToro",
+      "name": "Bruno-San",
+      "description": "Take it 'round the world.",
+      "rarity": "legendary",
+      "price": 1500,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_dryerasetoro/icon.png",
+      "isReturned": null,
+      "daysGone": null,
+      "shopHistory": [
+        "2025-06-28"
+      ],
+      "type": "Outfit",
+      "set": "Part of the Bruno Mars set.",
+      "series": "Icon Series"
+    },
+    {
+      "id": "CID_A_267_Athena_Commando_M_Nucleus_XVIVU",
+      "name": "Nick Fury",
+      "description": "Master of espionage and definitely probably not a Life-Model Decoy.",
+      "rarity": "marvel",
+      "price": 2000,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_a_267_athena_commando_m_nucleus_xvivu/featured.png",
+      "isReturned": null,
+      "daysGone": null,
+      "shopHistory": [
+        "2025-06-28"
+      ],
+      "type": "Outfit",
+      "set": "Part of the S.H.I.E.L.D. set.",
+      "series": "MARVEL SERIES"
+    },
+    {
+      "id": "CID_A_023_Athena_Commando_M_Skirmish_W1N7H",
+      "name": "Ryu",
+      "description": "Determined to travel the world and test his skills until he becomes the best.",
+      "rarity": "gaminglegends",
+      "price": 2200,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_a_023_athena_commando_m_skirmish_w1n7h/featured.png",
+      "isReturned": null,
+      "daysGone": null,
+      "shopHistory": [
+        "2025-06-28"
+      ],
+      "type": "Outfit",
+      "set": "Part of the Street Fighter set.",
+      "series": "Gaming Legends Series"
+    },
+    {
+      "id": "CID_A_024_Athena_Commando_F_Skirmish_QW2BQ",
+      "name": "Chun-Li",
+      "description": "Interpol officer with a strong sense of justice and even stronger roundhouse kick.",
+      "rarity": "gaminglegends",
+      "price": 2200,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_a_024_athena_commando_f_skirmish_qw2bq/featured.png",
+      "lastSeen": "2025-06-28T07:51:19.811Z",
+      "isReturned": 0,
+      "daysGone": 0,
+      "shopHistory": [
+        "2025-06-28",
+        "2025-06-28"
+      ],
+      "type": "Outfit",
+      "set": "Part of the Street Fighter set.",
+      "series": "Gaming Legends Series"
+    },
+    {
+      "id": "CID_A_334_Athena_Commando_M_Sleek_U06KF",
+      "name": "Bruno Mars",
+      "description": "Entertainer and reluctant assassin.",
+      "rarity": "legendary",
+      "price": 1800,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_a_334_athena_commando_m_sleek_u06kf/featured.png",
+      "isReturned": null,
+      "daysGone": null,
+      "shopHistory": [
+        "2025-06-28"
+      ],
+      "type": "Outfit",
+      "set": "Part of the Silk Sonic set.",
+      "series": "Icon Series"
+    }
+  ],
   "returned": [],
   "stats": {
-    "totalItems": 0,
+    "totalItems": 71,
     "returnedCount": 0,
-    "averagePrice": null
+    "averagePrice": 1932
   }
 }

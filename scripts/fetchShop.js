@@ -49,17 +49,20 @@ function normalizeRarity(rarity) {
     'rare': 'rare',
     'uncommon': 'uncommon',
     'common': 'common',
-    'icon': 'epic',
-    'gaming': 'epic',
-    'marvel': 'epic',
-    'dc': 'epic',
-    'starwars': 'epic',
-    'frozen': 'legendary',
-    'lava': 'legendary',
-    'shadow': 'epic'
+    'icon': 'legendary',
+    'gaming': 'gaminglegends',
+    'gaminglegends': 'gaminglegends',
+    'marvel': 'marvel',
+    'dc': 'dc',
+    'starwars': 'starwars',
+    'frozen': 'frozen',
+    'lava': 'lava',
+    'shadow': 'shadow',
+    'slurp': 'slurp',
+    'dark': 'dark'
   };
   
-  return mapping[value] || 'common';
+  return mapping[value] || 'epic';
 }
 
 // 日数計算
@@ -76,8 +79,11 @@ function daysSince(dateString) {
 function processItem(entry, history) {
   const processedItems = [];
   
-  // Jam Tracksなどのアイテムはitemsを持たない場合がある
-  if (!entry.items || entry.items.length === 0) {
+  // 新API構造: brItems を使用、古いAPI構造との互換性も保持
+  const items = entry.brItems || entry.items;
+  
+  // アイテムが存在しない場合はスキップ
+  if (!items || items.length === 0) {
     // newDisplayAssetPathがある場合は単体アイテムとして処理
     if (entry.newDisplayAssetPath && entry.layoutId && !entry.layoutId.includes('JT')) {
       // 単体アイテムの処理（将来的な実装用）
@@ -85,7 +91,7 @@ function processItem(entry, history) {
     return processedItems;
   }
   
-  for (const item of entry.items) {
+  for (const item of items) {
     // スキン（Outfit）のみを対象とする
     if (item.type?.backendValue !== 'AthenaCharacter') continue;
     
