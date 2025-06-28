@@ -2,6 +2,7 @@ import fs from 'fs/promises'
 import path from 'path'
 import Image from 'next/image'
 import CommentSection from '@/components/CommentSection'
+import { Fragment } from 'react'
 
 interface NewsItem {
   id: string
@@ -65,7 +66,8 @@ export default async function NewsPage() {
         <div className="container mx-auto px-4">
           <div className="space-y-12">
             {newsData.br.map((news, index) => (
-              <article key={news.id} className="bg-slate-800 rounded-lg overflow-hidden border border-slate-700">
+              <Fragment key={news.id}>
+                <article className="bg-slate-800 rounded-lg overflow-hidden border border-slate-700">
                 {/* ニュース画像 */}
                 {news.image && (
                   <div className="relative aspect-video bg-slate-900">
@@ -118,6 +120,7 @@ export default async function NewsPage() {
                   </button>
                 </div>
               )}
+              </Fragment>
             ))}
           </div>
         </div>
