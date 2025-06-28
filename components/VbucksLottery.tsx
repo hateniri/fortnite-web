@@ -26,22 +26,27 @@ export default function VbucksLottery() {
 
     // アニメーション時間
     setTimeout(() => {
-      // 当選確率の設定
+      // 当選確率の設定（実際のV-Bucksカード金額に合わせる）
       const rand = Math.random()
       let prize = 0
+      let prizeType = ''
 
-      if (rand < 0.001) {
-        // 0.1% - 1000 V-Bucks
-        prize = 1000
+      if (rand < 0.0001) {
+        // 0.01% - 5000 V-Bucks
+        prize = 5000
+        prizeType = 'legendary'
+      } else if (rand < 0.001) {
+        // 0.1% - 2800 V-Bucks
+        prize = 2800
+        prizeType = 'epic'
       } else if (rand < 0.01) {
-        // 1% - 500 V-Bucks
-        prize = 500
+        // 1% - 1000 V-Bucks
+        prize = 1000
+        prizeType = 'rare'
       } else if (rand < 0.05) {
-        // 5% - 100 V-Bucks
-        prize = 100
-      } else if (rand < 0.15) {
-        // 15% - 50 V-Bucks
-        prize = 50
+        // 5% - スキン割引クーポン（架空）
+        prize = -1
+        prizeType = 'coupon'
       }
 
       setResult(prize)
@@ -112,8 +117,13 @@ export default function VbucksLottery() {
                     🎉 おめでとう！ 🎉
                   </p>
                   <p className="text-3xl font-bold text-purple-800">
-                    {result} V-Bucks 当選！
+                    {result === -1 ? '限定クーポン当選！' : `${result} V-Bucks 当選！`}
                   </p>
+                  {result === -1 && (
+                    <p className="text-lg text-purple-600 mt-2">
+                      次回ショップで使える10%OFFクーポン！
+                    </p>
+                  )}
                   <p className="text-sm text-gray-600 mt-4">
                     ※これはデモです。実際のV-Bucksはもらえません
                   </p>
@@ -140,11 +150,14 @@ export default function VbucksLottery() {
       <div className="mt-8 p-4 bg-white/50 rounded-lg">
         <h3 className="font-bold text-lg mb-2">🏆 当選確率</h3>
         <div className="text-sm text-gray-700 space-y-1">
-          <p>1000 V-Bucks: 0.1%</p>
-          <p>500 V-Bucks: 1%</p>
-          <p>100 V-Bucks: 5%</p>
-          <p>50 V-Bucks: 15%</p>
+          <p>5000 V-Bucks: 0.01% 🌟</p>
+          <p>2800 V-Bucks: 0.1% ⭐</p>
+          <p>1000 V-Bucks: 1% ✨</p>
+          <p>限定クーポン: 5% 🎫</p>
         </div>
+        <p className="text-xs text-gray-500 mt-2">
+          ※実際のV-Bucksカード金額に合わせています
+        </p>
       </div>
 
       <style jsx>{`
