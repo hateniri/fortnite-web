@@ -36,3 +36,8 @@ logs/
 
 # API data cache
 public/shop.json
+public/skins_today.json
+
+# Downloaded images
+public/images/skins/*.png
+public/images/skins/*.webp

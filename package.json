@@ -5,6 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "fetch-shop": "node scripts/fetchShop.js",
+    "fetch-images": "node scripts/fetchSkinImages.js",
+    "fetch-all": "npm run fetch-shop && npm run fetch-images",
     "serve": "npx http-server src -p 8080"
   },
   "keywords": [],
