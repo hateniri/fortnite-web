@@ -35,7 +35,7 @@ export default function Header() {
               ニュース
             </Link>
             <Link href="/map" className="hover:text-yellow-300 transition-colors">
-              マップ
+              コラボ投票
             </Link>
             <Link href="/about" className="hover:text-yellow-300 transition-colors">
               このサイトについて
