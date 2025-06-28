@@ -102,10 +102,10 @@ export default function DatabaseClient() {
     // ソート
     switch (sortBy) {
       case 'newest':
-        skins.sort((a, b) => new Date(b.releaseDate || b.added || 0).getTime() - new Date(a.releaseDate || a.added || 0).getTime())
+        skins.sort((a, b) => new Date(b.releaseDate || 0).getTime() - new Date(a.releaseDate || 0).getTime())
         break
       case 'oldest':
-        skins.sort((a, b) => new Date(a.releaseDate || a.added || 0).getTime() - new Date(b.releaseDate || b.added || 0).getTime())
+        skins.sort((a, b) => new Date(a.releaseDate || 0).getTime() - new Date(b.releaseDate || 0).getTime())
         break
       case 'popular':
         skins.sort((a, b) => (b.shopHistory?.length || 0) - (a.shopHistory?.length || 0))

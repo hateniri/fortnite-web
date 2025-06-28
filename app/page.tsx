@@ -91,7 +91,9 @@ export default async function HomePage() {
               <p className="text-sm text-gray-600">デイリーアイテム</p>
             </div>
             <div className="bg-gradient-to-br from-yellow-100 to-orange-100 rounded-lg p-4 text-center">
-              <p className="text-2xl font-bold text-orange-600">{shopData.stats.averagePrice || '---'}</p>
+              <p className="text-2xl font-bold text-orange-600">
+                {Math.round([...shopData.featured, ...shopData.daily].reduce((sum, item) => sum + item.price, 0) / Math.max(shopData.stats.totalItems, 1))}
+              </p>
               <p className="text-sm text-gray-600">平均価格</p>
             </div>
           </div>
