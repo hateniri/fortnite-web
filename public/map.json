@@ -1,0 +1,111 @@
+{
+  "lastUpdate": "2025-06-28T13:58:43.734Z",
+  "mapImage": "https://media.fortniteapi.io/images/map.png",
+  "pois": [
+    {
+      "id": "pleasant-park",
+      "name": "Pleasant Park",
+      "type": "namedLocation",
+      "location": {
+        "x": 140,
+        "y": 180,
+        "z": 0
+      }
+    },
+    {
+      "id": "tilted-towers",
+      "name": "Tilted Towers",
+      "type": "namedLocation",
+      "location": {
+        "x": 200,
+        "y": 240,
+        "z": 0
+      }
+    },
+    {
+      "id": "retail-row",
+      "name": "Retail Row",
+      "type": "namedLocation",
+      "location": {
+        "x": 300,
+        "y": 200,
+        "z": 0
+      }
+    },
+    {
+      "id": "salty-springs",
+      "name": "Salty Springs",
+      "type": "namedLocation",
+      "location": {
+        "x": 180,
+        "y": 280,
+        "z": 0
+      }
+    },
+    {
+      "id": "lazy-lake",
+      "name": "Lazy Lake",
+      "type": "namedLocation",
+      "location": {
+        "x": 260,
+        "y": 320,
+        "z": 0
+      }
+    },
+    {
+      "id": "sweaty-sands",
+      "name": "Sweaty Sands",
+      "type": "namedLocation",
+      "location": {
+        "x": 120,
+        "y": 400,
+        "z": 0
+      }
+    },
+    {
+      "id": "holly-hedges",
+      "name": "Holly Hedges",
+      "type": "namedLocation",
+      "location": {
+        "x": 80,
+        "y": 260,
+        "z": 0
+      }
+    },
+    {
+      "id": "weeping-woods",
+      "name": "Weeping Woods",
+      "type": "landmark",
+      "location": {
+        "x": 160,
+        "y": 360,
+        "z": 0
+      }
+    },
+    {
+      "id": "slurpy-swamp",
+      "name": "Slurpy Swamp",
+      "type": "landmark",
+      "location": {
+        "x": 100,
+        "y": 340,
+        "z": 0
+      }
+    },
+    {
+      "id": "misty-meadows",
+      "name": "Misty Meadows",
+      "type": "namedLocation",
+      "location": {
+        "x": 220,
+        "y": 380,
+        "z": 0
+      }
+    }
+  ],
+  "stats": {
+    "totalPOIs": 10,
+    "landmarks": 2,
+    "namedLocations": 8
+  }
+}

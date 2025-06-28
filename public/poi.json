@@ -1,0 +1,127 @@
+{
+  "summary": "今のマップには10個の主要エリアがあるよ！新しいシーズンで地形が変わって、探検するのがすごく楽しくなってる。お友達と一緒に色んな場所を回ってみよう！",
+  "locations": [
+    {
+      "id": "pleasant-park",
+      "name": "Pleasant Park",
+      "nameJa": "プレザント・パーク",
+      "type": "namedLocation",
+      "location": {
+        "x": 140,
+        "y": 180,
+        "z": 0
+      },
+      "description": "みんな大好きな住宅街！家がいっぱいあって武器も見つけやすいよ"
+    },
+    {
+      "id": "tilted-towers",
+      "name": "Tilted Towers",
+      "nameJa": "ティルテッド・タワーズ",
+      "type": "namedLocation",
+      "location": {
+        "x": 200,
+        "y": 240,
+        "z": 0
+      },
+      "description": "高いビルがたくさんの都市エリア！戦いが激しいけど良いアイテムがゲットできる"
+    },
+    {
+      "id": "retail-row",
+      "name": "Retail Row",
+      "nameJa": "リテール・ロウ",
+      "type": "namedLocation",
+      "location": {
+        "x": 300,
+        "y": 200,
+        "z": 0
+      },
+      "description": "お店がいっぱいのショッピングエリア！買い物気分で探索しよう"
+    },
+    {
+      "id": "salty-springs",
+      "name": "Salty Springs",
+      "nameJa": "ソルティ・スプリングス",
+      "type": "namedLocation",
+      "location": {
+        "x": 180,
+        "y": 280,
+        "z": 0
+      },
+      "description": "温泉街みたいな場所！のんびりした雰囲気だけど油断は禁物"
+    },
+    {
+      "id": "lazy-lake",
+      "name": "Lazy Lake",
+      "nameJa": "レイジー・レイク",
+      "type": "namedLocation",
+      "location": {
+        "x": 260,
+        "y": 320,
+        "z": 0
+      },
+      "description": "湖の近くの静かな町！景色がキレイで戦略的にも重要なスポット"
+    },
+    {
+      "id": "sweaty-sands",
+      "name": "Sweaty Sands",
+      "nameJa": "スウェッティ・サンズ",
+      "type": "namedLocation",
+      "location": {
+        "x": 120,
+        "y": 400,
+        "z": 0
+      },
+      "description": "ビーチリゾート地区！海が見えてリラックスできるけど敵も多いかも"
+    },
+    {
+      "id": "holly-hedges",
+      "name": "Holly Hedges",
+      "nameJa": "ホリー・ヘッジズ",
+      "type": "namedLocation",
+      "location": {
+        "x": 80,
+        "y": 260,
+        "z": 0
+      },
+      "description": "緑がいっぱいの住宅地！隠れる場所がたくさんある戦略的エリア"
+    },
+    {
+      "id": "weeping-woods",
+      "name": "Weeping Woods",
+      "nameJa": "ウィーピング・ウッズ",
+      "type": "landmark",
+      "location": {
+        "x": 160,
+        "y": 360,
+        "z": 0
+      },
+      "description": "大きな森のエリア！木がいっぱいで材料集めに最適だよ"
+    },
+    {
+      "id": "slurpy-swamp",
+      "name": "Slurpy Swamp",
+      "nameJa": "スラーピー・スワンプ",
+      "type": "landmark",
+      "location": {
+        "x": 100,
+        "y": 340,
+        "z": 0
+      },
+      "description": "不思議な沼地！特別なアイテムが見つかるかもしれない神秘的な場所"
+    },
+    {
+      "id": "misty-meadows",
+      "name": "Misty Meadows",
+      "nameJa": "ミスティ・メドウズ",
+      "type": "namedLocation",
+      "location": {
+        "x": 220,
+        "y": 380,
+        "z": 0
+      },
+      "description": "霧の町！視界が悪いけどその分スリル満点の冒険ができる"
+    }
+  ],
+  "totalCount": 10,
+  "lastUpdate": "2025-06-28T13:58:47.277Z"
+}

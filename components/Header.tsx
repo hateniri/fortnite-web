@@ -36,6 +36,9 @@ export default function Header() {
             <Link href="/news" className="hover:text-yellow-300 transition-colors">
               ニュース
             </Link>
+            <Link href="/map" className="hover:text-yellow-300 transition-colors">
+              マップ
+            </Link>
             <Link href="/about" className="hover:text-yellow-300 transition-colors">
               このサイトについて
             </Link>
@@ -50,6 +53,9 @@ export default function Header() {
             </Link>
             <Link href="/news" className="block py-2 hover:text-yellow-300">
               ニュース
+            </Link>
+            <Link href="/map" className="block py-2 hover:text-yellow-300">
+              マップ
             </Link>
             <Link href="/about" className="block py-2 hover:text-yellow-300">
               このサイトについて

@@ -1,0 +1,49 @@
+{
+  "lastUpdate": "2025-06-28T14:00:38.224Z",
+  "maps": [
+    {
+      "id": "chapter6-season3",
+      "name": "チャプター6 シーズン3: SUPER",
+      "date": "2025-06-01",
+      "image": "/images/map.png",
+      "description": "現在のマップ。スーパーヒーローテーマで新しいPOIが追加された。",
+      "featured": [
+        "プレザント・パーク",
+        "ティルテッド・タワーズ",
+        "ミスティ・メドウズ"
+      ],
+      "isCurrent": true
+    },
+    {
+      "id": "chapter6-season2",
+      "name": "チャプター6 シーズン2",
+      "date": "2025-03-01",
+      "image": "/images/maps/chapter6-season2.png",
+      "description": "前シーズンのマップ。冬のテーマで雪に覆われた地域があった。",
+      "featured": [
+        "アイシー・アイル",
+        "フローズン・フィールド",
+        "スノー・サンクチュアリ"
+      ],
+      "isCurrent": false
+    },
+    {
+      "id": "chapter6-season1",
+      "name": "チャプター6 シーズン1",
+      "date": "2024-12-01",
+      "image": "/images/maps/chapter6-season1.png",
+      "description": "新チャプターの始まり。全く新しい島で冒険が始まった。",
+      "featured": [
+        "ニュー・タウン",
+        "フレッシュ・フィールド",
+        "ビギナーズ・ベイ"
+      ],
+      "isCurrent": false
+    }
+  ],
+  "stats": {
+    "totalMaps": 3,
+    "currentChapter": 6,
+    "currentSeason": 3
+  }
+}
