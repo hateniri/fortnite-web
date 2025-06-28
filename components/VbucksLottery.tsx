@@ -66,44 +66,49 @@ export default function VbucksLottery() {
   }
 
   return (
-    <div className="bg-gradient-to-br from-purple-100 to-pink-100 rounded-2xl p-8 text-center relative overflow-hidden">
+    <div className="bg-gradient-to-br from-slate-700 to-blue-800 rounded-2xl p-8 text-center relative overflow-hidden border border-blue-500">
       {showFireworks && (
         <div className="absolute inset-0 pointer-events-none">
-          <div className="fireworks">🎆</div>
-          <div className="fireworks delay-1">🎇</div>
-          <div className="fireworks delay-2">✨</div>
+          <div className="fireworks">⭐</div>
+          <div className="fireworks delay-1">✨</div>
+          <div className="fireworks delay-2">💫</div>
         </div>
       )}
 
-      <h2 className="text-3xl font-bold mb-4 text-purple-800">
-        🎰 V-Bucks 抽選会 🎰
+      <div className="flex justify-center mb-4">
+        <div className="w-16 h-16 bg-blue-500 rounded-lg flex items-center justify-center">
+          <div className="w-8 h-8 bg-white rounded-md"></div>
+        </div>
+      </div>
+      <h2 className="text-3xl font-bold mb-4 text-white">
+        V-Bucks 抽選会
       </h2>
 
       {!hasPlayedToday ? (
         <>
-          <p className="text-lg mb-6 text-gray-700">
-            毎日1回チャレンジ！V-Bucksが当たるかも！？
+          <p className="text-lg mb-6 text-gray-300">
+            毎日1回チャレンジ！V-Bucksが当たるかも
           </p>
 
           <button
             onClick={playLottery}
             disabled={isPlaying}
             className={`
-              px-8 py-4 rounded-lg font-bold text-xl
+              px-8 py-4 rounded-lg font-bold text-xl border-2
               transform transition-all duration-200
               ${isPlaying 
-                ? 'bg-gray-400 cursor-not-allowed scale-95' 
-                : 'bg-gradient-to-r from-blue-500 to-purple-500 text-white hover:scale-105 hover:shadow-lg'
+                ? 'bg-gray-600 border-gray-500 cursor-not-allowed scale-95 text-gray-400' 
+                : 'bg-blue-500 border-blue-400 text-white hover:scale-105 hover:shadow-lg hover:bg-blue-600'
               }
             `}
           >
             {isPlaying ? (
               <span className="flex items-center">
-                <span className="animate-spin mr-2">🎲</span>
+                <span className="animate-spin mr-2 w-4 h-4 border-2 border-white border-t-transparent rounded-full"></span>
                 抽選中...
               </span>
             ) : (
-              '抽選スタート！'
+              '抽選スタート'
             )}
           </button>
         </>
@@ -113,49 +118,60 @@ export default function VbucksLottery() {
             <div className="mb-6">
               {result > 0 ? (
                 <div className="animate-bounce">
-                  <p className="text-4xl font-bold text-yellow-500 mb-2">
-                    🎉 おめでとう！ 🎉
+                  <div className="w-20 h-20 bg-yellow-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <div className="w-10 h-10 bg-white rounded-full"></div>
+                  </div>
+                  <p className="text-4xl font-bold text-yellow-400 mb-2">
+                    おめでとう！
                   </p>
-                  <p className="text-3xl font-bold text-purple-800">
-                    {result === -1 ? '限定クーポン当選！' : `${result} V-Bucks 当選！`}
+                  <p className="text-3xl font-bold text-white">
+                    {result === -1 ? '限定クーポン当選' : `${result} V-Bucks 当選`}
                   </p>
                   {result === -1 && (
-                    <p className="text-lg text-purple-600 mt-2">
-                      次回ショップで使える10%OFFクーポン！
+                    <p className="text-lg text-blue-300 mt-2">
+                      次回ショップで使える10%OFFクーポン
                     </p>
                   )}
-                  <p className="text-sm text-gray-600 mt-4">
+                  <p className="text-sm text-gray-400 mt-4">
                     ※これはデモです。実際のV-Bucksはもらえません
                   </p>
                 </div>
               ) : (
                 <div>
-                  <p className="text-2xl font-bold text-gray-600">
-                    😅 残念！ハズレでした
+                  <div className="w-16 h-16 bg-gray-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <div className="w-8 h-8 bg-gray-400 rounded-full"></div>
+                  </div>
+                  <p className="text-2xl font-bold text-gray-300">
+                    残念！ハズレでした
                   </p>
-                  <p className="text-lg text-gray-500 mt-2">
-                    また明日チャレンジしてね！
+                  <p className="text-lg text-gray-400 mt-2">
+                    また明日チャレンジしよう
                   </p>
                 </div>
               )}
             </div>
           )}
 
-          <p className="text-gray-500">
-            次回の抽選は明日です！毎日遊びに来てね！
+          <p className="text-gray-400">
+            次回の抽選は明日です！毎日チェックしよう
           </p>
         </>
       )}
 
-      <div className="mt-8 p-4 bg-white/50 rounded-lg">
-        <h3 className="font-bold text-lg mb-2">🏆 当選確率</h3>
-        <div className="text-sm text-gray-700 space-y-1">
-          <p>5000 V-Bucks: 0.01% 🌟</p>
-          <p>2800 V-Bucks: 0.1% ⭐</p>
-          <p>1000 V-Bucks: 1% ✨</p>
-          <p>限定クーポン: 5% 🎫</p>
+      <div className="mt-8 p-4 bg-slate-600/50 rounded-lg border border-gray-500">
+        <div className="flex items-center mb-2">
+          <div className="w-6 h-6 bg-yellow-500 rounded-md flex items-center justify-center mr-2">
+            <div className="w-3 h-3 bg-white rounded-sm"></div>
+          </div>
+          <h3 className="font-bold text-lg text-white">当選確率</h3>
         </div>
-        <p className="text-xs text-gray-500 mt-2">
+        <div className="text-sm text-gray-300 space-y-1">
+          <p>5000 V-Bucks: 0.01%</p>
+          <p>2800 V-Bucks: 0.1%</p>
+          <p>1000 V-Bucks: 1%</p>
+          <p>限定クーポン: 5%</p>
+        </div>
+        <p className="text-xs text-gray-400 mt-2">
           ※実際のV-Bucksカード金額に合わせています
         </p>
       </div>

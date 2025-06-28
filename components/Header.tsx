@@ -7,11 +7,13 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
-    <header className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 text-white shadow-lg">
+    <header className="bg-gradient-to-r from-gray-800 via-blue-900 to-indigo-900 text-white shadow-lg border-b border-blue-500">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between py-4">
           <Link href="/" className="text-2xl font-bold flex items-center">
-            <span className="text-3xl mr-2">🌟</span>
+            <div className="w-8 h-8 mr-3 bg-blue-500 rounded-lg flex items-center justify-center">
+              <div className="w-4 h-4 bg-white rounded-sm"></div>
+            </div>
             フォートナイト ショップ図鑑
           </Link>
           
