@@ -68,48 +68,42 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* おすすめスキン */}
-      {shopData.featured.length > 0 && (
-        <section className="py-12">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold mb-8 flex items-center">
-              <span className="text-yellow-500 mr-3 text-4xl">⭐</span>
-              注目のアイテム
-            </h2>
-            <ShopGrid items={mergeWithSummary(shopData.featured)} />
-          </div>
-        </section>
-      )}
-
-      {/* 復刻スキン */}
-      {shopData.returned.length > 0 && (
-        <section className="py-12 bg-yellow-50">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold mb-8 flex items-center">
-              <span className="text-orange-500 mr-3 text-4xl">🎆</span>
-              おかえりなさい！久しぶりのスキン
-            </h2>
-            <div className="mb-6 p-4 bg-orange-100 border border-orange-300 rounded-lg">
-              <p className="text-orange-800">
-                <span className="font-bold">ラッキー！</span>
-                これらのスキンはしばらくお休みしていました。
-                今日がゲットのチャンスだよ！
-              </p>
+      {/* 今日のアイテムショップ（全件表示） */}
+      <section className="py-12">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8 flex items-center">
+            <span className="text-blue-500 mr-3 text-4xl">🛍️</span>
+            今日のアイテムショップ
+          </h2>
+          
+          {/* 統計情報 */}
+          <div className="mb-8 grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div className="bg-gradient-to-br from-blue-100 to-purple-100 rounded-lg p-4 text-center">
+              <p className="text-2xl font-bold text-blue-600">{shopData.stats.totalItems}</p>
+              <p className="text-sm text-gray-600">全アイテム</p>
             </div>
-            <ShopGrid items={mergeWithSummary(shopData.returned)} />
+            <div className="bg-gradient-to-br from-purple-100 to-pink-100 rounded-lg p-4 text-center">
+              <p className="text-2xl font-bold text-purple-600">{shopData.stats.featured || shopData.featured.length}</p>
+              <p className="text-sm text-gray-600">注目アイテム</p>
+            </div>
+            <div className="bg-gradient-to-br from-green-100 to-teal-100 rounded-lg p-4 text-center">
+              <p className="text-2xl font-bold text-green-600">{shopData.stats.daily || shopData.daily.length}</p>
+              <p className="text-sm text-gray-600">デイリーアイテム</p>
+            </div>
+            <div className="bg-gradient-to-br from-yellow-100 to-orange-100 rounded-lg p-4 text-center">
+              <p className="text-2xl font-bold text-orange-600">{shopData.stats.averagePrice || '---'}</p>
+              <p className="text-sm text-gray-600">平均価格</p>
+            </div>
           </div>
-        </section>
-      )}
 
-      {/* 通常ショップ */}
-      {shopData.daily.length > 0 && (
-        <section className="py-12">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold mb-8">デイリーアイテム</h2>
-            <ShopGrid items={mergeWithSummary(shopData.daily)} showAds={true} />
-          </div>
-        </section>
-      )}
+          {/* 全アイテム表示 */}
+          <ShopGrid items={mergeWithSummary([
+            ...shopData.featured,
+            ...shopData.daily,
+            ...(shopData.returned || [])
+          ])} showAds={true} />
+        </div>
+      </section>
 
       {/* V-Bucks抽選 */}
       <section className="py-12 bg-gradient-to-br from-indigo-50 to-purple-50">

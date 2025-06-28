@@ -34,12 +34,6 @@ export default function Header() {
             <Link href="/database" className="hover:text-yellow-300 transition-colors">
               スキン図鑑
             </Link>
-            <Link href="/featured" className="hover:text-yellow-300 transition-colors">
-              おすすめ
-            </Link>
-            <Link href="/returned" className="hover:text-yellow-300 transition-colors">
-              復刻スキン
-            </Link>
             <Link href="/about" className="hover:text-yellow-300 transition-colors">
               このサイトについて
             </Link>
@@ -54,12 +48,6 @@ export default function Header() {
             </Link>
             <Link href="/database" className="block py-2 hover:text-yellow-300">
               スキン図鑑
-            </Link>
-            <Link href="/featured" className="block py-2 hover:text-yellow-300">
-              おすすめ
-            </Link>
-            <Link href="/returned" className="block py-2 hover:text-yellow-300">
-              復刻スキン
             </Link>
             <Link href="/about" className="block py-2 hover:text-yellow-300">
               このサイトについて

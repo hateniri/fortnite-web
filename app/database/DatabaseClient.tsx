@@ -71,7 +71,10 @@ export default function DatabaseClient() {
   const filteredSkins = useMemo(() => {
     if (!data) return []
     
-    let skins = [...data.skins]
+    let skins = [...data.skins].map(skin => ({
+      ...skin,
+      japaneseName: getJapaneseName(skin.id, skin.name)
+    }))
     
     // 検索フィルター
     if (search) {
@@ -79,13 +82,16 @@ export default function DatabaseClient() {
       skins = skins.filter(skin => 
         skin.japaneseName.toLowerCase().includes(searchLower) ||
         skin.name.toLowerCase().includes(searchLower) ||
-        skin.searchTags.some(tag => tag.includes(searchLower))
+        (skin.searchTags && skin.searchTags.some(tag => tag.includes(searchLower)))
       )
     }
     
     // レアリティフィルター
     if (filterRarity !== 'all') {
-      skins = skins.filter(skin => skin.rarity === filterRarity)
+      skins = skins.filter(skin => {
+        const normalizedRarity = skin.rarity.toLowerCase().replace('gaminglegends', 'epic')
+        return normalizedRarity === filterRarity
+      })
     }
     
     // チャプターフィルター
@@ -96,16 +102,16 @@ export default function DatabaseClient() {
     // ソート
     switch (sortBy) {
       case 'newest':
-        skins.sort((a, b) => new Date(b.releaseDate).getTime() - new Date(a.releaseDate).getTime())
+        skins.sort((a, b) => new Date(b.releaseDate || b.added || 0).getTime() - new Date(a.releaseDate || a.added || 0).getTime())
         break
       case 'oldest':
-        skins.sort((a, b) => new Date(a.releaseDate).getTime() - new Date(b.releaseDate).getTime())
+        skins.sort((a, b) => new Date(a.releaseDate || a.added || 0).getTime() - new Date(b.releaseDate || b.added || 0).getTime())
         break
       case 'popular':
-        skins.sort((a, b) => b.shopHistory.length - a.shopHistory.length)
+        skins.sort((a, b) => (b.shopHistory?.length || 0) - (a.shopHistory?.length || 0))
         break
       case 'name':
-        skins.sort((a, b) => a.japaneseName.localeCompare(b.japaneseName))
+        skins.sort((a, b) => a.japaneseName.localeCompare(b.japaneseName, 'ja'))
         break
     }
     
@@ -117,14 +123,31 @@ export default function DatabaseClient() {
   }
 
   const getRarityColor = (rarity: string) => {
+    const normalizedRarity = rarity.toLowerCase().replace('gaminglegends', 'epic')
     const colors: Record<string, string> = {
       legendary: 'from-yellow-300 to-amber-400',
       epic: 'from-purple-400 to-pink-400',
       rare: 'from-blue-400 to-sky-500',
       uncommon: 'from-green-400 to-emerald-500',
       common: 'from-gray-400 to-slate-500',
+      marvel: 'from-red-500 to-red-700',
+      icon: 'from-cyan-400 to-blue-500'
     }
-    return colors[rarity.toLowerCase()] || colors.common
+    return colors[normalizedRarity] || colors.common
+  }
+
+  const getRarityName = (rarity: string) => {
+    const names: Record<string, string> = {
+      legendary: 'レジェンダリー',
+      epic: 'エピック', 
+      rare: 'レア',
+      uncommon: 'アンコモン',
+      common: 'コモン',
+      gaminglegends: 'ゲーミングレジェンド',
+      marvel: 'マーベルシリーズ',
+      icon: 'アイコンシリーズ'
+    }
+    return names[rarity.toLowerCase()] || 'コモン'
   }
 
   if (loading) {
@@ -255,7 +278,12 @@ export default function DatabaseClient() {
               </div>
               <div className="p-3">
                 <h3 className="font-bold text-sm truncate">{skin.japaneseName}</h3>
-                <p className="text-xs text-gray-500 truncate">{skin.set || skin.series || skin.type}</p>
+                <p className="text-xs text-gray-500 truncate">{getRarityName(skin.rarity)}</p>
+                {skin.set && (
+                  <p className="text-xs text-gray-400 truncate mt-1">
+                    {skin.set.replace('Part of the ', '').replace(' set.', '')}
+                  </p>
+                )}
               </div>
             </Link>
           ))}
