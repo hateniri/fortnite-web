@@ -65,30 +65,52 @@
   - Featured/Daily Itemsの表示
   - レスポンシブダークテーマUI
 
-### ディレクトリ構成
+### ディレクトリ構成（Next.js版）
 ```
 /fortnite/
-├── scripts/        # API連携スクリプト
+├── app/              # Next.js App Router
+│   ├── layout.tsx
+│   ├── page.tsx
+│   ├── globals.css
+│   └── skins/
+│       └── [slug]/
+│           └── page.tsx
+├── components/       # Reactコンポーネント
+│   ├── Header.tsx
+│   ├── Footer.tsx
+│   ├── SkinCard.tsx
+│   ├── ShopGrid.tsx
+│   └── AdCard.tsx
+├── scripts/          # API連携スクリプト
 │   ├── fetchShop.js
-│   └── fetchSkinImages.js
-├── src/           # フロントエンド
-│   ├── index.html
-│   ├── styles.css
-│   └── app.js
-├── public/        # 静的ファイル・APIデータ
-│   └── images/
-│       └── skins/  # スキン画像保存
-├── package.json   # npm設定
-├── .gitignore     # Git除外設定
-└── CLAUDE.md      # 本ファイル
+│   ├── fetchSkinImages.js
+│   ├── generateSummary.js
+│   └── notifyDiscord.js
+├── public/           # 静的ファイル
+│   ├── images/
+│   │   └── skins/   # スキン画像（.webp推奨）
+│   ├── shop.json
+│   └── skins_today.json
+├── lib/             # ユーティリティ
+├── .github/
+│   └── workflows/
+│       └── update.yml
+├── package.json
+├── next.config.js
+├── tailwind.config.ts
+├── tsconfig.json
+└── CLAUDE.md
 ```
 
 ### npm scripts
+- `npm run dev`: Next.js開発サーバー起動 (http://localhost:3000)
+- `npm run build`: 本番用ビルド
+- `npm run start`: 本番サーバー起動
 - `npm run fetch-shop`: Shop情報をAPIから取得
-- `npm run fetch-images`: スキン画像をダウンロード
-- `npm run fetch-all`: Shop情報取得＋画像ダウンロード
-- `npm run serve`: ローカルサーバー起動 (http://localhost:8080)
-- `npm test`: テスト実行（未実装）
+- `npm run fetch-images`: スキン画像をダウンロード（.webp変換付き）
+- `npm run generate-summary`: AI日本語解説生成
+- `npm run fetch-all`: 全データ更新（shop → images → summary）
+- `npm run notify`: Discord/LINE通知送信
 
 ---
 
@@ -169,3 +191,65 @@ Claudeは、Fortniteスキンに関する画像を以下のルールに従って
 // 4. /public/images/skins に保存
 // 5. 既にある画像はスキップ
 ```
+
+---
+
+## 🧩 公式との補完方針（Shadow Official戦略）
+
+このプロジェクトは、Epic Games公式の制約や方針では実現が難しいが、ユーザーにとって便利で嬉しい要素を補完するために設計されています。Claude Codeは以下の方針に基づいて開発・実装を進めてください。
+
+---
+
+### ✅ 1. 軽量・高速優先（画像最適化）
+
+- 画像は極力 `.webp` 形式で保存し、`/public/images/skins/` に格納してください。
+- Claudeは自動圧縮（品質85%〜65%程度）を許容し、スマートフォンで高速表示できる状態を最優先とします。
+- 同一スキンで複数画像（アイコン／全体像など）がある場合は、カード表示用に1枚を選定。
+
+---
+
+### ✅ 2. 主観的・子供向けの説明表現
+
+- Claudeはスキンやイベントの解説時、GPTを使って「子供にもわかりやすく、楽しく、ちょっと砕けた」表現で日本語解説を作成してください。
+- 例：「このスキンはバトルが得意な人にピッタリ！」「ちょっと目立ちたい人におすすめ 🎯」
+- 絵文字は最大2つまで使用可能。句点で文を締めてください。
+
+---
+
+### ✅ 3. 即時性・毎日更新の徹底
+
+- ClaudeはFortniteの公式APIを元に、毎日定時で以下を更新してください：
+  - `/public/shop.json` の取得・保存
+  - GPTによる `/public/skins_today.json` の要約生成
+  - `/public/index.html` に新データを反映
+- GitHub Actionsで午前5時（JST）に自動実行。`Actions` タブで成功ログを確認可能にしてください。
+
+---
+
+### ✅ 4. 自由で遊び心のあるUIデザイン
+
+- Tailwind CSSで、見やすく、楽しく、スマホ最適化されたUIを構築してください。
+- 色使い・フォントサイズ・カード構造はClaudeの裁量で調整して構いません。
+- 過度に「公式っぽい」トーンは避け、むしろ非公式らしい"フレンドリー感"を重視してください。
+
+---
+
+### ✅ 5. 通知・外部連携の自由化
+
+- LINEやDiscordなど、通知チャネルの制約を気にせず自由に活用して構いません。
+- Claudeは `/scripts/notifyDiscord.js` 等を通じて、復刻スキン情報をDiscord Webhookへembed通知可能にしてください。
+- LINE対応（QR表示、通知誘導ボタン）もサポート対象とします。
+
+---
+
+### 🧠 開発原則まとめ
+
+Claude Codeはこのプロジェクトを：
+
+> 公式ができないことを、ユーザー目線で軽く・早く・親しみやすく届ける "影の公式" サイトとして構築してください。
+
+- ユーザーが**毎日開きたくなる便利さ**と
+- スマホでも**爆速で見られる軽さ**
+- 子供でも使える**優しい日本語**
+
+を優先し、全体設計を組んでください。
