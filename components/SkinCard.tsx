@@ -21,6 +21,8 @@ interface SkinCardProps {
   added?: string
   shopHistory?: string[]
   kidFriendlyDesc?: string
+  daysGone?: number
+  isReturned?: boolean | null
 }
 
 export default function SkinCard({
@@ -33,7 +35,9 @@ export default function SkinCard({
   introduction,
   set,
   shopHistory,
-  kidFriendlyDesc
+  kidFriendlyDesc,
+  daysGone,
+  isReturned
 }: SkinCardProps) {
   const [imgSrc, setImgSrc] = useState(`/images/skins/${id}.webp`)
   // レアリティの正規化
@@ -51,18 +55,13 @@ export default function SkinCard({
     return rarityStyles[normalizedRarity] || rarityStyles.common
   }
 
-  // 最後から2番目の登場日を取得（復刻判定用）
-  const getPreviousAppearance = () => {
-    if (!shopHistory || shopHistory.length < 2) return null
-    return shopHistory[shopHistory.length - 2]
-  }
-
-  const previousDate = getPreviousAppearance()
-  const isReturned = previousDate ? new Date().getTime() - new Date(previousDate).getTime() > 30 * 24 * 60 * 60 * 1000 : false
+  // 新登場か復刻かを判定
+  const isNew = !shopHistory || shopHistory.length === 1
+  const isReturnedItem = isReturned !== null ? isReturned : (daysGone !== null && daysGone > 30)
 
   return (
     <Link href={`/skins/${id}`} className="block">
-      <div className="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden group">
+      <div className="skin-card bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden group">
         {/* レアリティグラデーション */}
         <div className={`h-2 ${getRarityStyle()}`} />
         
@@ -83,10 +82,15 @@ export default function SkinCard({
             }}
           />
           
-          {/* 復刻バッジ */}
-          {isReturned && (
-            <span className="absolute top-2 right-2 bg-red-500 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">
-              復刻！
+          {/* 新登場/復刻バッジ */}
+          {isNew && (
+            <span className="absolute top-2 right-2 bg-gradient-to-r from-green-400 to-blue-500 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg animate-pulse">
+              NEW 🎉
+            </span>
+          )}
+          {isReturnedItem && daysGone && daysGone > 0 && (
+            <span className="absolute top-2 right-2 bg-gradient-to-r from-orange-400 to-red-500 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">
+              復刻（{daysGone}日ぶり）
             </span>
           )}
           

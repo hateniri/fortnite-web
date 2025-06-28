@@ -19,6 +19,9 @@ interface ShopItem {
   set?: string
   added?: string
   shopHistory?: string[]
+  kidFriendlyDesc?: string
+  daysGone?: number
+  isReturned?: boolean | null
 }
 
 interface ShopGridProps {

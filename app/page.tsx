@@ -1,4 +1,5 @@
 import ShopGrid from '@/components/ShopGrid'
+import VbucksLottery from '@/components/VbucksLottery'
 import Link from 'next/link'
 import { ShopCompleteData } from '@/lib/shopComplete'
 import { SkinsSummaryData } from '@/lib/skinsSummary'
@@ -109,6 +110,13 @@ export default async function HomePage() {
           </div>
         </section>
       )}
+
+      {/* V-Bucks抽選 */}
+      <section className="py-12 bg-gradient-to-br from-indigo-50 to-purple-50">
+        <div className="container mx-auto px-4">
+          <VbucksLottery />
+        </div>
+      </section>
 
       {/* CTA セクション */}
       <section className="py-12 bg-gradient-to-r from-purple-400 to-pink-400 text-white">

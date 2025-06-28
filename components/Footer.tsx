@@ -1,4 +1,40 @@
+'use client'
+
+import { useState, useEffect } from 'react'
+
 export default function Footer() {
+  const [lastUpdate, setLastUpdate] = useState<string>('')
+
+  useEffect(() => {
+    // shop_complete.jsonから最終更新日を取得
+    fetch('/shop_complete.json')
+      .then(res => res.json())
+      .then(data => {
+        if (data.lastUpdate) {
+          const date = new Date(data.lastUpdate)
+          const formatted = date.toLocaleString('ja-JP', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit'
+          })
+          setLastUpdate(formatted)
+        }
+      })
+      .catch(() => {
+        // エラー時は現在時刻を表示
+        const now = new Date()
+        setLastUpdate(now.toLocaleString('ja-JP', {
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric',
+          hour: '2-digit',
+          minute: '2-digit'
+        }))
+      })
+  }, [])
+
   return (
     <footer className="bg-gradient-to-r from-purple-300 to-pink-300 text-purple-900 py-8 mt-12">
       <div className="container mx-auto px-4">
@@ -19,6 +55,14 @@ export default function Footer() {
               🌈 楽しく選ぼう
             </span>
           </div>
+          
+          {lastUpdate && (
+            <div className="mb-4">
+              <p className="text-sm font-bold">
+                📅 最終更新日: {lastUpdate}
+              </p>
+            </div>
+          )}
           
           <p className="text-sm opacity-80">
             ※これはファンが作った非公式サイトです。Epic Gamesとは関係ありません。

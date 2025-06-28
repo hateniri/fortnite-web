@@ -31,6 +31,9 @@ export default function Header() {
             <Link href="/" className="hover:text-yellow-300 transition-colors">
               ホーム
             </Link>
+            <Link href="/database" className="hover:text-yellow-300 transition-colors">
+              スキン図鑑
+            </Link>
             <Link href="/featured" className="hover:text-yellow-300 transition-colors">
               おすすめ
             </Link>
@@ -48,6 +51,9 @@ export default function Header() {
           <nav className="md:hidden py-4 border-t border-white/20">
             <Link href="/" className="block py-2 hover:text-yellow-300">
               ホーム
+            </Link>
+            <Link href="/database" className="block py-2 hover:text-yellow-300">
+              スキン図鑑
             </Link>
             <Link href="/featured" className="block py-2 hover:text-yellow-300">
               おすすめ
