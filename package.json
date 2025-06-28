@@ -13,6 +13,7 @@
     "generate-summary": "node scripts/generateSummary.js",
     "fetch-database": "node scripts/fetchAllSkins.js",
     "notify-discord": "node scripts/notifyDiscord.js",
+    "fetch-news": "node scripts/fetchNews.js",
     "fetch-all": "npm run fetch-shop-complete && npm run fetch-images && npm run generate-summary && npm run notify-discord"
   },
   "dependencies": {
