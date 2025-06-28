@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import ShopGrid from '@/components/ShopGrid'
 import ItemTypeFilter from '@/components/ItemTypeFilter'
-import VbucksLottery from '@/components/VbucksLottery'
+import VbucksPromo from '@/components/VbucksPromo'
 
 interface ShopPageClientProps {
   shopData: any
@@ -78,10 +78,10 @@ export default function ShopPageClient({ shopData, currentDate }: ShopPageClient
         </div>
       </section>
 
-      {/* V-Bucks抽選 */}
+      {/* V-Bucksプレゼント企画 */}
       <section className="py-12 bg-gradient-to-br from-slate-700 to-blue-800">
         <div className="container mx-auto px-4">
-          <VbucksLottery />
+          <VbucksPromo />
         </div>
       </section>
     </div>
