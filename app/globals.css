@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --fortnite-purple: #7c3aed;
+  --fortnite-blue: #2563eb;
+  --legendary: #fbbf24;
+  --epic: #a855f7;
+  --rare: #3b82f6;
+  --uncommon: #10b981;
+  --common: #6b7280;
+}
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900;
+  }
+}
+
+@layer components {
+  .rarity-gradient-legendary {
+    @apply bg-gradient-to-r from-yellow-400 to-orange-500;
+  }
+  
+  .rarity-gradient-epic {
+    @apply bg-gradient-to-r from-purple-500 to-pink-500;
+  }
+  
+  .rarity-gradient-rare {
+    @apply bg-gradient-to-r from-blue-500 to-blue-600;
+  }
+  
+  .rarity-gradient-uncommon {
+    @apply bg-gradient-to-r from-green-500 to-green-600;
+  }
+  
+  .rarity-gradient-common {
+    @apply bg-gradient-to-r from-gray-500 to-gray-600;
+  }
+}
