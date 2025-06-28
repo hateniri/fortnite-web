@@ -1,23 +1,31 @@
 'use client'
 
 import { useEffect, useRef } from 'react'
+import Image from 'next/image'
 
 interface BannerAdProps {
   bannerId?: string
   affiliateId?: string
   className?: string
+  productData?: {
+    title: string
+    price: string
+    imageUrl: string
+    link: string
+  }
 }
 
 export default function BannerAd({ 
   bannerId = '1027_336_280',
   affiliateId = 'gammon-002',
-  className = ''
+  className = '',
+  productData
 }: BannerAdProps) {
   const containerRef = useRef<HTMLDivElement>(null)
   const scriptRef = useRef<HTMLScriptElement | null>(null)
   
   useEffect(() => {
-    if (!containerRef.current) return
+    if (!containerRef.current || productData) return
     
     // 既存のスクリプトがあれば削除
     if (scriptRef.current && scriptRef.current.parentNode) {
@@ -38,25 +46,66 @@ export default function BannerAd({
         scriptRef.current.parentNode.removeChild(scriptRef.current)
       }
     }
-  }, [bannerId, affiliateId])
+  }, [bannerId, affiliateId, productData])
   
-  return (
-    <div className={`bg-slate-800 rounded-lg overflow-hidden border border-slate-600 inline-block ${className}`}>
-      <div className="p-2 bg-slate-700 flex items-center justify-between">
-        <div className="flex items-center">
-          <div className="w-4 h-4 bg-blue-500 rounded flex items-center justify-center mr-2">
-            <div className="w-2 h-2 bg-white rounded-sm"></div>
+  // Custom product card style (matches SkinCard design)
+  if (productData) {
+    return (
+      <a href={productData.link} target="_blank" rel="sponsored" className="block">
+        <div className={`skin-card bg-slate-700 border border-slate-600 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden group hover:border-blue-500 ${className}`}>
+          {/* Header bar with PR tag */}
+          <div className="h-8 bg-gradient-to-r from-purple-600 to-pink-600 flex items-center px-3">
+            <span className="text-white text-sm font-bold flex items-center">
+              <span className="mr-2">🎁</span>
+              PR
+            </span>
           </div>
-          <span className="text-xs text-gray-400">PR</span>
+          
+          {/* Product image */}
+          <div className="relative aspect-square bg-slate-800">
+            <Image
+              src={productData.imageUrl}
+              alt={productData.title}
+              fill
+              className="object-cover group-hover:scale-105 transition-transform duration-300"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            />
+            <span className="absolute top-2 right-2 bg-gradient-to-r from-purple-400 to-pink-500 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">
+              広告
+            </span>
+          </div>
+          
+          {/* Product info */}
+          <div className="p-4 bg-slate-700">
+            <h3 className="font-bold text-lg mb-2 text-white line-clamp-2">{productData.title}</h3>
+            <div className="flex justify-between items-center mt-3">
+              <span className="text-purple-400 font-bold text-xl">{productData.price}</span>
+              <span className="text-sm text-gray-400">詳細を見る</span>
+            </div>
+          </div>
         </div>
-        <span className="text-xs text-gray-500">広告</span>
+      </a>
+    )
+  }
+  
+  // Fallback to script-based ad with SkinCard style
+  return (
+    <div className={`skin-card bg-slate-700 border border-slate-600 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden group hover:border-purple-500 ${className}`}>
+      <div className="h-8 bg-gradient-to-r from-purple-600 to-pink-600 flex items-center px-3">
+        <span className="text-white text-sm font-bold flex items-center">
+          <span className="mr-2">🎁</span>
+          PR
+        </span>
       </div>
       <div 
         ref={containerRef}
-        className="banner-container flex items-center justify-center bg-slate-900" 
-        style={{ width: '336px', height: '280px' }}
+        className="relative bg-slate-800" 
+        style={{ aspectRatio: '1' }}
       >
         <ins className="widget-banner"></ins>
+        <span className="absolute top-2 right-2 bg-gradient-to-r from-purple-400 to-pink-500 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">
+          広告
+        </span>
       </div>
     </div>
   )

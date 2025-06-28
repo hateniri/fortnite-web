@@ -38,11 +38,9 @@ export default function ShopGrid({ items, showAds = false }: ShopGridProps) {
         <Fragment key={item.id}>
           <SkinCard {...item} />
           
-          {/* 10アイテムごとに広告を挿入 */}
-          {showAds && (index + 1) % 10 === 0 && index < items.length - 1 && (
-            <div className="flex items-center justify-center col-span-full my-4">
-              <AdCard />
-            </div>
+          {/* 8アイテムごとに広告を挿入（グリッドに馴染むように） */}
+          {showAds && (index + 1) % 8 === 0 && index < items.length - 1 && (
+            <AdCard />
           )}
         </Fragment>
       ))}
