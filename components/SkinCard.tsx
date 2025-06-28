@@ -57,7 +57,7 @@ export default function SkinCard({
 
   // 新登場か復刻かを判定
   const isNew = !shopHistory || shopHistory.length === 1
-  const isReturnedItem = isReturned !== null ? isReturned : (daysGone !== null && daysGone > 30)
+  const isReturnedItem = isReturned === true || (typeof daysGone === 'number' && daysGone > 30)
 
   return (
     <Link href={`/skins/${id}`} className="block">
@@ -88,7 +88,7 @@ export default function SkinCard({
               NEW 🎉
             </span>
           )}
-          {isReturnedItem && daysGone && daysGone > 0 && (
+          {isReturnedItem && typeof daysGone === 'number' && daysGone > 0 && (
             <span className="absolute top-2 right-2 bg-gradient-to-r from-orange-400 to-red-500 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">
               復刻（{daysGone}日ぶり）
             </span>
