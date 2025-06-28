@@ -5,6 +5,8 @@ import { ShopCompleteData, ShopCompleteItem } from '@/lib/shopComplete'
 import fs from 'fs/promises'
 import path from 'path'
 import SkinImage from './SkinImage'
+import { getTranslation } from '@/lib/translations'
+import { SkinsSummaryData } from '@/lib/skinsSummary'
 
 async function getAllSkins(): Promise<ShopCompleteItem[]> {
   try {
@@ -37,12 +39,15 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     }
   }
   
+  const translation = getTranslation(skin.id)
+  const japaneseName = translation?.name || skin.name
+  
   return {
-    title: `【${skin.name}】は買うべき？評価と入手方法 | Fortnite攻略`,
-    description: `Fortniteの${skin.name}スキンの詳細情報。レアリティ、価格、復刻履歴、プレイヤー評価をチェック。今買うべきかAIが徹底解説！`,
+    title: `【${japaneseName}】は買うべき？評価と入手方法 | Fortnite攻略`,
+    description: `Fortniteの${japaneseName}スキンの詳細情報。レアリティ、価格、復刻履歴、プレイヤー評価をチェック。今買うべきかAIが徹底解説！`,
     openGraph: {
-      title: `${skin.name} - Fortnite Shop Tracker`,
-      description: `${skin.name}の詳細情報と買うべきか判定`,
+      title: `${japaneseName} - Fortnite Shop Tracker`,
+      description: `${japaneseName}の詳細情報と買うべきか判定`,
       images: [skin.imageUrl],
     },
   }
@@ -55,12 +60,28 @@ export async function generateStaticParams() {
   }))
 }
 
+async function getSkinsSummary(): Promise<SkinsSummaryData | null> {
+  try {
+    const filePath = path.join(process.cwd(), 'public', 'skins_summary.json')
+    const data = await fs.readFile(filePath, 'utf-8')
+    return JSON.parse(data)
+  } catch (error) {
+    console.error('Error loading skins summary:', error)
+    return null
+  }
+}
+
 export default async function SkinDetailPage({ params }: PageProps) {
   const skin = await getSkinById(params.slug)
 
   if (!skin) {
     notFound()
   }
+  
+  const translation = getTranslation(skin.id)
+  const japaneseName = translation?.name || skin.name
+  const skinsSummary = await getSkinsSummary()
+  const summary = skinsSummary?.summaries[skin.id]
 
   // レアリティの正規化
   const normalizedRarity = skin.rarity.toLowerCase().replace('gaminglegends', 'epic')
@@ -106,7 +127,7 @@ export default async function SkinDetailPage({ params }: PageProps) {
       <nav className="text-sm mb-6">
         <Link href="/" className="text-blue-600 hover:underline">ホーム</Link>
         <span className="mx-2">/</span>
-        <span className="text-gray-600">{skin.name}</span>
+        <span className="text-gray-600">{japaneseName}</span>
       </nav>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -126,8 +147,8 @@ export default async function SkinDetailPage({ params }: PageProps) {
         {/* 右側：情報 */}
         <div className="space-y-6">
           <div>
-            <h1 className="text-3xl font-bold mb-2">{skin.name}</h1>
-            <p className="text-gray-600">{skin.description}</p>
+            <h1 className="text-3xl font-bold mb-2">{japaneseName}</h1>
+            <p className="text-gray-600">{summary?.kidFriendlyDesc || skin.description}</p>
           </div>
 
           {/* 価格情報 */}
@@ -164,10 +185,11 @@ export default async function SkinDetailPage({ params }: PageProps) {
                 {shouldBuy ? '✅ 買うべき！' : '❌ 見送り推奨'}
               </p>
               <p className="text-sm">
-                {shouldBuy 
-                  ? `${skin.name}は${getRarityName()}スキンで、価格も適正です。デザインも魅力的なので、気に入ったなら購入をおすすめします！`
-                  : `${skin.name}は価格が高めです。V-Bucksに余裕がない場合は、他のスキンも検討してみましょう。`
-                }
+                {summary?.buyReason || (
+                  shouldBuy 
+                    ? `${japaneseName}は${getRarityName()}スキンで、価格も適正です。デザインも魅力的なので、気に入ったなら購入をおすすめします！`
+                    : `${japaneseName}は価格が高めです。V-Bucksに余裕がない場合は、他のスキンも検討してみましょう。`
+                )}
               </p>
             </div>
           </div>

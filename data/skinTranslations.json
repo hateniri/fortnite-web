@@ -1,0 +1,28 @@
+{
+  "_comment": "このファイルはFortniteゲーム内の正式な日本語名を記録しています。Epic Games公式の翻訳を使用してください。",
+  "CID_A_162_Athena_Commando_F_Quarrel_E5D63": {
+    "name": "キャミィ",
+    "series": "ストリートファイターシリーズ",
+    "rarity": "ゲーミングレジェンドシリーズ"
+  },
+  "CID_A_161_Athena_Commando_M_Quarrel_SLXQG": {
+    "name": "ガイル",
+    "series": "ストリートファイターシリーズ",
+    "rarity": "ゲーミングレジェンドシリーズ"
+  },
+  "Character_TruckScale": {
+    "name": "アイコニカプライム",
+    "series": "ストライクストライカーセット",
+    "rarity": "エピック"
+  },
+  "Character_CraneAnchor": {
+    "name": "ビリー",
+    "series": "危険な人形セット",
+    "rarity": "エピック"
+  },
+  "Character_ThickWatch": {
+    "name": "フライタリス",
+    "series": "エアスペリオリティセット",
+    "rarity": "エピック"
+  }
+}

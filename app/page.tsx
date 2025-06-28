@@ -1,6 +1,7 @@
 import ShopGrid from '@/components/ShopGrid'
 import Link from 'next/link'
 import { ShopCompleteData } from '@/lib/shopComplete'
+import { SkinsSummaryData } from '@/lib/skinsSummary'
 import fs from 'fs/promises'
 import path from 'path'
 
@@ -15,13 +16,34 @@ async function getShopData(): Promise<ShopCompleteData | null> {
   }
 }
 
+async function getSkinsSummary(): Promise<SkinsSummaryData | null> {
+  try {
+    const filePath = path.join(process.cwd(), 'public', 'skins_summary.json')
+    const data = await fs.readFile(filePath, 'utf-8')
+    return JSON.parse(data)
+  } catch (error) {
+    console.error('Error loading skins summary:', error)
+    return null
+  }
+}
+
 export default async function HomePage() {
   const shopData = await getShopData()
+  const skinsSummary = await getSkinsSummary()
   const currentDate = new Date().toLocaleDateString('ja-JP', {
     year: 'numeric',
     month: 'long',
     day: 'numeric'
   })
+  
+  // サマリーデータをアイテムにマージ
+  const mergeWithSummary = (items: any[]) => {
+    if (!skinsSummary) return items
+    return items.map(item => ({
+      ...item,
+      kidFriendlyDesc: skinsSummary.summaries[item.id]?.kidFriendlyDesc
+    }))
+  }
 
   if (!shopData) {
     return (
@@ -53,7 +75,7 @@ export default async function HomePage() {
               <span className="text-yellow-500 mr-3 text-4xl">⭐</span>
               注目のアイテム
             </h2>
-            <ShopGrid items={shopData.featured} />
+            <ShopGrid items={mergeWithSummary(shopData.featured)} />
           </div>
         </section>
       )}
@@ -73,7 +95,7 @@ export default async function HomePage() {
                 今がゲットのチャンス！
               </p>
             </div>
-            <ShopGrid items={shopData.returned} />
+            <ShopGrid items={mergeWithSummary(shopData.returned)} />
           </div>
         </section>
       )}
@@ -83,7 +105,7 @@ export default async function HomePage() {
         <section className="py-12">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold mb-8">デイリーアイテム</h2>
-            <ShopGrid items={shopData.daily} showAds={true} />
+            <ShopGrid items={mergeWithSummary(shopData.daily)} showAds={true} />
           </div>
         </section>
       )}
