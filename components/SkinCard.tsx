@@ -23,6 +23,8 @@ interface SkinCardProps {
   kidFriendlyDesc?: string
   daysGone?: number
   isReturned?: boolean | null
+  type?: string
+  backendType?: string
 }
 
 export default function SkinCard({
@@ -37,7 +39,9 @@ export default function SkinCard({
   shopHistory,
   kidFriendlyDesc,
   daysGone,
-  isReturned
+  isReturned,
+  type = 'スキン',
+  backendType
 }: SkinCardProps) {
   const [imgSrc, setImgSrc] = useState(`/images/skins/${id}.webp`)
   // レアリティの正規化
@@ -58,15 +62,49 @@ export default function SkinCard({
   // 新登場か復刻かを判定
   const isNew = !shopHistory || shopHistory.length === 1
   const isReturnedItem = isReturned === true || (typeof daysGone === 'number' && daysGone > 30)
+  
+  // アイテムタイプに応じたアイコン
+  const getTypeIcon = () => {
+    switch(type) {
+      case 'スキン': return '👤'
+      case 'つるはし': return '⛏️'
+      case 'グライダー': return '🪂'
+      case 'バックアクセサリー': return '🎒'
+      case 'エモート': return '💃'
+      case 'ラップ': return '🎨'
+      case 'ミュージック': return '🎵'
+      case 'ロード画面': return '🖼️'
+      case 'スプレー': return '🎯'
+      case 'おもちゃ': return '🎮'
+      default: return '📦'
+    }
+  }
+  
+  // アイテムタイプに応じた背景色
+  const getTypeBgColor = () => {
+    switch(type) {
+      case 'スキン': return 'from-blue-600 to-indigo-700'
+      case 'つるはし': return 'from-orange-600 to-red-700'
+      case 'グライダー': return 'from-sky-600 to-blue-700'
+      case 'バックアクセサリー': return 'from-green-600 to-emerald-700'
+      case 'エモート': return 'from-purple-600 to-pink-700'
+      default: return 'from-gray-600 to-gray-700'
+    }
+  }
 
   return (
     <Link href={`/skins/${id}`} className="block">
-      <div className="skin-card bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden group">
-        {/* レアリティグラデーション */}
-        <div className={`h-2 ${getRarityStyle()}`} />
+      <div className="skin-card bg-slate-700 border border-slate-600 rounded-lg shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden group hover:border-blue-500">
+        {/* アイテムタイプバー */}
+        <div className={`h-8 bg-gradient-to-r ${getTypeBgColor()} flex items-center px-3`}>
+          <span className="text-white text-sm font-bold flex items-center">
+            <span className="mr-2">{getTypeIcon()}</span>
+            {type}
+          </span>
+        </div>
         
         {/* 画像エリア */}
-        <div className="relative aspect-square bg-gray-100">
+        <div className="relative aspect-square bg-slate-800">
           <Image
             src={imgSrc}
             alt={`${name} スキン画像`}
@@ -84,8 +122,8 @@ export default function SkinCard({
           
           {/* 新登場/復刻バッジ */}
           {isNew && (
-            <span className="absolute top-2 right-2 bg-gradient-to-r from-green-400 to-blue-500 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg animate-pulse">
-              NEW 🎉
+            <span className="absolute top-2 right-2 bg-gradient-to-r from-green-400 to-blue-500 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg">
+              NEW
             </span>
           )}
           {isReturnedItem && typeof daysGone === 'number' && daysGone > 0 && (
@@ -94,28 +132,30 @@ export default function SkinCard({
             </span>
           )}
           
-          {/* セット名 */}
-          {set && (
-            <span className="absolute bottom-2 left-2 bg-black/70 text-white px-2 py-1 rounded text-xs">
-              {set}
+          {/* レアリティバッジ */}
+          <div className={`absolute bottom-2 left-2 px-3 py-1 rounded ${getRarityStyle()}`}>
+            <span className="text-white text-xs font-bold uppercase">
+              {rarity}
             </span>
-          )}
+          </div>
         </div>
         
         {/* テキストエリア */}
-        <div className="p-4">
-          <h3 className="font-bold text-lg mb-2 text-gray-900">{getJapaneseName(id, name)}</h3>
-          <p className="text-gray-600 text-sm line-clamp-2 mb-3">
-            {kidFriendlyDesc || description}
-          </p>
+        <div className="p-4 bg-slate-700">
+          <h3 className="font-bold text-lg mb-2 text-white">{getJapaneseName(id, name)}</h3>
+          {set && (
+            <p className="text-gray-400 text-xs mb-2">
+              {set}
+            </p>
+          )}
           
-          <div className="flex justify-between items-center">
-            <span className="text-blue-600 font-bold text-lg">
+          <div className="flex justify-between items-center mt-3">
+            <span className="text-blue-400 font-bold text-xl">
               {price.toLocaleString()} V-Bucks
             </span>
-            <button className="text-sm text-gray-500 hover:text-gray-700 transition-colors">
-              もっと読む →
-            </button>
+            <span className="text-sm text-gray-400">
+              詳細を見る
+            </span>
           </div>
         </div>
       </div>

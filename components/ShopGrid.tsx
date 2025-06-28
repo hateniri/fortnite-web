@@ -22,6 +22,8 @@ interface ShopItem {
   kidFriendlyDesc?: string
   daysGone?: number
   isReturned?: boolean | null
+  type?: string
+  backendType?: string
 }
 
 interface ShopGridProps {
