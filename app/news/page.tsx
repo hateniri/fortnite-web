@@ -102,6 +102,22 @@ export default async function NewsPage() {
                   <CommentSection newsId={news.id} />
                 </div>
               </article>
+              
+              {/* 3記事ごとに控えめな広告 */}
+              {(index + 1) % 3 === 0 && index < newsData.br.length - 1 && (
+                <div className="bg-slate-800 rounded-lg p-4 border border-slate-600 text-center">
+                  <div className="flex items-center justify-center mb-2">
+                    <div className="w-4 h-4 bg-purple-500 rounded mr-2"></div>
+                    <span className="text-xs text-gray-400">PR</span>
+                  </div>
+                  <p className="text-sm text-gray-300 mb-2">
+                    フォートナイト関連グッズをチェック
+                  </p>
+                  <button className="bg-purple-600 text-white px-3 py-1 rounded text-xs hover:bg-purple-700 transition-colors">
+                    ショップを見る
+                  </button>
+                </div>
+              )}
             ))}
           </div>
         </div>
