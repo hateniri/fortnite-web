@@ -1,6 +1,6 @@
 {
-  "name": "フォートナイターズ",
-  "short_name": "フォートナイターズ",
+  "name": "フォートナイター",
+  "short_name": "フォートナイター",
   "description": "Fortniteの今日のアイテムショップを日本語で分かりやすく解説",
   "start_url": "/",
   "display": "standalone",

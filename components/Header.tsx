@@ -11,8 +11,8 @@ export default function Header() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between py-4">
           <Link href="/" className="text-2xl font-bold flex items-center">
-            <img src="/logo-header.svg" alt="フォートナイターズ ロゴ" className="w-10 h-10 mr-3" />
-            フォートナイターズ
+            <img src="/logo-header.svg" alt="フォートナイター ロゴ" className="w-10 h-10 mr-3" />
+            フォートナイター
           </Link>
           
           {/* モバイルメニューボタン */}
