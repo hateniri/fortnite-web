@@ -8,11 +8,17 @@ interface ShopItem {
   id: string
   name: string
   description: string
-  rarity: 'legendary' | 'epic' | 'rare' | 'uncommon' | 'common'
+  rarity: string
   price: number
   imageUrl: string
-  isReturned?: boolean
-  lastSeen?: string
+  introduction?: {
+    chapter: string
+    season: string
+    text: string
+  }
+  set?: string
+  added?: string
+  shopHistory?: string[]
 }
 
 interface ShopGridProps {

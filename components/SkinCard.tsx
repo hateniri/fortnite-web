@@ -1,15 +1,24 @@
+'use client'
+
 import Image from 'next/image'
 import Link from 'next/link'
+import { useState } from 'react'
 
 interface SkinCardProps {
   id: string
   name: string
   description: string
-  rarity: 'legendary' | 'epic' | 'rare' | 'uncommon' | 'common'
+  rarity: string
   price: number
   imageUrl: string
-  isReturned?: boolean
-  lastSeen?: string
+  introduction?: {
+    chapter: string
+    season: string
+    text: string
+  }
+  set?: string
+  added?: string
+  shopHistory?: string[]
 }
 
 export default function SkinCard({
@@ -19,10 +28,15 @@ export default function SkinCard({
   rarity,
   price,
   imageUrl,
-  isReturned = false,
-  lastSeen
+  introduction,
+  set,
+  shopHistory
 }: SkinCardProps) {
-  const rarityStyles = {
+  const [imgSrc, setImgSrc] = useState(`/images/skins/${id}.webp`)
+  // レアリティの正規化
+  const normalizedRarity = rarity.toLowerCase().replace('gaminglegends', 'epic')
+  
+  const rarityStyles: Record<string, string> = {
     legendary: 'rarity-gradient-legendary',
     epic: 'rarity-gradient-epic',
     rare: 'rarity-gradient-rare',
@@ -30,20 +44,40 @@ export default function SkinCard({
     common: 'rarity-gradient-common',
   }
 
+  const getRarityStyle = () => {
+    return rarityStyles[normalizedRarity] || rarityStyles.common
+  }
+
+  // 最後から2番目の登場日を取得（復刻判定用）
+  const getPreviousAppearance = () => {
+    if (!shopHistory || shopHistory.length < 2) return null
+    return shopHistory[shopHistory.length - 2]
+  }
+
+  const previousDate = getPreviousAppearance()
+  const isReturned = previousDate ? new Date().getTime() - new Date(previousDate).getTime() > 30 * 24 * 60 * 60 * 1000 : false
+
   return (
     <Link href={`/skins/${id}`} className="block">
       <div className="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden group">
         {/* レアリティグラデーション */}
-        <div className={`h-2 ${rarityStyles[rarity]}`} />
+        <div className={`h-2 ${getRarityStyle()}`} />
         
         {/* 画像エリア */}
         <div className="relative aspect-square bg-gray-100">
           <Image
-            src={imageUrl}
+            src={imgSrc}
             alt={`${name} スキン画像`}
             fill
             className="object-cover group-hover:scale-105 transition-transform duration-300"
             loading="lazy"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            onError={() => {
+              // WebP画像が見つからない場合はオリジナルURLにフォールバック
+              if (imgSrc !== imageUrl) {
+                setImgSrc(imageUrl);
+              }
+            }}
           />
           
           {/* 復刻バッジ */}
@@ -53,10 +87,10 @@ export default function SkinCard({
             </span>
           )}
           
-          {/* 最終登場日 */}
-          {lastSeen && (
+          {/* セット名 */}
+          {set && (
             <span className="absolute bottom-2 left-2 bg-black/70 text-white px-2 py-1 rounded text-xs">
-              前回: {lastSeen}
+              {set}
             </span>
           )}
         </div>
