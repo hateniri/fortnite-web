@@ -11,9 +11,7 @@ export default function Header() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between py-4">
           <Link href="/" className="text-2xl font-bold flex items-center">
-            <div className="w-8 h-8 mr-3 bg-blue-500 rounded-lg flex items-center justify-center">
-              <div className="w-4 h-4 bg-white rounded-sm"></div>
-            </div>
+            <img src="/logo-header.svg" alt="フォートナイターズ ロゴ" className="w-10 h-10 mr-3" />
             フォートナイターズ
           </Link>
           

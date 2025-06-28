@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle with gradient -->
+  <defs>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2563EB;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Main circle background -->
+  <circle cx="100" cy="100" r="90" fill="url(#blueGradient)" filter="url(#shadow)"/>
+  
+  <!-- Inner white circle for contrast -->
+  <circle cx="100" cy="100" r="80" fill="white" opacity="0.1"/>
+  
+  <!-- Japanese character フォ -->
+  <text x="100" y="130" font-family="Arial, sans-serif" font-size="72" font-weight="bold" text-anchor="middle" fill="white">フォ</text>
+</svg>

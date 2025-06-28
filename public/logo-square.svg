@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- High quality gradient -->
+    <linearGradient id="squareGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#60A5FA;stop-opacity:1" />
+      <stop offset="33%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="66%" style="stop-color:#2563EB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E40AF;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Professional shadow -->
+    <filter id="squareShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-opacity="0.2"/>
+    </filter>
+    
+    <!-- Inner glow -->
+    <radialGradient id="innerGlow">
+      <stop offset="0%" style="stop-color:white;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:white;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Main background -->
+  <rect width="512" height="512" fill="#0F172A"/>
+  
+  <!-- Logo container with rounded corners -->
+  <rect x="56" y="56" width="400" height="400" rx="80" fill="url(#squareGradient)" filter="url(#squareShadow)"/>
+  
+  <!-- Inner glow effect -->
+  <circle cx="256" cy="256" r="150" fill="url(#innerGlow)"/>
+  
+  <!-- Japanese characters フォ with professional typography -->
+  <text x="256" y="320" font-family="Arial, -apple-system, BlinkMacSystemFont, sans-serif" font-size="180" font-weight="900" text-anchor="middle" fill="white" style="letter-spacing: -8px;">フォ</text>
+  
+  <!-- Bottom accent -->
+  <rect x="156" y="380" width="200" height="12" rx="6" fill="white" opacity="0.4"/>
+</svg>

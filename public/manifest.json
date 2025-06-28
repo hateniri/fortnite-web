@@ -1,0 +1,26 @@
+{
+  "name": "フォートナイターズ",
+  "short_name": "フォートナイターズ",
+  "description": "Fortniteの今日のアイテムショップを日本語で分かりやすく解説",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0F172A",
+  "theme_color": "#3B82F6",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/logo.svg",
+      "sizes": "200x200",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/logo-square.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}
