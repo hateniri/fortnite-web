@@ -54,11 +54,8 @@ async function fetchSkinImages() {
   let skipCount = 0;
   let errorCount = 0;
   
-  // featuredとdailyの両方を処理
-  const allEntries = [
-    ...(shopData.data?.featured?.entries || []),
-    ...(shopData.data?.daily?.entries || [])
-  ];
+  // shop.jsonの構造に合わせて処理
+  const allEntries = shopData.entries || [];
   
   for (const entry of allEntries) {
     for (const item of entry.items || []) {

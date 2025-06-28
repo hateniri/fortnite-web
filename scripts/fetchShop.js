@@ -9,7 +9,7 @@ const https = require('https');
 const fs = require('fs');
 const path = require('path');
 
-const API_ENDPOINT = 'https://fortnite-api.com/v2/shop/br';
+const API_ENDPOINT = 'https://fortnite-api.com/v2/shop';
 const OUTPUT_PATH = path.join(__dirname, '../public/shop.json');
 
 function fetchShop() {
