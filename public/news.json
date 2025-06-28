@@ -1,56 +1,46 @@
 {
-  "lastUpdate": "2025-06-28T12:54:41.073Z",
+  "lastUpdate": "2025-06-28T13:33:26.634Z",
   "br": [
     {
-      "id": "66ac9dd418d6ce2a7b6fd2fd6d076dd8",
-      "title": "Chapter 6 Season 3: SUPER",
-      "titleJa": "Chapter 6 Season 3: SUPER",
-      "body": "Fresh heroes, familiar villains, and all-new ways to power up – Battle Royale Chapter 6 Season 3: Super has landed. Get a crash course in superhero-ing, grapple against Mask Maker Daigo, and grow stronger with every battle. The training arc starts now!",
-      "bodyJa": "Fresh heroes, familiar villains, and all-new ways to power up – Battle Royale Chapter 6 Season 3: Super has landed. Get a crash course in superhero-ing, grapple against Mask Maker Daigo, and grow stronger with every battle. The training arc starts now!",
+      "id": "4c77ae35ae070144e6f63aaa7c457d2d",
+      "title": "チャプター6 シーズン3: SUPER",
+      "body": "新たなヒーロー、お馴染みのヴィラン、そして全く新しいパワーアップ方法 – バトルロイヤル チャプター6 シーズン3: SUPERが降り立ったぞ。スーパーヒーローになるための特訓を受け、仮面職人 大吾に立ち向かい、戦うたびにより強く成長しよう。修行編の始まりだ！",
       "image": "https://cdn-live.prm.ol.epicgames.com/prod/8131247e8eb7d3d798dd8166a005f974663d381c9f242e43e21968bc543a3cde86211aef4338a1390da3ab5b4a575318-d2f12339-e624-4bcc-beb2-794c50ecb94a.jpeg?width=1920&height=1080&aspect=fill",
       "tileImage": "https://cdn-live.prm.ol.epicgames.com/prod/8131247e8eb7d3d798dd8166a005f9748f3b3fc2a39b935d89566b7713b8bd61bcd1d77f28034c888721811b9cbb0e92-5fbdaaa3-2349-47ef-9e3b-9a580a7f6911.jpeg?width=720&height=400&aspect=fill",
       "sortingPriority": 100,
       "hidden": false
     },
     {
-      "id": "477f5417a82a90894585d0fc398097b5",
-      "title": "Seriously Super Battle Pass",
-      "titleJa": "Seriously Super Battle Pass",
-      "body": "Super Battle Pass holders can instantly unlock Robin! Earn XP in any Fortnite experience to unlock Supernova Academy classmates, cosmetics, and items for your locker.",
-      "bodyJa": "Super Battle Pass holders can instantly unlock Robin! Earn XP in any Fortnite experience to unlock Supernova Academy classmates, cosmetics, and items for your locker.",
+      "id": "4cd4db4215e61cc03cf6503403835af8",
+      "title": "超SUPERなバトルパス",
+      "body": "SUPERバトルパスの所有者は「ロビン」を即座にアンロック可能だ！ お好きなフォートナイトの体験でXPを獲得し、スーパーノヴァ・アカデミーのクラスメイトや、ビジュアルアイテム、ロッカーのアイテムをアンロックしよう。",
       "image": "https://cdn-live.prm.ol.epicgames.com/prod/8131247e8eb7d3d798dd8166a005f974a15cfc6b5fd49225757bd0611ddd8fb5cc5f20b11abba54453a960bfe0586566-36585f65-3073-43f0-9edc-1fae1db7db0e.jpeg?width=1920&height=1080&aspect=fill",
       "tileImage": "https://cdn-live.prm.ol.epicgames.com/prod/8131247e8eb7d3d798dd8166a005f9745a91e1b136893ddbdd706cf91ec28562b6c123808ac6fa6c9f12c7151c81402e-b3ddfbb3-7f64-4a67-811a-1629d44468df.jpeg?width=720&height=400&aspect=fill",
       "sortingPriority": 90,
       "hidden": false
     },
     {
-      "id": "faa126f63dd60c1ce9c069989f3c4277",
-      "title": "Blitz Royale Live Now",
-      "titleJa": "Blitz Royale Live Now",
-      "body": "Drop in with 31 other players and claim a win within 5 minutes! Quick gameplay, short timeline – Blitz Royale updates every week until it leaves on July 15.",
-      "bodyJa": "Drop in with 31 other players and claim a win within 5 minutes! Quick gameplay, short timeline – Blitz Royale updates every week until it leaves on July 15.",
+      "id": "e7022e1b50b0ec0c18af5091f139dd46",
+      "title": "Blitz Royale 配信開始",
+      "body": "他の31人のプレイヤーと共に飛び込み、5分以内に勝利を手にしよう！ ゲームプレイは素早く、所要時間は短い。Blitz Royaleは毎週アップデートされ、7月15日(米国時間)までプレイ可能だ。",
       "image": "https://cdn-live.prm.ol.epicgames.com/prod/5d8c18cdb3a4f985d07d8e2f505652021cc6dba772790a3a3c36fab596cf5aff902badfc5dfb46205f6dde72e8e9404ff952bfeb74814b4d9b569361cfa79383-e093ebdb-c9f7-46d2-8585-cb17183a703e.jpeg?width=1920&height=1080&aspect=fill",
       "tileImage": "https://cdn-live.prm.ol.epicgames.com/prod/5d8c18cdb3a4f985d07d8e2f505652021cc6dba772790a3a3c36fab596cf5aff94fcc413171abcb393f82a64fd63f99c0a803b6ff9d0bcac92a0b50f8bea4bc4-c2a9f6ce-d061-4c6e-8b56-84c1fd09adec.jpeg?width=720&height=400&aspect=fill",
       "sortingPriority": 80,
       "hidden": false
     },
     {
-      "id": "42b103f48338f6211a8ce257162d51e4",
-      "title": "Rise Through the Hero Ranks",
-      "titleJa": "Rise Through the Hero Ranks",
-      "body": "Survive Storm phases and earn eliminations to increase your Hero Rank and power up during every match. Each time you rank up, gain 100 Effective Health and unlock access to increasingly powerful Hero Caches and Boons. Receive all missing Boons when you reach S+ rank!",
-      "bodyJa": "Survive Storm phases and earn eliminations to increase your Hero Rank and power up during every match. Each time you rank up, gain 100 Effective Health and unlock access to increasingly powerful Hero Caches and Boons. Receive all missing Boons when you reach S+ rank!",
+      "id": "56cd24a66dfb6f3fa9f70a7fceac122a",
+      "title": "ヒーローランクを上げよう",
+      "body": "ストームフェーズを生き延び、敵を撃破してヒーローランクを上げ、マッチ中にパワーアップしよう。ランクが上がるたびに有効体力が100増加し、利用できるヒーローキャッシュと恵みがどんどん強力になっていく。S+ランクに到達すると、未所持の恵みが全て手に入るぞ！",
       "image": "https://cdn-live.prm.ol.epicgames.com/prod/3efa2f8eda4e76abe9542bbf8e0874a379f2ccfe7d92cf00249e7a348263aa6d46609c028175e3900c509042a29d6ad9-f0e142e2-8946-4274-9f24-09d718e72a95.jpeg?width=1920&height=1080&aspect=fill",
       "tileImage": "https://cdn-live.prm.ol.epicgames.com/prod/3efa2f8eda4e76abe9542bbf8e0874a315541a627d0d9576a3719a41620b4bbaca136f69f0a28e5c519c2d3fb640cde1-858b3601-4240-4e5d-92e3-671066cc9f19.jpeg?width=720&height=400&aspect=fill",
       "sortingPriority": 70,
       "hidden": false
     },
     {
-      "id": "1fa51f9f26c68d1ce936f461679f5361",
-      "title": "Music Pass - Progress Anywhere",
-      "titleJa": "Music Pass - Progress Anywhere",
-      "body": "Earn XP from any Fortnite experience to progress the Music Pass. Upgrade to the Premium Reward Track to immediately unlock Die With A Smile Bruno Outfit. Unlock more rewards as you complete the pass!",
-      "bodyJa": "Earn XP from any Fortnite experience to progress the Music Pass. Upgrade to the Premium Reward Track to immediately unlock Die With A Smile Bruno Outfit. Unlock more rewards as you complete the pass!",
+      "id": "b6adc11e08d7625f6446564d41b6eb1d",
+      "title": "ミュージックパス - 好きなモードで進めよう",
+      "body": "フォートナイトのお好みの体験でXPを獲得し、ミュージックパスを進めよう。プレミアム報酬トラックにアップグレードすると、コスチューム「Die With A Smile Bruno」が即座にアンロックされるぞ。パスを進め、他の報酬もアンロックしよう！",
       "image": "https://cdn-live.prm.ol.epicgames.com/prod/c37b495184b9c12a4ff5a8fd8ddc79cfa05376e2d330b6247d719b90e53ad907a13e340862e668015f79f71ccda263ad5bbc39c45581e4dd8c6369dcca64c5a1-36184063-3542-49db-8e55-7abce4c33aef.jpeg?width=1920&height=1080&aspect=fill",
       "tileImage": "https://cdn-live.prm.ol.epicgames.com/prod/c37b495184b9c12a4ff5a8fd8ddc79cfa05376e2d330b6247d719b90e53ad9072d47fa0abae1aebc947fbdaaaca30f27-60ab6be8-3d85-4827-afaa-a7677d4ef9bc.jpeg?width=720&height=400&aspect=fill",
       "sortingPriority": 60,
@@ -59,8 +49,8 @@
   ],
   "stw": [
     {
-      "title": "Message of the day update",
-      "body": "Commanders, we've moved the Save the World message of the day to appear when you first log into Fortnite!",
+      "title": "今日のメッセージ更新",
+      "body": "指揮官の皆さん、その日の「世界を救え」メッセージが、初めてフォートナイトにログインしたときに表示されるように移動しました。",
       "image": "https://cdn2.unrealengine.com/Fortnite/fortnite-game/savetheworldnews/StW05_MOTD-1024x512_AntiScam-1024x512-1371b58ec57f89e3e6a5946f4f5b6ad5620edabe.jpg",
       "spotlight": false
     }

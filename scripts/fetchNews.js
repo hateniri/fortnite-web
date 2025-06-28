@@ -9,7 +9,7 @@ const https = require('https');
 const fs = require('fs');
 const path = require('path');
 
-const NEWS_API = 'https://fortnite-api.com/v2/news';
+const NEWS_API = 'https://fortnite-api.com/v2/news?language=ja';
 const OUTPUT_PATH = path.join(__dirname, '../public/news.json');
 
 // ニュースの取得
@@ -43,9 +43,7 @@ async function fetchNews() {
               br: brNews.map(news => ({
                 id: news.id,
                 title: news.title || '',
-                titleJa: news.title, // 後で翻訳
                 body: news.body || '',
-                bodyJa: news.body, // 後で翻訳
                 image: news.image || '',
                 tileImage: news.tileImage || '',
                 sortingPriority: news.sortingPriority || 0,

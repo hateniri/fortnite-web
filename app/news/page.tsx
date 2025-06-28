@@ -6,9 +6,7 @@ import CommentSection from '@/components/CommentSection'
 interface NewsItem {
   id: string
   title: string
-  titleJa: string
   body: string
-  bodyJa: string
   image: string
   tileImage: string
   sortingPriority: number
