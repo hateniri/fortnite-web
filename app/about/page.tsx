@@ -2,8 +2,8 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'このサイトについて | フォートナイトティック',
-  description: 'フォートナイトティックは、毎日のアイテムショップ情報を日本語でお届けする非公式ファンサイトです。',
+  title: 'このサイトについて | フォートナイターズ',
+  description: 'フォートナイターズは、毎日のアイテムショップ情報を日本語でお届けする非公式ファンサイトです。',
 }
 
 export default function AboutPage() {
@@ -21,7 +21,7 @@ export default function AboutPage() {
             このサイトについて
           </h1>
           <p className="text-xl opacity-90">
-            フォートナイトティックへようこそ！
+            フォートナイターズへようこそ！
           </p>
         </div>
       </section>
@@ -35,7 +35,7 @@ export default function AboutPage() {
               このサイトの目的
             </h2>
             <p className="text-lg text-gray-300 mb-4">
-              フォートナイトティックは、毎日更新されるアイテムショップの情報を
+              フォートナイターズは、毎日更新されるアイテムショップの情報を
               <span className="font-bold text-blue-400">日本語で分かりやすく</span>
               お届けする非公式ファンサイトです。
             </p>
