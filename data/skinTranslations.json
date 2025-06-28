@@ -24,5 +24,95 @@
     "name": "フライタリス",
     "series": "エアスペリオリティセット",
     "rarity": "エピック"
+  },
+  "Character_TimberStakeClub": {
+    "name": "ゲームガード",
+    "series": "ザ・ゲームセット",
+    "rarity": "エピック"
+  },
+  "Character_TimberStakePurse": {
+    "name": "ゲームマネージャー",
+    "series": "ザ・ゲームセット",
+    "rarity": "エピック"
+  },
+  "Character_TimberStakeDrift": {
+    "name": "ダルゴナディフェンダー",
+    "series": "ザ・ゲームセット",
+    "rarity": "エピック"
+  },
+  "Character_TimberStakeDrift_B": {
+    "name": "グリーンライトガーディアン",
+    "series": "ザ・ゲームセット",
+    "rarity": "エピック"
+  },
+  "Character_TimberStakeDrift_C": {
+    "name": "マーブルメイヴン",
+    "series": "ザ・ゲームセット",
+    "rarity": "エピック"
+  },
+  "Character_TimberStakeDrift_D": {
+    "name": "ダルゴナデストロイヤー",
+    "series": "ザ・ゲームセット",
+    "rarity": "エピック"
+  },
+  "Character_TimberStakeDrift_E": {
+    "name": "タグオブウォータイタン",
+    "series": "ザ・ゲームセット",
+    "rarity": "エピック"
+  },
+  "Character_TimberStakeSoul": {
+    "name": "ガラスブリッジサバイバー",
+    "series": "ザ・ゲームセット",
+    "rarity": "エピック"
+  },
+  "Character_TimberStakeSoul_C": {
+    "name": "ジェギジャグラー",
+    "series": "ザ・ゲームセット",
+    "rarity": "エピック"
+  },
+  "CID_A_024_Athena_Commando_F_Skirmish_QW2BQ": {
+    "name": "チュンリー",
+    "series": "ストリートファイターシリーズ",
+    "rarity": "ゲーミングレジェンドシリーズ"
+  },
+  "CID_A_023_Athena_Commando_M_Skirmish_W1N7H": {
+    "name": "リュウ",
+    "series": "ストリートファイターシリーズ",
+    "rarity": "ゲーミングレジェンドシリーズ"
+  },
+  "Character_DryEraseToro": {
+    "name": "ブルーノサン",
+    "series": "ブルーノ・マーズセット",
+    "rarity": "アイコンシリーズ"
+  },
+  "CID_A_267_Athena_Commando_M_Nucleus_XVIVU": {
+    "name": "ニック・フューリー",
+    "series": "S.H.I.E.L.D.セット",
+    "rarity": "マーベルシリーズ"
+  },
+  "CID_A_334_Athena_Commando_M_Sleek_U06KF": {
+    "name": "ブルーノ・マーズ",
+    "series": "シルクソニックセット",
+    "rarity": "アイコンシリーズ"
+  },
+  "CID_A_398_Athena_Commando_F_NeonCatSpeed": {
+    "name": "パンサー",
+    "series": "オペレーションブラックタビーセット",
+    "rarity": "レア"
+  },
+  "CID_460_Athena_Commando_F_BriteBomberSummer": {
+    "name": "ビーチボンバー",
+    "series": "サンシャインアンドレインボーセット",
+    "rarity": "レア"
+  },
+  "CID_578_Athena_Commando_F_Fisherman": {
+    "name": "アウトキャスト",
+    "series": "オープンウォーターセット",
+    "rarity": "レア"
+  },
+  "CID_312_Athena_Commando_F_FunkOps": {
+    "name": "ディスコディーヴァ",
+    "series": "フォートナイトフィーバーセット",
+    "rarity": "レア"
   }
 }

@@ -1,419 +1,27 @@
 {
   "date": "2025-06-28T00:00:00Z",
-  "lastUpdate": "2025-06-28T07:50:41.422Z",
+  "lastUpdate": "2025-06-28T08:28:09.993Z",
   "stats": {
-    "totalItems": 42,
-    "featured": 37,
-    "daily": 5,
+    "totalItems": 5,
+    "featured": 4,
+    "daily": 1,
     "returned": 0
   },
   "featured": [
-    {
-      "id": "Character_TimberStakeClub",
-      "name": "Games Guard",
-      "description": "Guard the game.",
-      "rarity": "epic",
-      "price": 3000,
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_timberstakeclub/icon.png",
-      "introduction": {
-        "chapter": "6",
-        "season": "4",
-        "text": "Introduced in Chapter 6, Season 4.",
-        "backendValue": 36
-      },
-      "set": "Part of the The Games set.",
-      "added": "2025-06-24T20:23:59Z",
-      "shopHistory": []
-    },
-    {
-      "id": "Character_TimberStakePurse",
-      "name": "Games Manager",
-      "description": "Oversee it all.",
-      "rarity": "epic",
-      "price": 3000,
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_timberstakepurse/icon.png",
-      "introduction": {
-        "chapter": "6",
-        "season": "4",
-        "text": "Introduced in Chapter 6, Season 4.",
-        "backendValue": 36
-      },
-      "set": "Part of the The Games set.",
-      "added": "2025-06-24T20:23:59Z",
-      "shopHistory": []
-    },
-    {
-      "id": "Character_TimberStakeDrift",
-      "name": "Ddakji Defender",
-      "description": "Are you ready to play?",
-      "rarity": "epic",
-      "price": 3000,
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_timberstakedrift/icon.png",
-      "introduction": {
-        "chapter": "6",
-        "season": "4",
-        "text": "Introduced in Chapter 6, Season 4.",
-        "backendValue": 36
-      },
-      "set": "Part of the The Games set.",
-      "added": "2025-06-24T20:23:59Z",
-      "shopHistory": []
-    },
-    {
-      "id": "Character_TimberStakeDrift_B",
-      "name": "Green Light Guardian",
-      "description": "Ready, set, go!",
-      "rarity": "epic",
-      "price": 3000,
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_timberstakedrift_b/icon.png",
-      "introduction": {
-        "chapter": "6",
-        "season": "4",
-        "text": "Introduced in Chapter 6, Season 4.",
-        "backendValue": 36
-      },
-      "set": "Part of the The Games set.",
-      "added": "2025-06-24T20:23:59Z",
-      "shopHistory": []
-    },
-    {
-      "id": "Character_TimberStakeDrift_C",
-      "name": "Marble Maven",
-      "description": "Favor the odds.",
-      "rarity": "epic",
-      "price": 3000,
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_timberstakedrift_c/icon.png",
-      "introduction": {
-        "chapter": "6",
-        "season": "4",
-        "text": "Introduced in Chapter 6, Season 4.",
-        "backendValue": 36
-      },
-      "set": "Part of the The Games set.",
-      "added": "2025-06-24T20:23:59Z",
-      "shopHistory": []
-    },
-    {
-      "id": "Character_TimberStakeDrift_D",
-      "name": "Dalgona Destroyer",
-      "description": "Snack with care.",
-      "rarity": "epic",
-      "price": 3000,
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_timberstakedrift_d/icon.png",
-      "introduction": {
-        "chapter": "6",
-        "season": "4",
-        "text": "Introduced in Chapter 6, Season 4.",
-        "backendValue": 36
-      },
-      "set": "Part of the The Games set.",
-      "added": "2025-06-24T20:23:59Z",
-      "shopHistory": []
-    },
-    {
-      "id": "Character_TimberStakeDrift_E",
-      "name": "Tug of War Titan",
-      "description": "Pull!",
-      "rarity": "epic",
-      "price": 3000,
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_timberstakedrift_e/icon.png",
-      "introduction": {
-        "chapter": "6",
-        "season": "4",
-        "text": "Introduced in Chapter 6, Season 4.",
-        "backendValue": 36
-      },
-      "set": "Part of the The Games set.",
-      "added": "2025-06-24T20:23:59Z",
-      "shopHistory": []
-    },
-    {
-      "id": "Character_TimberStakeSoul",
-      "name": "Glass Bridge Survivor",
-      "description": "Six games. One winner.",
-      "rarity": "epic",
-      "price": 3000,
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_timberstakesoul/icon.png",
-      "introduction": {
-        "chapter": "6",
-        "season": "4",
-        "text": "Introduced in Chapter 6, Season 4.",
-        "backendValue": 36
-      },
-      "set": "Part of the The Games set.",
-      "added": "2025-06-24T20:23:59Z",
-      "shopHistory": []
-    },
-    {
-      "id": "Character_TimberStakeSoul_B",
-      "name": "Pentathlon Perfector",
-      "description": "Go on three...",
-      "rarity": "epic",
-      "price": 3000,
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_timberstakesoul_b/icon.png",
-      "introduction": {
-        "chapter": "6",
-        "season": "4",
-        "text": "Introduced in Chapter 6, Season 4.",
-        "backendValue": 36
-      },
-      "set": "Part of the The Games set.",
-      "added": "2025-06-24T20:23:59Z",
-      "shopHistory": []
-    },
-    {
-      "id": "Character_TimberStakeSoul_C",
-      "name": "Jegi Juggler",
-      "description": "Keep it in the air.",
-      "rarity": "epic",
-      "price": 3000,
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_timberstakesoul_c/icon.png",
-      "introduction": {
-        "chapter": "6",
-        "season": "4",
-        "text": "Introduced in Chapter 6, Season 4.",
-        "backendValue": 36
-      },
-      "set": "Part of the The Games set.",
-      "added": "2025-06-24T20:23:59Z",
-      "shopHistory": []
-    },
-    {
-      "id": "Character_TimberStakeSoul_D",
-      "name": "Flying Stone Fighter",
-      "description": "Rock out.",
-      "rarity": "epic",
-      "price": 3000,
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_timberstakesoul_d/icon.png",
-      "introduction": {
-        "chapter": "6",
-        "season": "4",
-        "text": "Introduced in Chapter 6, Season 4.",
-        "backendValue": 36
-      },
-      "set": "Part of the The Games set.",
-      "added": "2025-06-24T20:23:59Z",
-      "shopHistory": []
-    },
-    {
-      "id": "Character_TimberStakeSoul_E",
-      "name": "Gong-gi Great",
-      "description": "It's a toss up.",
-      "rarity": "epic",
-      "price": 3000,
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_timberstakesoul_e/icon.png",
-      "introduction": {
-        "chapter": "6",
-        "season": "4",
-        "text": "Introduced in Chapter 6, Season 4.",
-        "backendValue": 36
-      },
-      "set": "Part of the The Games set.",
-      "added": "2025-06-24T20:23:59Z",
-      "shopHistory": []
-    },
-    {
-      "id": "CID_A_024_Athena_Commando_F_Skirmish_QW2BQ",
-      "name": "Chun-Li",
-      "description": "Interpol officer with a strong sense of justice and even stronger roundhouse kick.",
-      "rarity": "gaminglegends",
-      "price": 1600,
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_a_024_athena_commando_f_skirmish_qw2bq/featured.png",
-      "introduction": {
-        "chapter": "2",
-        "season": "5",
-        "text": "Introduced in Chapter 2, Season 5.",
-        "backendValue": 15
-      },
-      "set": "Part of the Street Fighter set.",
-      "added": "2021-02-21T00:00:00Z",
-      "shopHistory": []
-    },
-    {
-      "id": "Character_DryEraseToro",
-      "name": "Bruno-San",
-      "description": "Take it 'round the world.",
-      "rarity": "legendary",
-      "price": 1500,
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_dryerasetoro/icon.png",
-      "introduction": {
-        "chapter": "6",
-        "season": "4",
-        "text": "Introduced in Chapter 6, Season 4.",
-        "backendValue": 36
-      },
-      "set": "Part of the Bruno Mars set.",
-      "added": "2025-06-18T08:00:00Z",
-      "shopHistory": []
-    },
-    {
-      "id": "CID_A_267_Athena_Commando_M_Nucleus_XVIVU",
-      "name": "Nick Fury",
-      "description": "Master of espionage and definitely probably not a Life-Model Decoy.",
-      "rarity": "marvel",
-      "price": 2000,
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_a_267_athena_commando_m_nucleus_xvivu/featured.png",
-      "introduction": {
-        "chapter": "2",
-        "season": "8",
-        "text": "Introduced in Chapter 2, Season 8.",
-        "backendValue": 18
-      },
-      "set": "Part of the S.H.I.E.L.D. set.",
-      "added": "2021-11-26T00:00:00Z",
-      "shopHistory": []
-    },
-    {
-      "id": "Character_RemoteControl",
-      "name": "Toph Beifong",
-      "description": "Earthbending prodigy who invented the art of metalbending.",
-      "rarity": "epic",
-      "price": 2000,
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_remotecontrol/icon.png",
-      "introduction": {
-        "chapter": "5",
-        "season": "2",
-        "text": "Introduced in Chapter 5, Season 2.",
-        "backendValue": 29
-      },
-      "set": "Part of the Avatar set.",
-      "added": "2024-04-09T08:00:00Z",
-      "shopHistory": []
-    },
-    {
-      "id": "CID_A_023_Athena_Commando_M_Skirmish_W1N7H",
-      "name": "Ryu",
-      "description": "Determined to travel the world and test his skills until he becomes the best.",
-      "rarity": "gaminglegends",
-      "price": 2200,
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_a_023_athena_commando_m_skirmish_w1n7h/featured.png",
-      "introduction": {
-        "chapter": "2",
-        "season": "5",
-        "text": "Introduced in Chapter 2, Season 5.",
-        "backendValue": 15
-      },
-      "set": "Part of the Street Fighter set.",
-      "added": "2021-02-21T00:00:00Z",
-      "shopHistory": []
-    },
-    {
-      "id": "CID_A_334_Athena_Commando_M_Sleek_U06KF",
-      "name": "Bruno Mars",
-      "description": "Entertainer and reluctant assassin.",
-      "rarity": "legendary",
-      "price": 1800,
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_a_334_athena_commando_m_sleek_u06kf/featured.png",
-      "introduction": {
-        "chapter": "3",
-        "season": "1",
-        "text": "Introduced in Chapter 3, Season 1.",
-        "backendValue": 19
-      },
-      "set": "Part of the Silk Sonic set.",
-      "added": "2022-02-03T20:18:59Z",
-      "shopHistory": []
-    },
-    {
-      "id": "CID_460_Athena_Commando_F_BriteBomberSummer",
-      "name": "Beach Bomber",
-      "description": "Make the beach party brite!",
-      "rarity": "rare",
-      "price": 1500,
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_460_athena_commando_f_britebombersummer/featured.png",
-      "introduction": {
-        "chapter": "1",
-        "season": "9",
-        "text": "Introduced in Chapter 1, Season 9.",
-        "backendValue": 9
-      },
-      "set": "Part of the Sunshine And Rainbows set.",
-      "added": "2019-11-20T12:49:55Z",
-      "shopHistory": []
-    },
     {
       "id": "CID_A_162_Athena_Commando_F_Quarrel_E5D63",
       "name": "Cammy",
       "description": "For those who I wish to protect...I will fight you!",
       "rarity": "gaminglegends",
-      "price": 2200,
+      "price": 1600,
       "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_a_162_athena_commando_f_quarrel_e5d63/featured.png",
       "introduction": {
         "chapter": "2",
         "season": "7",
-        "text": "Introduced in Chapter 2, Season 7.",
-        "backendValue": 17
+        "text": "Introduced in Chapter 2, Season 7."
       },
       "set": "Part of the Street Fighter set.",
       "added": "2021-08-04T12:05:53Z",
-      "shopHistory": []
-    },
-    {
-      "id": "CID_A_161_Athena_Commando_M_Quarrel_SLXQG",
-      "name": "Guile",
-      "description": "No need for talk. Let's do this!",
-      "rarity": "gaminglegends",
-      "price": 2200,
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_a_161_athena_commando_m_quarrel_slxqg/featured.png",
-      "introduction": {
-        "chapter": "2",
-        "season": "7",
-        "text": "Introduced in Chapter 2, Season 7.",
-        "backendValue": 17
-      },
-      "set": "Part of the Street Fighter set.",
-      "added": "2021-08-04T12:05:53Z",
-      "shopHistory": []
-    },
-    {
-      "id": "CID_A_358_Athena_Commando_F_Lurk",
-      "name": "Mary Jane Watson",
-      "description": "Face it, Tiger... you just hit the jackpot!",
-      "rarity": "marvel",
-      "price": 1500,
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_a_358_athena_commando_f_lurk/featured.png",
-      "introduction": {
-        "chapter": "3",
-        "season": "2",
-        "text": "Introduced in Chapter 3, Season 2.",
-        "backendValue": 20
-      },
-      "set": "Part of the Mary Jane Watson set.",
-      "added": "2022-03-24T00:00:00Z",
-      "shopHistory": []
-    },
-    {
-      "id": "CID_337_Athena_Commando_F_Celestial",
-      "name": "Galaxy Scout",
-      "description": "Discover victory in the stars.",
-      "rarity": "legendary",
-      "price": 2000,
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_337_athena_commando_f_celestial/featured.png",
-      "introduction": {
-        "chapter": "2",
-        "season": "3",
-        "text": "Introduced in Chapter 2, Season 3.",
-        "backendValue": 13
-      },
-      "set": "Part of the Galaxy Pack set.",
-      "added": "2020-07-21T08:17:24Z",
-      "shopHistory": []
-    },
-    {
-      "id": "Character_CraneAnchor",
-      "name": "Billy",
-      "description": "I want to play a game.",
-      "rarity": "epic",
-      "price": 2500,
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_craneanchor/featured.png",
-      "introduction": {
-        "chapter": "5",
-        "season": "4",
-        "text": "Introduced in Chapter 5, Season 4.",
-        "backendValue": 31
-      },
-      "set": "Part of the Perilous Puppet set.",
-      "added": "2024-10-07T18:06:54Z",
       "shopHistory": []
     },
     {
@@ -421,241 +29,51 @@
       "name": "Iconica Prime",
       "description": "Strikingly good.",
       "rarity": "epic",
-      "price": 2000,
+      "price": 1500,
       "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_truckscale/featured.png",
       "introduction": {
         "chapter": "6",
         "season": "2",
-        "text": "Introduced in Chapter 6, Season 2.",
-        "backendValue": 34
+        "text": "Introduced in Chapter 6, Season 2."
       },
       "set": "Part of the Striped Striker set.",
       "added": "2025-03-26T15:10:25Z",
       "shopHistory": []
     },
     {
-      "id": "CID_453_Athena_Commando_F_GlowBro",
-      "name": "Nitebeam",
-      "description": "Beaming with luminous energy.",
+      "id": "Character_CraneAnchor",
+      "name": "Billy",
+      "description": "I want to play a game.",
       "rarity": "epic",
       "price": 1500,
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_453_athena_commando_f_glowbro/featured.png",
-      "introduction": {
-        "chapter": "1",
-        "season": "9",
-        "text": "Introduced in Chapter 1, Season 9.",
-        "backendValue": 9
-      },
-      "set": "Part of the Stormlight set.",
-      "added": "2019-11-20T12:49:57Z",
-      "shopHistory": []
-    },
-    {
-      "id": "CID_A_385_Athena_Commando_F_Rumble",
-      "name": "Sakura",
-      "description": "Now you know: justice always prevails!",
-      "rarity": "gaminglegends",
-      "price": 2200,
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_a_385_athena_commando_f_rumble/featured.png",
-      "introduction": {
-        "chapter": "3",
-        "season": "2",
-        "text": "Introduced in Chapter 3, Season 2.",
-        "backendValue": 20
-      },
-      "set": "Part of the Street Fighter set.",
-      "added": "2022-04-26T13:59:49Z",
-      "shopHistory": []
-    },
-    {
-      "id": "CID_A_384_Athena_Commando_M_Rumble",
-      "name": "Blanka",
-      "description": "Seeing you in action is a joke!",
-      "rarity": "gaminglegends",
-      "price": 2200,
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_a_384_athena_commando_m_rumble/featured.png",
-      "introduction": {
-        "chapter": "3",
-        "season": "2",
-        "text": "Introduced in Chapter 3, Season 2.",
-        "backendValue": 20
-      },
-      "set": "Part of the Street Fighter set.",
-      "added": "2022-04-26T13:59:49Z",
-      "shopHistory": []
-    },
-    {
-      "id": "CID_A_430_Athena_Commando_M_SpectacleWeb",
-      "name": "Spider-Man Zero",
-      "description": "Battle ready friendly neighborhood wall-crawler.",
-      "rarity": "marvel",
-      "price": 1500,
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_a_430_athena_commando_m_spectacleweb/featured.png",
-      "introduction": {
-        "chapter": "3",
-        "season": "3",
-        "text": "Introduced in Chapter 3, Season 3.",
-        "backendValue": 21
-      },
-      "set": "Part of the Zero War set.",
-      "added": "2022-06-07T14:05:44Z",
-      "shopHistory": []
-    },
-    {
-      "id": "Character_TikiTorch",
-      "name": "Zuko",
-      "description": "Disgraced prince of the Fire Nation, seeking redemption.",
-      "rarity": "epic",
-      "price": 2000,
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_tikitorch/icon.png",
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_craneanchor/featured.png",
       "introduction": {
         "chapter": "5",
-        "season": "2",
-        "text": "Introduced in Chapter 5, Season 2.",
-        "backendValue": 29
+        "season": "4",
+        "text": "Introduced in Chapter 5, Season 4."
       },
-      "set": "Part of the Avatar set.",
-      "added": "2024-04-09T08:00:00Z",
+      "set": "Part of the Perilous Puppet set.",
+      "added": "2024-10-07T18:06:54Z",
       "shopHistory": []
     },
     {
-      "id": "Character_DirectContact",
-      "name": "Katara",
-      "description": "The last Waterbender of the Southern Water Tribe.",
-      "rarity": "epic",
-      "price": 3200,
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_directcontact/icon.png",
-      "introduction": {
-        "chapter": "5",
-        "season": "2",
-        "text": "Introduced in Chapter 5, Season 2.",
-        "backendValue": 29
-      },
-      "set": "Part of the Avatar set.",
-      "added": "2024-04-09T08:00:00Z",
-      "shopHistory": []
-    },
-    {
-      "id": "CID_A_308_Athena_Commando_F_Sunshine",
-      "name": "Dawn",
-      "description": "A dash of celestial sass.",
-      "rarity": "epic",
-      "price": 1500,
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_a_308_athena_commando_f_sunshine/featured.png",
-      "introduction": {
-        "chapter": "3",
-        "season": "1",
-        "text": "Introduced in Chapter 3, Season 1.",
-        "backendValue": 19
-      },
-      "set": "Part of the Celestial Phase set.",
-      "added": "2021-12-14T09:10:43Z",
-      "shopHistory": []
-    },
-    {
-      "id": "CID_750_Athena_Commando_M_Hurricane",
-      "name": "Cyclo",
-      "description": "Defy the storm.",
-      "rarity": "legendary",
-      "price": 2000,
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_750_athena_commando_m_hurricane/featured.png",
+      "id": "CID_A_161_Athena_Commando_M_Quarrel_SLXQG",
+      "name": "Guile",
+      "description": "No need for talk. Let's do this!",
+      "rarity": "gaminglegends",
+      "price": 1600,
+      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_a_161_athena_commando_m_quarrel_slxqg/featured.png",
       "introduction": {
         "chapter": "2",
-        "season": "2",
-        "text": "Introduced in Chapter 2, Season 2.",
-        "backendValue": 12
+        "season": "7",
+        "text": "Introduced in Chapter 2, Season 7."
       },
-      "set": null,
-      "added": "2020-05-26T06:22:50Z",
-      "shopHistory": []
-    },
-    {
-      "id": "CID_108_Athena_Commando_M_Fishhead",
-      "name": "Leviathan",
-      "description": "Call me fishman.",
-      "rarity": "legendary",
-      "price": 2300,
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_108_athena_commando_m_fishhead/featured.png",
-      "introduction": {
-        "chapter": "1",
-        "season": "3",
-        "text": "Introduced in Chapter 1, Season 3.",
-        "backendValue": 3
-      },
-      "set": "Part of the Space Explorers set.",
-      "added": "2019-11-20T12:48:06Z",
-      "shopHistory": []
-    },
-    {
-      "id": "Character_DoubleDuty",
-      "name": "Aang",
-      "description": "He may have a lot to learn, but this young Avatar can save the world.",
-      "rarity": "epic",
-      "price": 2000,
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_doubleduty/icon.png",
-      "introduction": {
-        "chapter": "5",
-        "season": "2",
-        "text": "Introduced in Chapter 5, Season 2.",
-        "backendValue": 29
-      },
-      "set": "Part of the Avatar set.",
-      "added": "2024-04-09T08:38:56Z",
-      "shopHistory": []
-    },
-    {
-      "id": "Character_DoubleDutyDart",
-      "name": "Avatar State Aang",
-      "description": "Empowered with the skills and knowledge of all the past Avatars.",
-      "rarity": "epic",
-      "price": 2000,
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_doubledutydart/icon.png",
-      "introduction": {
-        "chapter": "5",
-        "season": "2",
-        "text": "Introduced in Chapter 5, Season 2.",
-        "backendValue": 29
-      },
-      "set": "Part of the Avatar set.",
-      "added": "2024-04-09T08:38:56Z",
-      "shopHistory": []
-    },
-    {
-      "id": "Character_SeaFlake",
-      "name": "Nash Nori",
-      "description": "Omakase, dude.",
-      "rarity": "epic",
-      "price": 1600,
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/character_seaflake/icon.png",
-      "introduction": {
-        "chapter": "6",
-        "season": "4",
-        "text": "Introduced in Chapter 6, Season 4.",
-        "backendValue": 36
-      },
-      "set": "Part of the Ocean Exploration set.",
-      "added": "2025-06-18T09:06:01Z",
+      "set": "Part of the Street Fighter set.",
+      "added": "2021-08-04T12:05:53Z",
       "shopHistory": []
     }
   ],
   "daily": [
-    {
-      "id": "CID_A_398_Athena_Commando_F_NeonCatSpeed",
-      "name": "Panther",
-      "description": "An IO agent tasked with infiltrating the Seven.",
-      "rarity": "rare",
-      "price": 1200,
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_a_398_athena_commando_f_neoncatspeed/featured.png",
-      "introduction": {
-        "chapter": "3",
-        "season": "2",
-        "text": "Introduced in Chapter 3, Season 2.",
-        "backendValue": 20
-      },
-      "set": "Part of the Operation Black Tabby set.",
-      "added": "2022-05-03T08:42:26Z",
-      "shopHistory": []
-    },
     {
       "id": "Character_ThickWatch",
       "name": "Flightalis",
@@ -666,62 +84,10 @@
       "introduction": {
         "chapter": "6",
         "season": "1",
-        "text": "Introduced in Chapter 6, Season 1.",
-        "backendValue": 33
+        "text": "Introduced in Chapter 6, Season 1."
       },
       "set": "Part of the Air Superiority set.",
       "added": "2025-02-02T14:42:53Z",
-      "shopHistory": []
-    },
-    {
-      "id": "CID_578_Athena_Commando_F_Fisherman",
-      "name": "Outcast",
-      "description": "Reel 'em in.",
-      "rarity": "rare",
-      "price": 1200,
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_578_athena_commando_f_fisherman/featured.png",
-      "introduction": {
-        "chapter": "2",
-        "season": "1",
-        "text": "Introduced in Chapter 2, Season 1.",
-        "backendValue": 11
-      },
-      "set": "Part of the Open Water set.",
-      "added": "2019-11-20T12:49:47Z",
-      "shopHistory": []
-    },
-    {
-      "id": "CID_312_Athena_Commando_F_FunkOps",
-      "name": "Disco Diva",
-      "description": "Make way for the queen of the dance floor.",
-      "rarity": "rare",
-      "price": 1200,
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_312_athena_commando_f_funkops/featured.png",
-      "introduction": {
-        "chapter": "1",
-        "season": "7",
-        "text": "Introduced in Chapter 1, Season 7.",
-        "backendValue": 7
-      },
-      "set": "Part of the Fortnite Fever set.",
-      "added": "2019-11-20T12:50:09Z",
-      "shopHistory": []
-    },
-    {
-      "id": "CID_755_Athena_Commando_M_Splinter",
-      "name": "Wolf",
-      "description": "He's the one you call when all hope is lost.",
-      "rarity": "rare",
-      "price": 1200,
-      "imageUrl": "https://fortnite-api.com/images/cosmetics/br/cid_755_athena_commando_m_splinter/featured.png",
-      "introduction": {
-        "chapter": "2",
-        "season": "2",
-        "text": "Introduced in Chapter 2, Season 2.",
-        "backendValue": 12
-      },
-      "set": "Part of the Hit Squad set.",
-      "added": "2020-04-15T06:13:43Z",
       "shopHistory": []
     }
   ],
