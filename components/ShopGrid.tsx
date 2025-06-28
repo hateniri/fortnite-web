@@ -40,7 +40,7 @@ export default function ShopGrid({ items, showAds = false }: ShopGridProps) {
           
           {/* 10アイテムごとに広告を挿入 */}
           {showAds && (index + 1) % 10 === 0 && index < items.length - 1 && (
-            <div className="md:col-span-1">
+            <div className="flex items-center justify-center col-span-full my-4">
               <AdCard />
             </div>
           )}

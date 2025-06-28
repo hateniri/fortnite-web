@@ -4,7 +4,7 @@
   "/map/page": "app/map/page.js",
   "/page": "app/page.js",
   "/returned/page": "app/returned/page.js",
-  "/about/page": "app/about/page.js",
+  "/skins/[slug]/page": "app/skins/[slug]/page.js",
   "/featured/page": "app/featured/page.js",
-  "/skins/[slug]/page": "app/skins/[slug]/page.js"
+  "/about/page": "app/about/page.js"
 }
