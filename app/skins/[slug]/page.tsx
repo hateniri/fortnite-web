@@ -7,6 +7,8 @@ import path from 'path'
 import SkinImage from './SkinImage'
 import { getTranslation } from '@/lib/translations'
 import { SkinsSummaryData } from '@/lib/skinsSummary'
+import BannerAd from '@/components/BannerAd'
+import { getAdsByCategory, getRandomAd } from '@/lib/adProducts'
 
 async function getAllSkins(): Promise<ShopCompleteItem[]> {
   try {
@@ -173,6 +175,10 @@ export default async function SkinDetailPage({ params }: PageProps) {
 
   const recommendation = getRecommendation()
   const shouldBuy = recommendation >= 4
+  
+  // フィギュア広告を優先的に選択（スキンページに適している）
+  const hobbyAds = getAdsByCategory('hobby')
+  const relatedAd = hobbyAds.length > 0 ? hobbyAds[Math.floor(Math.random() * hobbyAds.length)] : getRandomAd()
 
   return (
     <div className="container mx-auto px-4 py-8">
@@ -303,6 +309,14 @@ export default async function SkinDetailPage({ params }: PageProps) {
         </div>
       </div>
 
+      {/* 関連商品広告 */}
+      <section className="mt-12">
+        <h2 className="text-2xl font-bold mb-6">関連アイテム</h2>
+        <div className="max-w-sm mx-auto">
+          <BannerAd productData={relatedAd} />
+        </div>
+      </section>
+      
       {/* 関連スキン */}
       <section className="mt-12">
         <h2 className="text-2xl font-bold mb-6">関連するスキン</h2>

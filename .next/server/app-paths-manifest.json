@@ -1,12 +1,12 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/news/page": "app/news/page.js",
-  "/map/page": "app/map/page.js",
   "/page": "app/page.js",
-  "/returned/page": "app/returned/page.js",
-  "/columns/[id]/page": "app/columns/[id]/page.js",
+  "/map/page": "app/map/page.js",
   "/about/page": "app/about/page.js",
-  "/featured/page": "app/featured/page.js",
   "/columns/page": "app/columns/page.js",
+  "/columns/[id]/page": "app/columns/[id]/page.js",
+  "/news/page": "app/news/page.js",
+  "/featured/page": "app/featured/page.js",
+  "/returned/page": "app/returned/page.js",
   "/skins/[slug]/page": "app/skins/[slug]/page.js"
 }
