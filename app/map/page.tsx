@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Image from 'next/image'
+import CollaborationAd from '@/components/CollaborationAd'
 
 interface CollabOption {
   id: string
@@ -216,6 +217,12 @@ export default function MapPage() {
               <li>• 楽しみながら投票してください！</li>
             </ul>
           </div>
+
+          {/* コラボ関連商品広告 */}
+          <div className="mt-12">
+            <h3 className="text-2xl font-bold mb-6 text-white text-center">関連商品</h3>
+            <CollaborationAd showMultiple={true} count={2} />
+          </div>
         </div>
       </section>
 
@@ -236,6 +243,11 @@ export default function MapPage() {
                 </div>
               )
             })}
+          </div>
+          
+          {/* 追加の広告 */}
+          <div className="mt-8 max-w-md mx-auto">
+            <CollaborationAd />
           </div>
         </div>
       </section>

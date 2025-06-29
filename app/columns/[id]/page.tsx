@@ -1,8 +1,7 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { columnsData } from '@/lib/columnsData'
-import BannerAd from '@/components/BannerAd'
-import { getRandomAds } from '@/lib/adProducts'
+import ColumnAd from '@/components/ColumnAd'
 
 export async function generateMetadata({ params }: { params: { id: string } }) {
   const column = columnsData.find(c => c.id === parseInt(params.id))
@@ -59,9 +58,6 @@ export default function ColumnPage({ params }: { params: { id: string } }) {
 
   const prevColumn = columnsData.find(c => c.id === column.id - 1)
   const nextColumn = columnsData.find(c => c.id === column.id + 1)
-  
-  // ランダムに2つの広告を選択
-  const ads = getRandomAds(2)
 
   return (
     <div className="min-h-screen bg-gray-900 py-8">
@@ -108,10 +104,10 @@ export default function ColumnPage({ params }: { params: { id: string } }) {
                   <p key={index} className="text-gray-300 leading-relaxed mb-4">
                     {paragraph}
                   </p>
-                  {currentParagraphIndex === midPoint && ads[0] && (
+                  {currentParagraphIndex === midPoint && (
                     <div className="my-8 flex justify-center">
                       <div className="max-w-sm">
-                        <BannerAd productData={ads[0]} />
+                        <ColumnAd position="inline" />
                       </div>
                     </div>
                   )}
@@ -122,13 +118,11 @@ export default function ColumnPage({ params }: { params: { id: string } }) {
         </article>
 
         {/* 記事下の広告 */}
-        {ads[1] && (
-          <div className="mt-8 flex justify-center">
-            <div className="max-w-sm">
-              <BannerAd productData={ads[1]} />
-            </div>
+        <div className="mt-8 flex justify-center">
+          <div className="max-w-sm">
+            <ColumnAd position="bottom" />
           </div>
-        )}
+        </div>
 
         <div className="mt-8 flex justify-between">
           {prevColumn ? (

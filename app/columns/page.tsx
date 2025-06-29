@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { columnsData } from '@/lib/columnsData'
+import ColumnAd from '@/components/ColumnAd'
 
 export const metadata = {
   title: 'コラム | フォートナイター',
@@ -68,6 +69,14 @@ export default function ColumnsPage() {
               </div>
             </Link>
           ))}
+        </div>
+
+        {/* コラム関連広告 */}
+        <div className="mt-12">
+          <h2 className="text-2xl font-bold text-white mb-6 text-center">おすすめ商品</h2>
+          <div className="max-w-md mx-auto">
+            <ColumnAd position="sidebar" />
+          </div>
         </div>
       </div>
     </div>
