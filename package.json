@@ -16,7 +16,9 @@
     "fetch-news": "node scripts/fetchNews.js",
     "fetch-map": "node scripts/fetchMap.js",
     "fetch-map-history": "node scripts/fetchMapHistory.js",
-    "fetch-all": "npm run fetch-shop-complete && npm run fetch-images && npm run generate-summary && npm run notify-discord"
+    "fetch-all": "npm run fetch-shop-complete && npm run fetch-images && npm run generate-summary && npm run notify-discord",
+    "export": "next build && next export",
+    "notify": "npm run notify-discord"
   },
   "dependencies": {
     "next": "14.2.5",

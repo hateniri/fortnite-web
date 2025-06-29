@@ -1,0 +1,47 @@
+name: Manual Deploy
+
+on:
+  workflow_dispatch:
+    inputs:
+      skip_data_fetch:
+        description: 'Skip data fetching (only build and deploy)'
+        required: false
+        type: boolean
+        default: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Fetch latest data
+      if: ${{ !inputs.skip_data_fetch }}
+      run: |
+        npm run fetch-shop-complete || echo "Shop fetch failed"
+        npm run fetch-images || echo "Image fetch failed"
+        npm run generate-summary || echo "Summary generation failed"
+      env:
+        FORTNITE_API_KEY: ${{ secrets.FORTNITE_API_KEY }}
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
+    - name: Build site
+      run: npm run build
+      
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./out
+        force_orphan: true
