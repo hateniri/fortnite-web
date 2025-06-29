@@ -1,6 +1,8 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { columnsData } from '@/lib/columnsData'
+import BannerAd from '@/components/BannerAd'
+import { getRandomAds } from '@/lib/adProducts'
 
 export async function generateMetadata({ params }: { params: { id: string } }) {
   const column = columnsData.find(c => c.id === parseInt(params.id))
@@ -57,6 +59,9 @@ export default function ColumnPage({ params }: { params: { id: string } }) {
 
   const prevColumn = columnsData.find(c => c.id === column.id - 1)
   const nextColumn = columnsData.find(c => c.id === column.id + 1)
+  
+  // ランダムに2つの広告を選択
+  const ads = getRandomAds(2)
 
   return (
     <div className="min-h-screen bg-gray-900 py-8">
@@ -92,14 +97,38 @@ export default function ColumnPage({ params }: { params: { id: string } }) {
               if (paragraph.trim() === '') {
                 return <br key={index} />
               }
+              
+              // 記事の中盤（全体の40%の位置）に広告を挿入
+              const totalParagraphs = column.content.split('\n').filter(p => p.trim() !== '').length
+              const midPoint = Math.floor(totalParagraphs * 0.4)
+              const currentParagraphIndex = column.content.split('\n').slice(0, index).filter(p => p.trim() !== '').length
+              
               return (
-                <p key={index} className="text-gray-300 leading-relaxed mb-4">
-                  {paragraph}
-                </p>
+                <>
+                  <p key={index} className="text-gray-300 leading-relaxed mb-4">
+                    {paragraph}
+                  </p>
+                  {currentParagraphIndex === midPoint && ads[0] && (
+                    <div className="my-8 flex justify-center">
+                      <div className="max-w-sm">
+                        <BannerAd productData={ads[0]} />
+                      </div>
+                    </div>
+                  )}
+                </>
               )
             })}
           </div>
         </article>
+
+        {/* 記事下の広告 */}
+        {ads[1] && (
+          <div className="mt-8 flex justify-center">
+            <div className="max-w-sm">
+              <BannerAd productData={ads[1]} />
+            </div>
+          </div>
+        )}
 
         <div className="mt-8 flex justify-between">
           {prevColumn ? (

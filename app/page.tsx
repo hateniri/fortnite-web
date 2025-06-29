@@ -3,6 +3,8 @@ import Link from 'next/link'
 import { ShopCompleteData } from '@/lib/shopComplete'
 import fs from 'fs/promises'
 import path from 'path'
+import BannerAd from '@/components/BannerAd'
+import { getRandomAd } from '@/lib/adProducts'
 
 async function getShopData(): Promise<ShopCompleteData | null> {
   try {
@@ -23,6 +25,9 @@ export default async function HomePage() {
     month: 'long',
     day: 'numeric'
   })
+  
+  // ランダムに広告を選択
+  const footerAd = getRandomAd()
 
   if (!shopData) {
     return (
@@ -39,7 +44,7 @@ export default async function HomePage() {
       {/* 控えめなCTA */}
       <section className="py-8 bg-slate-800 border-t border-slate-700">
         <div className="container mx-auto px-4">
-          <div className="flex items-center justify-between">
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-6">
             <div>
               <h3 className="text-lg font-bold text-white mb-1">
                 毎日チェックして最新情報をゲット
@@ -49,9 +54,8 @@ export default async function HomePage() {
               </p>
             </div>
             <div className="flex items-center gap-4">
-              <div className="bg-slate-700 rounded-lg p-2 border border-slate-600">
-                <span className="text-xs text-gray-400">スポンサー</span>
-                <p className="text-sm text-white">ゲーミングチェア特価</p>
+              <div className="max-w-xs">
+                <BannerAd productData={footerAd} />
               </div>
               <Link
                 href="/news"
