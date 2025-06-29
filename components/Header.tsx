@@ -34,6 +34,9 @@ export default function Header() {
             <Link href="/news" className="hover:text-yellow-300 transition-colors">
               ニュース
             </Link>
+            <Link href="/columns" className="hover:text-yellow-300 transition-colors">
+              コラム
+            </Link>
             <Link href="/map" className="hover:text-yellow-300 transition-colors">
               コラボ投票
             </Link>
@@ -52,8 +55,11 @@ export default function Header() {
             <Link href="/news" className="block py-2 hover:text-yellow-300">
               ニュース
             </Link>
+            <Link href="/columns" className="block py-2 hover:text-yellow-300">
+              コラム
+            </Link>
             <Link href="/map" className="block py-2 hover:text-yellow-300">
-              マップ
+              コラボ投票
             </Link>
             <Link href="/about" className="block py-2 hover:text-yellow-300">
               このサイトについて
